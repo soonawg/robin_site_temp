@@ -27,6 +27,9 @@ main:
   - name: News
     url: /news/
     weight: 50
+  - name: Gallery
+    url: /gallery/
+    weight: 51
   - name: Join
     url: /join/
     weight: 60

@@ -912,22 +912,56 @@ body .robin-member-grid-undergraduate {
 .robin-join-reason p {
   margin: 0 !important;
   color: #40535b !important;
-  font-size: 0.95rem !important;
-  line-height: 1.7 !important;
+  font-size: 1rem !important;
+  line-height: 1.82 !important;
+  letter-spacing: -0.005em !important;
+}
+
+.robin-page-lede p {
+  font-size: 1.06rem !important;
+  line-height: 1.75 !important;
+}
+
+.robin-page-lede h1 {
+  font-size: clamp(2.35rem, 5.4vw, 4.6rem) !important;
+  line-height: 1.02 !important;
+  letter-spacing: -0.08em !important;
+}
+
+.robin-page-lede .robin-page-kicker {
+  font-size: 0.78rem !important;
+  letter-spacing: 0.14em !important;
 }
 
 .robin-apply-intro {
   color: #40535b !important;
-  font-size: 0.96rem !important;
-  line-height: 1.6 !important;
+  font-size: 1rem !important;
+  line-height: 1.75 !important;
 }
 
 .robin-apply-list {
   margin: 1.2rem 0 2rem !important;
   padding-left: 1.25rem !important;
   color: #102a3a !important;
-  font-size: 0.96rem !important;
-  line-height: 1.8 !important;
+  font-size: 1rem !important;
+  line-height: 1.78 !important;
+}
+
+.robin-apply-list li {
+  margin-bottom: 0.45rem !important;
+}
+
+.robin-apply-notice p:not(.robin-notice-heading) {
+  font-size: 0.97rem !important;
+  line-height: 1.7 !important;
+}
+
+.robin-apply-btn {
+  font-size: 0.94rem !important;
+}
+
+.robin-join-card h2 {
+  letter-spacing: -0.03em !important;
 }
 
 .robin-apply-notice {

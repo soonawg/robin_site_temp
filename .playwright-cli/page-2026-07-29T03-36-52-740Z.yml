@@ -1,0 +1,110 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e4]:
+    - navigation [ref=e5]:
+      - link "DGIST ROBIN Lab" [ref=e7] [cursor=pointer]:
+        - /url: /
+      - list [ref=e8]:
+        - listitem [ref=e9]:
+          - link "Research" [ref=e10] [cursor=pointer]:
+            - /url: /research/
+        - listitem [ref=e11]:
+          - link "Projects" [ref=e12] [cursor=pointer]:
+            - /url: /projects/
+        - listitem [ref=e13]:
+          - link "Publications" [ref=e14] [cursor=pointer]:
+            - /url: /publications/
+        - listitem [ref=e15]:
+          - button "Team" [ref=e16] [cursor=pointer]
+        - listitem [ref=e19]:
+          - link "News" [ref=e20] [cursor=pointer]:
+            - /url: /news/
+        - listitem [ref=e21]:
+          - link "Join" [ref=e22] [cursor=pointer]:
+            - /url: /join/
+        - listitem [ref=e23]:
+          - link "Contact" [ref=e24] [cursor=pointer]:
+            - /url: /contact/
+  - generic [ref=e25]:
+    - generic [ref=e28]:
+      - generic [ref=e29]: Research
+      - paragraph [ref=e31]: ROBIN integrates high-fidelity robot interfaces with complex environmental interaction to create the data, models, and systems required for Physical AI.
+    - generic [ref=e34]:
+      - generic [ref=e35]: Robot Interface
+      - generic [ref=e37]:
+        - list [ref=e38]:
+          - listitem [ref=e39]:
+            - generic [ref=e40]: ⌁
+            - generic [ref=e41]: Wearable Sensor Glove with Haptic Feedback
+            - generic [ref=e42]: "#HapticInterface"
+            - text: ↗
+          - listitem [ref=e43]:
+            - generic [ref=e44]: ◌
+            - generic [ref=e45]: Sensor-fusion based Human Motion Tracking
+            - generic [ref=e46]: "#Perception"
+            - text: ↗
+          - listitem [ref=e47]:
+            - generic [ref=e48]: ◇
+            - generic [ref=e49]: Dexterous Interface for Humanoid and Teleoperation
+            - generic [ref=e50]: "#Teleoperation"
+            - text: ↗
+        - generic "Robot Interface videos" [ref=e51]:
+          - generic [ref=e52]:
+            - generic "VIST demonstration" [ref=e53]
+            - text: VIST demonstration
+          - generic [ref=e54]:
+            - generic "Markerless VIST demonstration" [ref=e55]
+            - text: Markerless VIST demonstration
+    - generic [ref=e58]:
+      - generic [ref=e59]: Robot Interaction
+      - generic [ref=e61]:
+        - list [ref=e62]:
+          - listitem [ref=e63]:
+            - generic [ref=e64]: ✦
+            - generic [ref=e65]: Digital-Twin Generation with Gaussian Splatting
+            - generic [ref=e66]: "#GaussianSplatting"
+            - text: ↗
+          - listitem [ref=e67]:
+            - generic [ref=e68]: ▱
+            - generic [ref=e69]: Robotic Simulation for Physical AI
+            - generic [ref=e70]: "#Simulation"
+            - text: ↗
+          - listitem [ref=e71]:
+            - generic [ref=e72]: ⊙
+            - generic [ref=e73]: Safe and Efficient Human-Robot Interaction
+            - generic [ref=e74]: "#HumanRobotInteraction"
+            - text: ↗
+        - generic "Robot Interaction videos" [ref=e75]:
+          - generic [ref=e76]:
+            - generic "Winch simulation" [ref=e77]
+            - text: Winch simulation
+          - generic [ref=e78]:
+            - generic "RAL results" [ref=e79]
+            - text: RAL results
+    - generic [ref=e82]:
+      - generic [ref=e83]: Robot Intelligence
+      - generic [ref=e85]:
+        - list [ref=e86]:
+          - listitem [ref=e87]:
+            - generic [ref=e88]: ⌘
+            - generic [ref=e89]: Imitation Learning Dataset from Dexterous Interface
+            - generic [ref=e90]: "#ImitationLearning"
+            - text: ↗
+          - listitem [ref=e91]:
+            - generic [ref=e92]: ↗
+            - generic [ref=e93]: Reinforcement Learning with Digital-Twin Simulation
+            - generic [ref=e94]: "#ReinforcementLearning"
+            - text: ↗
+          - listitem [ref=e95]:
+            - generic [ref=e96]: ◈
+            - generic [ref=e97]: Long-horizon Generalizable Task with Robot Foundation Models (RFM)
+            - generic [ref=e98]: "#RobotFoundationModels"
+            - text: ↗
+        - generic "Robot Intelligence videos" [ref=e99]:
+          - generic [ref=e100]:
+            - generic "Samsung Research mobile manipulator teleoperation" [ref=e101]
+            - text: Samsung Research mobile manipulator teleoperation
+          - generic [ref=e102]:
+            - generic "SR teleoperation" [ref=e103]
+            - text: SR teleoperation
+  - contentinfo [ref=e105]:
+    - paragraph [ref=e106]: © 2026 DGIST ROBIN Lab

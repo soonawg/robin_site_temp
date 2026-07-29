@@ -1,0 +1,508 @@
+- generic [ref=f18e2]:
+  - generic [ref=f18e3]:
+    - generic [ref=f18e4]:
+      - heading "2026–2029 주요 학회 개최지 통합표" [level=1] [ref=f18e5]
+      - generic [ref=f18e6]: 로보틱스·비전·머신러닝·AI 분야의 주요 학회 일정과 개최 도시를 한 화면에서 확인하세요.
+    - generic [ref=f18e7]:
+      - generic [ref=f18e8]:
+        - generic [ref=f18e9]: "25"
+        - text: Venues
+      - generic [ref=f18e10]:
+        - generic [ref=f18e11]: "4"
+        - text: Years
+      - generic [ref=f18e12]:
+        - generic [ref=f18e13]: "7"
+        - text: Regions
+  - generic [ref=f18e14]:
+    - searchbox "학회 또는 도시 검색" [ref=f18e15]
+    - combobox "연도 필터" [ref=f18e16]:
+      - option "전체 연도" [selected]
+      - option "2026"
+      - option "2027"
+      - option "2028"
+      - option "2029"
+    - combobox "지역 필터" [ref=f18e17]:
+      - option "전체 지역" [selected]
+      - option "아시아"
+      - option "유럽"
+      - option "북미"
+      - option "남미"
+      - option "중동"
+      - option "오세아니아"
+  - generic [ref=f18e18]:
+    - generic [ref=f18e19]: 아시아
+    - generic [ref=f18e21]: 유럽
+    - generic [ref=f18e23]: 북미
+    - generic [ref=f18e25]: 남미
+    - generic [ref=f18e27]: 중동
+    - generic [ref=f18e29]: 오세아니아
+    - generic [ref=f18e31]: TBA · 지역 미정
+    - generic [ref=f18e33]:
+      - generic [ref=f18e34]: 종료
+      - text: 기준일 이전 종료
+    - generic [ref=f18e35]:
+      - generic [ref=f18e36]: 권역
+      - text: 권역·도시 미공개
+    - generic [ref=f18e37]: ▲ 제출 마감(확정)
+    - generic [ref=f18e38]: △ 제출 마감(예년 기준 추정)
+  - generic [ref=f18e40]:
+    - generic [ref=f18e41]: Robotics · Robot Learning · Control
+    - generic [ref=f18e42]:
+      - generic [ref=f18e45]:
+        - generic [ref=f18e46]: "2026"
+        - generic [ref=f18e47]: "2027"
+        - generic [ref=f18e48]: "2028"
+        - generic [ref=f18e49]: "2029"
+        - text: 기준일 7/18
+      - generic [ref=f18e50]:
+        - generic [ref=f18e51]: ICRA
+        - generic [ref=f18e52]:
+          - generic [ref=f18e53]:
+            - generic [ref=f18e54]: Vienna종료
+            - text: Austria · 6/1–5
+          - generic [ref=f18e55]:
+            - generic [ref=f18e56]: Seoul
+            - text: Korea · 5/24–28
+          - generic [ref=f18e57]:
+            - generic [ref=f18e58]: Guadalajara
+            - text: Mexico · 5/15–19
+          - generic [ref=f18e59]:
+            - generic [ref=f18e60]: Milan
+            - text: Italy · 5/7–12
+          - generic "ICRA 2027 제출 마감 · 확정" [ref=f18e61]: ▲9/15
+          - generic "ICRA 2028 제출 마감 · 예년 기준 추정" [ref=f18e62]: △9월
+          - generic "ICRA 2029 제출 마감 · 예년 기준 추정" [ref=f18e63]: △9월
+      - generic [ref=f18e64]:
+        - generic [ref=f18e65]: IROS
+        - generic [ref=f18e66]:
+          - generic [ref=f18e67]:
+            - generic [ref=f18e68]: Pittsburgh
+            - text: USA · 9/27–10/1
+          - generic [ref=f18e69]:
+            - generic [ref=f18e70]: Florence
+            - text: Italy · 9/26–10/1
+          - generic [ref=f18e71]:
+            - generic [ref=f18e72]: Sydney
+            - text: Australia · 10/2–6
+          - generic [ref=f18e73]:
+            - generic [ref=f18e74]: TBA
+            - text: 예년 9–10월경
+          - generic "IROS 2026 제출 마감 · 예년 기준 추정" [ref=f18e75]: △3월
+          - generic "IROS 2027 제출 마감 · 예년 기준 추정" [ref=f18e76]: △3월
+          - generic "IROS 2028 제출 마감 · 예년 기준 추정" [ref=f18e77]: △3월
+          - generic "IROS 2029 제출 마감 · 예년 기준 추정" [ref=f18e78]: △3월
+      - generic [ref=f18e79]:
+        - generic [ref=f18e80]: RSS
+        - generic [ref=f18e81]:
+          - generic [ref=f18e82]:
+            - generic [ref=f18e83]: Sydney종료
+            - text: Australia · 7/13–17
+          - generic [ref=f18e84]:
+            - generic [ref=f18e85]: Athens
+            - text: Greece · 날짜 미공개
+          - generic [ref=f18e86]:
+            - generic [ref=f18e87]: TBA
+            - text: 예년 7월경
+          - generic [ref=f18e88]:
+            - generic [ref=f18e89]: TBA
+            - text: 예년 7월경
+          - generic "RSS 2026 제출 마감 · 예년 기준 추정" [ref=f18e90]: △2월
+          - generic "RSS 2027 제출 마감 · 예년 기준 추정" [ref=f18e91]: △2월
+          - generic "RSS 2028 제출 마감 · 예년 기준 추정" [ref=f18e92]: △2월
+          - generic "RSS 2029 제출 마감 · 예년 기준 추정" [ref=f18e93]: △2월
+      - generic [ref=f18e94]:
+        - generic [ref=f18e95]: CoRL
+        - generic [ref=f18e96]:
+          - generic [ref=f18e97]:
+            - generic [ref=f18e98]: Austin
+            - text: USA · 11/9–12
+          - generic [ref=f18e99]:
+            - generic [ref=f18e100]: TBA
+            - text: 예년 11월경
+          - generic [ref=f18e101]:
+            - generic [ref=f18e102]: TBA
+            - text: 예년 11월경
+          - generic [ref=f18e103]:
+            - generic [ref=f18e104]: TBA
+            - text: 예년 11월경
+          - generic "CoRL 2026 제출 마감 · 예년 기준 추정" [ref=f18e105]: △6월
+          - generic "CoRL 2027 제출 마감 · 예년 기준 추정" [ref=f18e106]: △6월
+          - generic "CoRL 2028 제출 마감 · 예년 기준 추정" [ref=f18e107]: △6월
+          - generic "CoRL 2029 제출 마감 · 예년 기준 추정" [ref=f18e108]: △6월
+      - generic [ref=f18e109]:
+        - generic [ref=f18e110]: HRI
+        - generic [ref=f18e111]:
+          - generic [ref=f18e112]:
+            - generic [ref=f18e113]: Edinburgh종료
+            - text: UK · 3/16–19
+          - generic [ref=f18e114]:
+            - generic [ref=f18e115]: Santa Clara
+            - text: USA · 3/8–12
+          - generic [ref=f18e116]:
+            - generic [ref=f18e117]: TBA
+            - text: 예년 3월경
+          - generic [ref=f18e118]:
+            - generic [ref=f18e119]: TBA
+            - text: 예년 3월경
+          - generic "HRI 2027 제출 마감 · 예년 기준 추정" [ref=f18e120]: △10월
+          - generic "HRI 2028 제출 마감 · 예년 기준 추정" [ref=f18e121]: △10월
+          - generic "HRI 2029 제출 마감 · 예년 기준 추정" [ref=f18e122]: △10월
+      - generic [ref=f18e123]:
+        - generic [ref=f18e124]: WAFR
+        - generic [ref=f18e125]:
+          - generic [ref=f18e126]:
+            - generic [ref=f18e127]: Oulu종료
+            - text: Finland · 6/15–17
+          - generic [ref=f18e128]:
+            - generic [ref=f18e129]: TBA
+            - text: 예년 6월경
+          - generic "WAFR 2026 제출 마감 · 예년 기준 추정" [ref=f18e130]: △2월
+          - generic "WAFR 2028 제출 마감 · 예년 기준 추정" [ref=f18e131]: △2월
+      - generic [ref=f18e132]:
+        - generic [ref=f18e133]: Humanoids
+        - generic [ref=f18e134]:
+          - generic [ref=f18e135]:
+            - generic [ref=f18e136]: Santa Clara
+            - text: USA · 12/7–9
+          - generic [ref=f18e137]:
+            - generic [ref=f18e138]: TBA
+            - text: 예년 11–12월경
+          - generic [ref=f18e139]:
+            - generic [ref=f18e140]: TBA
+            - text: 예년 11–12월경
+          - generic [ref=f18e141]:
+            - generic [ref=f18e142]: TBA
+            - text: 예년 11–12월경
+          - generic "Humanoids 2026 제출 마감 · 예년 기준 추정" [ref=f18e143]: △7월 말
+          - generic "Humanoids 2027 제출 마감 · 예년 기준 추정" [ref=f18e144]: △7월 말
+          - generic "Humanoids 2028 제출 마감 · 예년 기준 추정" [ref=f18e145]: △7월 말
+          - generic "Humanoids 2029 제출 마감 · 예년 기준 추정" [ref=f18e146]: △7월 말
+      - generic [ref=f18e147]:
+        - generic [ref=f18e148]: IV
+        - generic [ref=f18e149]:
+          - generic [ref=f18e150]:
+            - generic [ref=f18e151]: Detroit종료
+            - text: USA · 6/22–25
+          - generic [ref=f18e152]:
+            - generic [ref=f18e153]: Perth
+            - text: Australia · 6/15–18
+          - generic [ref=f18e154]:
+            - generic [ref=f18e155]: Barcelona
+            - text: Spain · 6/27–30
+          - generic [ref=f18e156]:
+            - generic [ref=f18e157]: TBA
+            - text: 예년 6월경
+          - generic "IV 2026 제출 마감 · 예년 기준 추정" [ref=f18e158]: △2월
+          - generic "IV 2027 제출 마감 · 예년 기준 추정" [ref=f18e159]: △2월
+          - generic "IV 2028 제출 마감 · 예년 기준 추정" [ref=f18e160]: △2월
+          - generic "IV 2029 제출 마감 · 예년 기준 추정" [ref=f18e161]: △2월
+      - generic [ref=f18e162]:
+        - generic [ref=f18e163]: ITSC
+        - generic [ref=f18e164]:
+          - generic [ref=f18e165]:
+            - generic [ref=f18e166]: Naples
+            - text: Italy · 9/15–18
+          - generic [ref=f18e167]:
+            - generic [ref=f18e168]: Boston
+            - text: USA · 날짜 미공개
+          - generic [ref=f18e169]:
+            - generic [ref=f18e170]: Tokyo
+            - text: Japan · 9/12–15
+          - generic [ref=f18e171]:
+            - generic [ref=f18e172]: TBA
+            - text: 예년 9월경
+          - generic "ITSC 2026 제출 마감 · 예년 기준 추정" [ref=f18e173]: △3월
+          - generic "ITSC 2027 제출 마감 · 예년 기준 추정" [ref=f18e174]: △3월
+          - generic "ITSC 2028 제출 마감 · 예년 기준 추정" [ref=f18e175]: △3월
+          - generic "ITSC 2029 제출 마감 · 예년 기준 추정" [ref=f18e176]: △3월
+      - generic [ref=f18e177]:
+        - generic [ref=f18e178]: UR
+        - generic [ref=f18e179]:
+          - generic [ref=f18e180]:
+            - generic [ref=f18e181]: Ibaraki, Osaka종료
+            - text: Japan · 7/15–18
+          - generic [ref=f18e182]:
+            - generic [ref=f18e183]: TBA
+            - text: 예년 7월경
+          - generic [ref=f18e184]:
+            - generic [ref=f18e185]: TBA
+            - text: 예년 7월경
+          - generic [ref=f18e186]:
+            - generic [ref=f18e187]: TBA
+            - text: 예년 7월경
+          - generic "UR 2026 제출 마감 · 예년 기준 추정" [ref=f18e188]: △3월
+          - generic "UR 2027 제출 마감 · 예년 기준 추정" [ref=f18e189]: △3월
+          - generic "UR 2028 제출 마감 · 예년 기준 추정" [ref=f18e190]: △3월
+          - generic "UR 2029 제출 마감 · 예년 기준 추정" [ref=f18e191]: △3월
+      - generic [ref=f18e192]:
+        - generic [ref=f18e193]: ICCAS
+        - generic [ref=f18e194]:
+          - generic [ref=f18e195]:
+            - generic [ref=f18e196]: Sapporo
+            - text: Japan · 10/27–30
+          - generic [ref=f18e197]:
+            - generic [ref=f18e198]: Jeju
+            - text: Korea · 11/2–5
+          - generic [ref=f18e199]:
+            - generic [ref=f18e200]: TBA
+            - text: 예년 10월경
+          - generic [ref=f18e201]:
+            - generic [ref=f18e202]: TBA
+            - text: 예년 10월경
+          - generic "ICCAS 2026 제출 마감 · 예년 기준 추정" [ref=f18e203]: △8월
+          - generic "ICCAS 2027 제출 마감 · 예년 기준 추정" [ref=f18e204]: △8월
+          - generic "ICCAS 2028 제출 마감 · 예년 기준 추정" [ref=f18e205]: △8월
+          - generic "ICCAS 2029 제출 마감 · 예년 기준 추정" [ref=f18e206]: △8월
+      - generic [ref=f18e207]:
+        - generic [ref=f18e208]: iSpaRo
+        - generic [ref=f18e209]:
+          - generic [ref=f18e210]:
+            - generic [ref=f18e211]: Cologne
+            - text: Germany · 11/3–6
+          - generic [ref=f18e212]:
+            - generic [ref=f18e213]: TBA
+            - text: 예년 11월경
+          - generic [ref=f18e214]:
+            - generic [ref=f18e215]: TBA
+            - text: 예년 11월경
+          - generic [ref=f18e216]:
+            - generic [ref=f18e217]: TBA
+            - text: 예년 11월경
+          - generic "iSpaRo 2026 제출 마감 · 예년 기준 추정" [ref=f18e218]: △7월
+          - generic "iSpaRo 2027 제출 마감 · 예년 기준 추정" [ref=f18e219]: △7월
+          - generic "iSpaRo 2028 제출 마감 · 예년 기준 추정" [ref=f18e220]: △7월
+          - generic "iSpaRo 2029 제출 마감 · 예년 기준 추정" [ref=f18e221]: △7월
+    - generic [ref=f18e222]: Computer Vision · Machine Learning · AI
+    - generic [ref=f18e223]:
+      - generic [ref=f18e226]:
+        - generic [ref=f18e227]: "2026"
+        - generic [ref=f18e228]: "2027"
+        - generic [ref=f18e229]: "2028"
+        - generic [ref=f18e230]: "2029"
+        - text: 기준일 7/18
+      - generic [ref=f18e231]:
+        - generic [ref=f18e232]: CVPR
+        - generic [ref=f18e233]:
+          - generic [ref=f18e234]:
+            - generic [ref=f18e235]: Denver종료
+            - text: USA · 6/3–7
+          - generic [ref=f18e236]:
+            - generic [ref=f18e237]: Seattle
+            - text: USA · 6/20–24
+          - generic [ref=f18e238]:
+            - generic [ref=f18e239]: San Antonio
+            - text: USA · 날짜 미공개
+          - generic [ref=f18e240]:
+            - generic [ref=f18e241]: Los Angeles
+            - text: USA · 날짜 미공개
+          - generic "CVPR 2027 제출 마감 · 예년 기준 추정" [ref=f18e242]: △11월 중순
+          - generic "CVPR 2028 제출 마감 · 예년 기준 추정" [ref=f18e243]: △11월
+          - generic "CVPR 2029 제출 마감 · 예년 기준 추정" [ref=f18e244]: △11월
+      - generic [ref=f18e245]:
+        - generic [ref=f18e246]: WACV
+        - generic [ref=f18e247]:
+          - generic [ref=f18e248]:
+            - generic [ref=f18e249]: Tucson종료
+            - text: USA · 3/6–10
+          - generic [ref=f18e250]:
+            - generic [ref=f18e251]: Orlando
+            - text: USA · 1/4–8
+          - generic [ref=f18e252]:
+            - generic [ref=f18e253]: TBA
+            - text: 예년 1–3월경
+          - generic [ref=f18e254]:
+            - generic [ref=f18e255]: TBA
+            - text: 예년 1–3월경
+          - generic "WACV 2027 R1 제출 마감 · 예년 기준 추정" [ref=f18e256]: △7월
+          - generic "WACV 2028 제출 마감 · 예년 기준 추정" [ref=f18e257]: △7월
+          - generic "WACV 2029 제출 마감 · 예년 기준 추정" [ref=f18e258]: △7월
+      - generic [ref=f18e259]:
+        - generic [ref=f18e260]: BMVC
+        - generic [ref=f18e261]:
+          - generic [ref=f18e262]:
+            - generic [ref=f18e263]: Lancaster
+            - text: UK · 11/23–26
+          - generic [ref=f18e264]:
+            - generic [ref=f18e265]: TBA
+            - text: 예년 11월경
+          - generic [ref=f18e266]:
+            - generic [ref=f18e267]: TBA
+            - text: 예년 11월경
+          - generic [ref=f18e268]:
+            - generic [ref=f18e269]: TBA
+            - text: 예년 11월경
+          - generic "BMVC 2026 제출 마감 · 확정" [ref=f18e270]: ▲5/29
+          - generic "BMVC 2027 제출 마감 · 예년 기준 추정" [ref=f18e271]: △5월 말
+          - generic "BMVC 2028 제출 마감 · 예년 기준 추정" [ref=f18e272]: △5월 말
+          - generic "BMVC 2029 제출 마감 · 예년 기준 추정" [ref=f18e273]: △5월 말
+      - generic [ref=f18e274]:
+        - generic [ref=f18e275]: ICCV
+        - generic [ref=f18e276]:
+          - generic [ref=f18e277]:
+            - generic [ref=f18e278]: Hong Kong
+            - text: China · 10/2–8
+          - generic [ref=f18e279]:
+            - generic [ref=f18e280]: Dubai
+            - text: UAE · 날짜 미공개
+          - generic "ICCV 2027 제출 마감 · 예년 기준 추정" [ref=f18e281]: △3월 초
+          - generic "ICCV 2029 제출 마감 · 예년 기준 추정" [ref=f18e282]: △3월 초
+      - generic [ref=f18e283]:
+        - generic [ref=f18e284]: ECCV
+        - generic [ref=f18e285]:
+          - generic [ref=f18e286]:
+            - generic [ref=f18e287]: Malmö
+            - text: Sweden · 9/8–12
+          - generic [ref=f18e288]:
+            - generic [ref=f18e289]: TBA
+            - text: 예년 9월경
+          - generic "ECCV 2026 제출 마감 · 예년 기준 추정" [ref=f18e290]: △3월 초
+          - generic "ECCV 2028 제출 마감 · 예년 기준 추정" [ref=f18e291]: △3월 초
+      - generic [ref=f18e292]:
+        - generic [ref=f18e293]: 3DV
+        - generic [ref=f18e294]:
+          - generic [ref=f18e295]:
+            - generic [ref=f18e296]: Vancouver종료
+            - text: Canada · 3/20–23
+          - generic [ref=f18e297]:
+            - generic [ref=f18e298]: Thessaloniki
+            - text: Greece · 4/6–9
+          - generic [ref=f18e299]:
+            - generic [ref=f18e300]: TBA
+            - text: 예년 3–4월경
+          - generic [ref=f18e301]:
+            - generic [ref=f18e302]: TBA
+            - text: 예년 3–4월경
+          - generic "3DV 2027 제출 마감 · 예년 기준 추정" [ref=f18e303]: △8월 말
+          - generic "3DV 2028 제출 마감 · 예년 기준 추정" [ref=f18e304]: △8월 말
+          - generic "3DV 2029 제출 마감 · 예년 기준 추정" [ref=f18e305]: △8월 말
+      - generic [ref=f18e306]:
+        - generic [ref=f18e307]: ISMAR
+        - generic [ref=f18e308]:
+          - generic [ref=f18e309]:
+            - generic [ref=f18e310]: Bari
+            - text: Italy · 10/5–9
+          - generic [ref=f18e311]:
+            - generic [ref=f18e312]: Kobe
+            - text: Japan · 10/11–15
+          - generic [ref=f18e313]:
+            - generic [ref=f18e314]: Cyprus권역
+            - text: 도시 TBA · 10/9–13
+          - generic [ref=f18e315]:
+            - generic [ref=f18e316]: Canada권역
+            - text: 도시 TBA · 10월 초
+          - generic "ISMAR 2026 제출 마감 · 예년 기준 추정" [ref=f18e317]: △5월 초
+          - generic "ISMAR 2027 제출 마감 · 예년 기준 추정" [ref=f18e318]: △5월 초
+          - generic "ISMAR 2028 제출 마감 · 예년 기준 추정" [ref=f18e319]: △5월 초
+          - generic "ISMAR 2029 제출 마감 · 예년 기준 추정" [ref=f18e320]: △5월 초
+      - generic [ref=f18e321]:
+        - generic [ref=f18e322]: SIGGRAPH Asia
+        - generic [ref=f18e323]:
+          - generic [ref=f18e324]:
+            - generic [ref=f18e325]: Kuala Lumpur
+            - text: Malaysia · 12/1–4
+          - generic [ref=f18e326]:
+            - generic [ref=f18e327]: TBA
+            - text: 예년 12월경
+          - generic [ref=f18e328]:
+            - generic [ref=f18e329]: TBA
+            - text: 예년 12월경
+          - generic [ref=f18e330]:
+            - generic [ref=f18e331]: TBA
+            - text: 예년 12월경
+          - generic "SIGGRAPH Asia 2026 제출 마감 · 예년 기준 추정" [ref=f18e332]: △5월
+          - generic "SIGGRAPH Asia 2027 제출 마감 · 예년 기준 추정" [ref=f18e333]: △5월
+          - generic "SIGGRAPH Asia 2028 제출 마감 · 예년 기준 추정" [ref=f18e334]: △5월
+          - generic "SIGGRAPH Asia 2029 제출 마감 · 예년 기준 추정" [ref=f18e335]: △5월
+      - generic [ref=f18e336]:
+        - generic [ref=f18e337]: ICLR
+        - generic [ref=f18e338]:
+          - generic [ref=f18e339]:
+            - generic [ref=f18e340]: Rio de Janeiro종료
+            - text: Brazil · 4/23–27
+          - generic [ref=f18e341]:
+            - generic [ref=f18e342]: 북미 서부권역
+            - text: 도시·날짜 미공개
+          - generic [ref=f18e343]:
+            - generic [ref=f18e344]: TBA
+            - text: 예년 4–5월경
+          - generic [ref=f18e345]:
+            - generic [ref=f18e346]: TBA
+            - text: 예년 4–5월경
+          - generic "ICLR 2027 제출 마감 · 예년 기준 추정" [ref=f18e347]: △9월 말
+          - generic "ICLR 2028 제출 마감 · 예년 기준 추정" [ref=f18e348]: △9월 말
+          - generic "ICLR 2029 제출 마감 · 예년 기준 추정" [ref=f18e349]: △9월 말
+      - generic [ref=f18e350]:
+        - generic [ref=f18e351]: ICML
+        - generic [ref=f18e352]:
+          - generic [ref=f18e353]:
+            - generic [ref=f18e354]: Seoul종료
+            - text: Korea · 7/6–11
+          - generic [ref=f18e355]:
+            - generic [ref=f18e356]: TBA
+            - text: 예년 7월경
+          - generic [ref=f18e357]:
+            - generic [ref=f18e358]: 미국 동부권역
+            - text: 도시·날짜 미공개
+          - generic [ref=f18e359]:
+            - generic [ref=f18e360]: TBA
+            - text: 예년 7월경
+          - generic "ICML 2026 제출 마감 · 예년 기준 추정" [ref=f18e361]: △1월 말
+          - generic "ICML 2027 제출 마감 · 예년 기준 추정" [ref=f18e362]: △1월 말
+          - generic "ICML 2028 제출 마감 · 예년 기준 추정" [ref=f18e363]: △1월 말
+          - generic "ICML 2029 제출 마감 · 예년 기준 추정" [ref=f18e364]: △1월 말
+      - generic [ref=f18e365]:
+        - generic [ref=f18e366]: NeurIPS
+        - generic [ref=f18e367]:
+          - generic [ref=f18e368]:
+            - generic [ref=f18e369]: Sydney
+            - text: Australia · 12/6–12
+          - generic [ref=f18e370]:
+            - generic [ref=f18e371]: Europe권역
+            - text: 도시·날짜 미공개
+          - generic [ref=f18e372]:
+            - generic [ref=f18e373]: Western US권역
+            - text: 도시·날짜 미공개
+          - generic [ref=f18e374]:
+            - generic [ref=f18e375]: TBA
+            - text: 예년 12월경
+          - generic "NeurIPS 2026 제출 마감 · 예년 기준 추정" [ref=f18e376]: △5월 중순
+          - generic "NeurIPS 2027 제출 마감 · 예년 기준 추정" [ref=f18e377]: △5월
+          - generic "NeurIPS 2028 제출 마감 · 예년 기준 추정" [ref=f18e378]: △5월
+          - generic "NeurIPS 2029 제출 마감 · 예년 기준 추정" [ref=f18e379]: △5월
+      - generic [ref=f18e380]:
+        - generic [ref=f18e381]: AAAI
+        - generic [ref=f18e382]:
+          - generic [ref=f18e383]:
+            - generic [ref=f18e384]: Singapore종료
+            - text: 1/20–27
+          - generic [ref=f18e385]:
+            - generic [ref=f18e386]: Montréal
+            - text: Canada · 2/16–23
+          - generic [ref=f18e387]:
+            - generic [ref=f18e388]: TBA
+            - text: 예년 1–2월경
+          - generic [ref=f18e389]:
+            - generic [ref=f18e390]: TBA
+            - text: 예년 1–2월경
+          - generic "AAAI 2027 제출 마감 · 확정" [ref=f18e391]: ▲7/28
+          - generic "AAAI 2028 제출 마감 · 예년 기준 추정" [ref=f18e392]: △7월 말
+          - generic "AAAI 2029 제출 마감 · 예년 기준 추정" [ref=f18e393]: △7월 말
+      - generic [ref=f18e394]:
+        - generic [ref=f18e395]: AAMAS
+        - generic [ref=f18e396]:
+          - generic [ref=f18e397]:
+            - generic [ref=f18e398]: Paphos종료
+            - text: Cyprus · 5/25–29
+          - generic [ref=f18e399]:
+            - generic [ref=f18e400]: TBA
+            - text: 예년 5월경
+          - generic [ref=f18e401]:
+            - generic [ref=f18e402]: TBA
+            - text: 예년 5월경
+          - generic [ref=f18e403]:
+            - generic [ref=f18e404]: TBA
+            - text: 예년 5월경
+          - generic "AAMAS 2027 제출 마감 · 예년 기준 추정" [ref=f18e405]: △10월
+          - generic "AAMAS 2028 제출 마감 · 예년 기준 추정" [ref=f18e406]: △10월
+          - generic "AAMAS 2029 제출 마감 · 예년 기준 추정" [ref=f18e407]: △10월
+  - generic [ref=f18e408]: "도시 또는 권역이 공개된 일정과 TBA 일정 표시 · TBA의 시기는 예년 개최 시기 기준 추정Update 기준일 : 2026.07.24"

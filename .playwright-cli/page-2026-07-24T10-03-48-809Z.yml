@@ -1,0 +1,152 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e4]:
+    - navigation [ref=e5]:
+      - link "DGIST ROBIN Lab" [ref=e7] [cursor=pointer]:
+        - /url: /
+      - list [ref=e8]:
+        - listitem [ref=e9]:
+          - link "Research" [ref=e10] [cursor=pointer]:
+            - /url: /research/
+        - listitem [ref=e11]:
+          - link "Projects" [ref=e12] [cursor=pointer]:
+            - /url: /projects/
+        - listitem [ref=e13]:
+          - link "Publications" [ref=e14] [cursor=pointer]:
+            - /url: /publications/
+        - listitem [ref=e15]:
+          - link "Team" [ref=e16] [cursor=pointer]:
+            - /url: /team/
+        - listitem [ref=e17]:
+          - link "News" [ref=e18] [cursor=pointer]:
+            - /url: /news/
+        - listitem [ref=e19]:
+          - link "Join" [ref=e20] [cursor=pointer]:
+            - /url: /join/
+        - listitem [ref=e21]:
+          - link "Contact" [ref=e22] [cursor=pointer]:
+            - /url: /contact/
+  - generic [ref=e26]:
+    - generic [ref=e27]: Publications
+    - generic [ref=e29]:
+      - paragraph [ref=e30]:
+        - text: † indicates co-corresponding authors. For the most current links and PDFs, visit
+        - link "Google Scholar ↗" [ref=e31] [cursor=pointer]:
+          - /url: https://scholar.google.com/citations?user=iMjIpUkAAAAJ&hl=ko
+        - text: .
+      - heading "International Journal" [level=2] [ref=e32]
+      - list [ref=e33]:
+        - listitem [ref=e34]:
+          - text: Y. Lee, H. Park, H. Kim, H. Ji, and D. J. Lee, “Human-in-the-Loop Object Segmentation for 3D Gaussian-Splatting,”
+          - emphasis [ref=e35]: Advanced Intelligent Systems
+          - text: ", 2026."
+        - listitem [ref=e36]:
+          - text: "J. Heo, H. Kim, E. Lee, Y. Lee, H. Park, Y. Lee†, and D. J. Lee†, “Finger-based 3D Human-Swarm Interaction Interface: Design and Human-Subject Evaluation,”"
+          - emphasis [ref=e37]: Expert Systems with Applications
+          - text: ", 2026."
+        - listitem [ref=e38]:
+          - text: Y. Lee and D. J. Lee, “Enlarging Error Detection Threshold of IMU-based Hand Tracking in VR with Haptic Feedback,”
+          - emphasis [ref=e39]: International Journal of Human-Computer Interaction
+          - text: ", 2025."
+        - listitem [ref=e40]:
+          - generic [ref=e41]:
+            - text: Y. Lee, H. Kim, H. Ji, J. Heo, Y. Lee, H. Park, and D. J. Lee, “Human-in-the-Loop Gaussian Splatting for Robotic Teleoperation,”
+            - emphasis [ref=e42]: IEEE Robotics and Automation Letters
+            - text: ", 2025."
+          - generic "Human-in-the-Loop robotic teleoperation preview" [ref=e43]
+        - listitem [ref=e44]:
+          - generic [ref=e45]:
+            - text: Y. Lee, W. Do, H. Yoon, J. Heo, W. Lee, and D. J. Lee, “Visual-inertial hand motion tracking with robustness against occlusion, interference,”
+            - emphasis [ref=e46]: Science Robotics
+            - text: ", 2021."
+          - generic "Visual-inertial hand tracking preview" [ref=e47]
+        - listitem [ref=e48]:
+          - text: Y. Lee, S. Lee, and D. J. Lee, “Wearable Haptic Device for Stiffness Rendering of Virtual Objects in Augmented Reality,”
+          - emphasis [ref=e49]: Applied Sciences
+          - text: ", 2021."
+        - listitem [ref=e50]:
+          - text: Y. Lee, M. Kim, Y. Lee, J. Kwon, Y-L. Park, and D. J. Lee, “Wearable Cutaneous Haptic Interface for Multi-Fingered Virtual Manipulation,”
+          - emphasis [ref=e51]: IEEE/ASME Transactions on Mechatronics
+          - text: ", 2019."
+        - listitem [ref=e52]:
+          - text: M. Kim, Y. Lee, Y. Lee, and D. J. Lee, “Haptic Rendering and Interactive Simulation using Passive Midpoint Integration,”
+          - emphasis [ref=e53]: International Journal of Robotics Research
+          - text: ", 2017."
+        - listitem [ref=e54]:
+          - text: "H. Yang, Y. Lee, S-Y. Jeon, and D. J. Lee, “Multi-Rotor Drone Tutorial: Systems, Mechanics, Control and State Estimation,”"
+          - emphasis [ref=e55]: Intelligent Service Robotics
+          - text: ", 2017."
+      - heading "International Conference" [level=2] [ref=e56]
+      - list [ref=e57]:
+        - listitem [ref=e58]:
+          - text: "H. Ji, Y. Lee†, and D. J. Lee†, “TE-SDF: Tetra-Encoded Signed Distance Field for Memory-Efficient and Accurate Collision Detection,”"
+          - emphasis [ref=e59]: RSS
+          - text: ", 2026."
+        - listitem [ref=e60]:
+          - generic [ref=e61]:
+            - text: H. Choi, H. Park, H. Ji, S. Lee, Y. Lee†, and D. J. Lee†, “Markerless Tracking of Human Hand Motion using Vision and Inertial Measurements,”
+            - emphasis [ref=e62]: ICRA
+            - text: ", 2026."
+          - generic "Markerless tracking preview" [ref=e63]
+        - listitem [ref=e64]:
+          - text: Y. Lee, Y. Lee, H. Lee, H. Lee, and D. J. Lee, “VR Hand-Demonstration Platform with Visual–Inertial Hand Tracking and GS-Articulated Objects for Dexterous Manipulation,”
+          - emphasis [ref=e65]: IROS Workshop
+          - text: ", 2025."
+        - listitem [ref=e66]:
+          - generic [ref=e67]:
+            - text: H. Ji, H. Kim, J. Lee, S. Lee, S. An, J. Heo, Y. Lee, Y. Lee, and D. J. Lee, “GPU-Accelerated Subsystem-Based ADMM for Large-Scale Interactive Simulation,”
+            - emphasis [ref=e68]: ICRA
+            - text: ", 2025."
+          - generic "Interactive simulation preview" [ref=e69]
+        - listitem [ref=e70]:
+          - text: Y. Lee, “Visual-inertial skeletal tracking algorithm for human hand motion,”
+          - emphasis [ref=e71]: BioRob Workshop
+          - text: ", 2022."
+        - listitem [ref=e72]:
+          - text: Y. Lee, W. Do, H. Yoon, W. Lee, and D. J. Lee, “Robust Wearable Visual-Inertial Hand Tracking Interface,”
+          - emphasis [ref=e73]: IROS Workshop
+          - text: ", 2019."
+        - listitem [ref=e74]:
+          - text: Y. Lee, J. Yoon, H. Yang, C. Kim, and D. J. Lee, “Camera-GPS-IMU Sensor Fusion for Autonomous Flying,”
+          - emphasis [ref=e75]: ICUFN
+          - text: ", 2016."
+        - listitem [ref=e76]:
+          - text: M. Kim, I. Jang, Y. Lee, Y. Lee, and D. J. Lee, “Wearable 3-DOF Cutaneous Haptic Device with Integrated IMU-Based Finger Tracking,”
+          - emphasis [ref=e77]: URAI
+          - text: ", 2016."
+        - listitem [ref=e78]:
+          - text: Y. Lee, J. Yoon, H. Yang, C. Kim, and D. J. Lee, “Camera-GPS-IMU Sensor Fusion for Autonomous Flying using Information Filter Based Frame Calibration,”
+          - emphasis [ref=e79]: ICCAS
+          - text: ", 2016."
+        - listitem [ref=e80]:
+          - text: Y. Lee, I. Jang, and D. J. Lee, “Enlarging Just Noticeable Differences of Visual-Proprioceptive Conflict in VR using Haptic Feedback,”
+          - emphasis [ref=e81]: World Haptics Conference
+          - text: ", 2015."
+        - listitem [ref=e82]:
+          - generic [ref=e83]:
+            - text: C. Ha, S. Park, J. Her, I. Jang, Y. Lee, G. Cho, H. Son, and D. J. Lee, “Whole-Body Multi-Modal Semi-Autonomous Teleoperation of Mobile Manipulator Systems,”
+            - emphasis [ref=e84]: ICRA
+            - text: ", 2015."
+          - generic "Mobile manipulator preview" [ref=e85]
+      - heading "Patents" [level=2] [ref=e86]
+      - list [ref=e87]:
+        - listitem [ref=e88]: Y. Lee, S. Kwak, and G. Lee, “Method and electronic device for obtaining spatial map,” US 20240242502, July 2024.
+        - listitem [ref=e89]: Y. Lee, S. Kwak, and G. Lee, “Method and electronic device for obtaining spatial map,” KR 1020230057771, May 2023.
+        - listitem [ref=e90]: Y. Lee, S. Kwak, and G. Lee, “Method for controlling plurality of electronic devices based on context of user, and computing device for performing the same,” KR 1020230082135, June 2023.
+        - listitem [ref=e91]: D. J. Lee, Y. Lee, J. Heo, S. Lee, and Y. Lee, “System and method for tracking hand motion using strong coupling fusion of image sensor and inertial sensor,” KR 1020210192663A, October 2022.
+  - contentinfo [ref=e93]:
+    - paragraph [ref=e94]:
+      - link "Creative Commons":
+        - /url: https://creativecommons.org/licenses/by-nc-nd/4.0
+      - link "Creative Commons" [ref=e95] [cursor=pointer]:
+        - /url: https://creativecommons.org/licenses/by-nc-nd/4.0
+    - paragraph [ref=e104]:
+      - text: © 2026 DGIST Department of Robotics & Mechatronics Engineering. This work is licensed under
+      - link "CC BY NC ND 4.0" [ref=e105] [cursor=pointer]:
+        - /url: https://creativecommons.org/licenses/by-nc-nd/4.0
+    - paragraph [ref=e106]:
+      - text: Made with
+      - link "Hugo Blox — Open Source" [ref=e107] [cursor=pointer]:
+        - /url: https://hugoblox.com/templates/academic-cv?utm_source=site_footer&utm_medium=referral&utm_campaign=poweredby_oss&utm_content=brand_academic-cv&start=1
+      - text: .
+      - link "Create your site →" [ref=e108] [cursor=pointer]:
+        - /url: https://hugo.chat?utm_source=site_footer&utm_medium=referral&utm_campaign=poweredby_oss&utm_content=cta_academic-cv&template_id=academic-cv

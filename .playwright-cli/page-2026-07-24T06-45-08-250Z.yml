@@ -1,0 +1,67 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e4]:
+    - navigation [ref=e5]:
+      - link "DGIST ROBIN Lab" [ref=e7] [cursor=pointer]:
+        - /url: /
+      - list [ref=e8]:
+        - listitem [ref=e9]:
+          - link "Research" [ref=e10] [cursor=pointer]:
+            - /url: /research/
+        - listitem [ref=e11]:
+          - link "Projects" [ref=e12] [cursor=pointer]:
+            - /url: /projects/
+        - listitem [ref=e13]:
+          - link "Publications" [ref=e14] [cursor=pointer]:
+            - /url: /publications/
+        - listitem [ref=e15]:
+          - link "Team" [ref=e16] [cursor=pointer]:
+            - /url: /team/
+        - listitem [ref=e17]:
+          - link "News" [ref=e18] [cursor=pointer]:
+            - /url: /news/
+        - listitem [ref=e19]:
+          - link "Join" [ref=e20] [cursor=pointer]:
+            - /url: /join/
+        - listitem [ref=e21]:
+          - link "Contact" [ref=e22] [cursor=pointer]:
+            - /url: /contact/
+  - generic [ref=e28]:
+    - generic [ref=e29]:
+      - paragraph [ref=e30]: DGIST · Robotics and Mechatronics Engineering
+      - heading [level=1] [ref=e31]:
+        - text: ROBIN
+        - emphasis [ref=e32]: Lab
+      - paragraph [ref=e33]: From human intent to physical intelligence.
+      - paragraph [ref=e34]: We combine high-fidelity teleoperation, digital twins, and robot learning to build Physical AI that works beyond the screen.
+      - generic [ref=e35]:
+        - link "Explore Research →" [ref=e36] [cursor=pointer]:
+          - /url: /research/
+          - text: Explore Research
+          - generic [ref=e37]: →
+        - link "Open Positions →" [ref=e38] [cursor=pointer]:
+          - /url: /join/
+          - text: Open Positions
+          - generic [ref=e39]: →
+      - paragraph [ref=e40]: ROBot INterface, INteraction, and INtelligence Laboratory
+    - generic [ref=e41]:
+      - generic "ROBIN Lab teleoperation demonstration" [ref=e42]
+      - generic [ref=e43]:
+        - img "ROBIN Lab" [ref=e44]
+        - paragraph [ref=e45]: Robot Interface / Teleoperation
+  - contentinfo [ref=e47]:
+    - paragraph [ref=e48]:
+      - link "Creative Commons":
+        - /url: https://creativecommons.org/licenses/by-nc-nd/4.0
+      - link "Creative Commons" [ref=e49] [cursor=pointer]:
+        - /url: https://creativecommons.org/licenses/by-nc-nd/4.0
+    - paragraph [ref=e58]:
+      - text: © 2026 DGIST Department of Robotics & Mechatronics Engineering. This work is licensed under
+      - link "CC BY NC ND 4.0" [ref=e59] [cursor=pointer]:
+        - /url: https://creativecommons.org/licenses/by-nc-nd/4.0
+    - paragraph [ref=e60]:
+      - text: Made with
+      - link "Hugo Blox — Open Source" [ref=e61] [cursor=pointer]:
+        - /url: https://hugoblox.com/templates/academic-cv?utm_source=site_footer&utm_medium=referral&utm_campaign=poweredby_oss&utm_content=brand_academic-cv&start=1
+      - text: .
+      - link "Create your site →" [ref=e62] [cursor=pointer]:
+        - /url: https://hugo.chat?utm_source=site_footer&utm_medium=referral&utm_campaign=poweredby_oss&utm_content=cta_academic-cv&template_id=academic-cv

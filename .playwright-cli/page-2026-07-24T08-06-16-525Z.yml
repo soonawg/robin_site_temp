@@ -1,0 +1,57 @@
+- generic [active] [ref=f26e1]:
+  - banner [ref=f26e4]:
+    - navigation [ref=f26e5]:
+      - link "DGIST ROBIN Lab" [ref=f26e7] [cursor=pointer]:
+        - /url: /
+      - list [ref=f26e8]:
+        - listitem [ref=f26e9]:
+          - link "Research" [ref=f26e10] [cursor=pointer]:
+            - /url: /research/
+        - listitem [ref=f26e11]:
+          - link "Projects" [ref=f26e12] [cursor=pointer]:
+            - /url: /projects/
+        - listitem [ref=f26e13]:
+          - link "Publications" [ref=f26e14] [cursor=pointer]:
+            - /url: /publications/
+        - listitem [ref=f26e15]:
+          - link "Team" [ref=f26e16] [cursor=pointer]:
+            - /url: /team/
+        - listitem [ref=f26e17]:
+          - link "News" [ref=f26e18] [cursor=pointer]:
+            - /url: /news/
+        - listitem [ref=f26e19]:
+          - link "Join" [ref=f26e20] [cursor=pointer]:
+            - /url: /join/
+        - listitem [ref=f26e21]:
+          - link "Contact" [ref=f26e22] [cursor=pointer]:
+            - /url: /contact/
+  - article [ref=f26e25]:
+    - heading "Join ROBIN" [level=1] [ref=f26e26]
+    - paragraph [ref=f26e27]: ROBIN Lab is seeking self-directed graduate students and undergraduate interns who want to advance physical AI, humanoid robotics, robot foundation models, and digital twins.
+    - heading "How to apply" [level=2] [ref=f26e28]
+    - paragraph [ref=f26e29]:
+      - text: Please email
+      - link "yslee@dgist.ac.kr" [ref=f26e30] [cursor=pointer]:
+        - /url: mailto:yslee@dgist.ac.kr
+      - text: "with:"
+    - list [ref=f26e31]:
+      - listitem [ref=f26e32]: A short self-introduction covering your motivation, research interests, and strengths
+      - listitem [ref=f26e33]: A CV including your hardware/programming skills and research or project experience
+      - listitem [ref=f26e34]: An academic transcript
+  - contentinfo [ref=f26e37]:
+    - paragraph [ref=f26e38]:
+      - link "Creative Commons":
+        - /url: https://creativecommons.org/licenses/by-nc-nd/4.0
+      - link "Creative Commons" [ref=f26e39] [cursor=pointer]:
+        - /url: https://creativecommons.org/licenses/by-nc-nd/4.0
+    - paragraph [ref=f26e48]:
+      - text: © 2026 DGIST Department of Robotics & Mechatronics Engineering. This work is licensed under
+      - link "CC BY NC ND 4.0" [ref=f26e49] [cursor=pointer]:
+        - /url: https://creativecommons.org/licenses/by-nc-nd/4.0
+    - paragraph [ref=f26e50]:
+      - text: Made with
+      - link "Hugo Blox — Open Source" [ref=f26e51] [cursor=pointer]:
+        - /url: https://hugoblox.com/templates/academic-cv?utm_source=site_footer&utm_medium=referral&utm_campaign=poweredby_oss&utm_content=brand_academic-cv&start=1
+      - text: .
+      - link "Create your site →" [ref=f26e52] [cursor=pointer]:
+        - /url: https://hugo.chat?utm_source=site_footer&utm_medium=referral&utm_campaign=poweredby_oss&utm_content=cta_academic-cv&template_id=academic-cv

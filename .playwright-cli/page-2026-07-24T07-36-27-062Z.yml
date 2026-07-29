@@ -1,0 +1,96 @@
+- generic [active] [ref=f2e1]:
+  - banner [ref=f2e4]:
+    - navigation [ref=f2e5]:
+      - link "DGIST ROBIN Lab" [ref=f2e7] [cursor=pointer]:
+        - /url: /
+      - list [ref=f2e8]:
+        - listitem [ref=f2e9]:
+          - link "Research" [ref=f2e10] [cursor=pointer]:
+            - /url: /research/
+        - listitem [ref=f2e11]:
+          - link "Projects" [ref=f2e12] [cursor=pointer]:
+            - /url: /projects/
+        - listitem [ref=f2e13]:
+          - link "Publications" [ref=f2e14] [cursor=pointer]:
+            - /url: /publications/
+        - listitem [ref=f2e15]:
+          - link "Team" [ref=f2e16] [cursor=pointer]:
+            - /url: /team/
+        - listitem [ref=f2e17]:
+          - link "News" [ref=f2e18] [cursor=pointer]:
+            - /url: /news/
+        - listitem [ref=f2e19]:
+          - link "Join" [ref=f2e20] [cursor=pointer]:
+            - /url: /join/
+        - listitem [ref=f2e21]:
+          - link "Contact" [ref=f2e22] [cursor=pointer]:
+            - /url: /contact/
+  - generic [ref=f2e23]:
+    - generic [ref=f2e28]:
+      - generic [ref=f2e29]:
+        - paragraph [ref=f2e30]: DGIST · Robotics and Mechatronics Engineering
+        - heading [level=1] [ref=f2e31]:
+          - text: ROBIN
+          - emphasis [ref=f2e32]: Lab
+        - paragraph [ref=f2e33]: From human intent to physical intelligence.
+        - paragraph [ref=f2e34]: We combine high-fidelity teleoperation, digital twins, and robot learning to build Physical AI that works beyond the screen.
+        - generic [ref=f2e35]:
+          - link "Explore Research →" [ref=f2e36] [cursor=pointer]:
+            - /url: /research/
+            - text: Explore Research
+            - generic [ref=f2e37]: →
+          - link "Open Positions →" [ref=f2e38] [cursor=pointer]:
+            - /url: /join/
+            - text: Open Positions
+            - generic [ref=f2e39]: →
+          - link "YouTube ↗" [ref=f2e40] [cursor=pointer]:
+            - /url: https://www.youtube.com/channel/UCC_Sw4ynsuwJ_RiO1LQwHew
+            - text: YouTube
+            - generic [ref=f2e41]: ↗
+        - paragraph [ref=f2e42]: ROBot INterface, INteraction, and INtelligence Laboratory
+      - generic [ref=f2e43]:
+        - generic "Interactive ROBIN Physical AI system. Move the pointer to inspect it." [ref=f2e44]
+        - paragraph [ref=f2e45]:
+          - text: ROBIN Physical AI System
+          - generic [ref=f2e46]: Move to inspect
+    - generic [ref=f2e49]:
+      - generic [ref=f2e50]: Research in Action
+      - generic [ref=f2e52]:
+        - generic [ref=f2e53]:
+          - generic [ref=f2e54]:
+            - paragraph [ref=f2e55]: "01"
+            - heading "Robot Interface" [level=3] [ref=f2e56]
+          - generic [ref=f2e57]:
+            - generic "Robot Interface VIST demonstration" [ref=f2e58]
+            - generic "Robot Interface markerless VIST demonstration" [ref=f2e59]
+        - generic [ref=f2e60]:
+          - generic [ref=f2e61]:
+            - paragraph [ref=f2e62]: "02"
+            - heading "Robot Interaction" [level=3] [ref=f2e63]
+          - generic [ref=f2e64]:
+            - generic "Robot Interaction winch simulation" [ref=f2e65]
+            - generic "Robot Interaction RAL results" [ref=f2e66]
+        - generic [ref=f2e67]:
+          - generic [ref=f2e68]:
+            - paragraph [ref=f2e69]: "03"
+            - heading "Robot Intelligence" [level=3] [ref=f2e70]
+          - generic [ref=f2e71]:
+            - generic "Robot Intelligence mobile manipulator teleoperation demonstration" [ref=f2e72]
+            - generic "Robot Intelligence SR teleoperation demonstration" [ref=f2e73]
+  - contentinfo [ref=f2e75]:
+    - paragraph [ref=f2e76]:
+      - link "Creative Commons":
+        - /url: https://creativecommons.org/licenses/by-nc-nd/4.0
+      - link "Creative Commons" [ref=f2e77] [cursor=pointer]:
+        - /url: https://creativecommons.org/licenses/by-nc-nd/4.0
+    - paragraph [ref=f2e86]:
+      - text: © 2026 DGIST Department of Robotics & Mechatronics Engineering. This work is licensed under
+      - link "CC BY NC ND 4.0" [ref=f2e87] [cursor=pointer]:
+        - /url: https://creativecommons.org/licenses/by-nc-nd/4.0
+    - paragraph [ref=f2e88]:
+      - text: Made with
+      - link "Hugo Blox — Open Source" [ref=f2e89] [cursor=pointer]:
+        - /url: https://hugoblox.com/templates/academic-cv?utm_source=site_footer&utm_medium=referral&utm_campaign=poweredby_oss&utm_content=brand_academic-cv&start=1
+      - text: .
+      - link "Create your site →" [ref=f2e90] [cursor=pointer]:
+        - /url: https://hugo.chat?utm_source=site_footer&utm_medium=referral&utm_campaign=poweredby_oss&utm_content=cta_academic-cv&template_id=academic-cv

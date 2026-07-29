@@ -1,0 +1,231 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e4]:
+    - navigation [ref=e5]:
+      - link "DGIST ROBIN Lab" [ref=e7] [cursor=pointer]:
+        - /url: /
+      - list [ref=e8]:
+        - listitem [ref=e9]:
+          - link "Research" [ref=e10] [cursor=pointer]:
+            - /url: /research/
+        - listitem [ref=e11]:
+          - link "Projects" [ref=e12] [cursor=pointer]:
+            - /url: /projects/
+        - listitem [ref=e13]:
+          - link "Publications" [ref=e14] [cursor=pointer]:
+            - /url: /publications/
+        - listitem [ref=e15]:
+          - link "Team" [ref=e16] [cursor=pointer]:
+            - /url: /team/
+        - listitem [ref=e17]:
+          - link "News" [ref=e18] [cursor=pointer]:
+            - /url: /news/
+        - listitem [ref=e19]:
+          - link "Join" [ref=e20] [cursor=pointer]:
+            - /url: /join/
+        - listitem [ref=e21]:
+          - link "Contact" [ref=e22] [cursor=pointer]:
+            - /url: /contact/
+  - generic [ref=e23]:
+    - generic [ref=e26]:
+      - generic [ref=e27]: Robot Interface
+      - generic [ref=e29]:
+        - list [ref=e30]:
+          - listitem [ref=e31]: Wearable Sensor Glove with Haptic Feedback
+          - listitem [ref=e32]: Sensor-fusion based Human Motion Tracking
+          - listitem [ref=e33]: Dexterous Interface for Humanoid and Teleoperation
+        - generic "Robot Interface videos" [ref=e34]:
+          - iframe [ref=e36]:
+            - generic [ref=f1e1]:
+              - generic "YouTube 동영상 플레이어" [ref=f1e3]
+              - generic [ref=f1e5]:
+                - generic:
+                  - generic:
+                    - button "동영상 재생" [ref=f1e10] [cursor=pointer]
+                    - button "재생 컨트롤 숨기기" [ref=f1e14] [cursor=pointer]
+                    - generic [ref=f1e16]:
+                      - generic [ref=f1e21]:
+                        - generic [ref=f1e22]:
+                          - link "Visual Inertial Hand Tracking (VIST) for Robotic Application" [ref=f1e23] [cursor=pointer]:
+                            - /url: https://www.youtube.com/watch?v=oryNSCjRrUM
+                          - link "ROBIN_DGIST" [ref=f1e24] [cursor=pointer]:
+                            - /url: /channel/UCC_Sw4ynsuwJ_RiO1LQwHew
+                        - generic [ref=f1e26]:
+                          - button [ref=f1e27] [cursor=pointer]:
+                            - img "thumbnail-image" [ref=f1e28]
+                          - generic [ref=f1e30]:
+                            - generic: ROBIN_DGIST
+                            - generic: 구독자 15명
+                      - generic [ref=f1e31]:
+                        - button "링크 복사" [ref=f1e34] [cursor=pointer]
+                        - link "YouTube에서 보기" [ref=f1e45] [cursor=pointer]:
+                          - /url: https://www.youtube.com/watch?v=oryNSCjRrUM
+                          - generic [ref=f1e46]: "다음에서 보기:"
+          - iframe [ref=e38]:
+            - generic [ref=f2e1]:
+              - generic "YouTube 동영상 플레이어" [ref=f2e3]
+              - generic [ref=f2e5]:
+                - generic:
+                  - generic:
+                    - button "동영상 재생" [ref=f2e10] [cursor=pointer]
+                    - button "재생 컨트롤 숨기기" [ref=f2e14] [cursor=pointer]
+                    - generic [ref=f2e16]:
+                      - generic [ref=f2e21]:
+                        - generic [ref=f2e22]:
+                          - link "Markerless Visual Inertial Hand Tracking System" [ref=f2e23] [cursor=pointer]:
+                            - /url: https://www.youtube.com/watch?v=SZ1WXbS1L18
+                          - link "ROBIN_DGIST" [ref=f2e24] [cursor=pointer]:
+                            - /url: /channel/UCC_Sw4ynsuwJ_RiO1LQwHew
+                        - generic [ref=f2e26]:
+                          - button [ref=f2e27] [cursor=pointer]:
+                            - img "thumbnail-image" [ref=f2e28]
+                          - generic [ref=f2e30]:
+                            - generic: ROBIN_DGIST
+                            - generic: 구독자 15명
+                      - generic [ref=f2e31]:
+                        - button "링크 복사" [ref=f2e34] [cursor=pointer]
+                        - link "YouTube에서 보기" [ref=f2e45] [cursor=pointer]:
+                          - /url: https://www.youtube.com/watch?v=SZ1WXbS1L18
+                          - generic [ref=f2e46]: "다음에서 보기:"
+    - generic [ref=e41]:
+      - generic [ref=e42]: Robot Interaction
+      - generic [ref=e44]:
+        - list [ref=e45]:
+          - listitem [ref=e46]: Digital-Twin Generation with Gaussian Splatting
+          - listitem [ref=e47]: Robotic Simulation for Physical AI
+          - listitem [ref=e48]: Safe and Efficient Human-Robot Interaction
+        - generic "Robot Interaction videos" [ref=e49]:
+          - iframe [ref=e51]:
+            - generic [ref=f3e1]:
+              - generic "YouTube 동영상 플레이어" [ref=f3e3]
+              - generic [ref=f3e5]:
+                - generic:
+                  - generic:
+                    - button "동영상 재생" [ref=f3e10] [cursor=pointer]
+                    - button "재생 컨트롤 숨기기" [ref=f3e12] [cursor=pointer]
+                    - generic [ref=f3e14]:
+                      - generic [ref=f3e19]:
+                        - generic [ref=f3e20]:
+                          - link "Gaussian Splatting Reconstruction Results for Robotic Teleoperation" [ref=f3e21] [cursor=pointer]:
+                            - /url: https://www.youtube.com/watch?v=SVF2mja_nSY
+                          - link "ROBIN_DGIST" [ref=f3e22] [cursor=pointer]:
+                            - /url: /channel/UCC_Sw4ynsuwJ_RiO1LQwHew
+                        - generic [ref=f3e24]:
+                          - button [ref=f3e25] [cursor=pointer]
+                          - generic [ref=f3e27]:
+                            - generic: ROBIN_DGIST
+                            - generic: 구독자 15명
+                      - generic [ref=f3e28]:
+                        - button "링크 복사" [ref=f3e31] [cursor=pointer]
+                        - link "YouTube에서 보기" [ref=f3e42] [cursor=pointer]:
+                          - /url: https://www.youtube.com/watch?v=SVF2mja_nSY
+                          - generic [ref=f3e43]: "다음에서 보기:"
+          - iframe [ref=e53]:
+            - generic [ref=f4e1]:
+              - generic "YouTube 동영상 플레이어" [ref=f4e3]
+              - generic [ref=f4e5]:
+                - generic:
+                  - generic:
+                    - button "동영상 재생" [ref=f4e10] [cursor=pointer]
+                    - button "재생 컨트롤 숨기기" [ref=f4e12] [cursor=pointer]
+                    - generic [ref=f4e14]:
+                      - generic [ref=f4e19]:
+                        - generic [ref=f4e20]:
+                          - link "Winch Simulation Robot" [ref=f4e21] [cursor=pointer]:
+                            - /url: https://www.youtube.com/watch?v=qs4IIzwi3a4
+                          - link "ROBIN_DGIST" [ref=f4e22] [cursor=pointer]:
+                            - /url: /channel/UCC_Sw4ynsuwJ_RiO1LQwHew
+                        - generic [ref=f4e24]:
+                          - button [ref=f4e25] [cursor=pointer]
+                          - generic [ref=f4e27]:
+                            - generic: ROBIN_DGIST
+                            - generic: 구독자 15명
+                      - generic [ref=f4e28]:
+                        - button "링크 복사" [ref=f4e31] [cursor=pointer]
+                        - link "YouTube에서 보기" [ref=f4e42] [cursor=pointer]:
+                          - /url: https://www.youtube.com/watch?v=qs4IIzwi3a4
+                          - generic [ref=f4e43]: "다음에서 보기:"
+    - generic [ref=e56]:
+      - generic [ref=e57]: Robot Intelligence
+      - generic [ref=e59]:
+        - list [ref=e60]:
+          - listitem [ref=e61]: Imitation Learning Dataset from Dexterous Interface
+          - listitem [ref=e62]: Reinforcement Learning with Digital-Twin Simulation
+          - listitem [ref=e63]: Long-horizon Generalizable Task with Robot Foundation Models (RFM)
+        - generic "Robot Intelligence videos" [ref=e64]:
+          - iframe [ref=e66]:
+            - generic [ref=f5e1]:
+              - generic "YouTube 동영상 플레이어" [ref=f5e3]
+              - generic [ref=f5e5]:
+                - generic:
+                  - generic:
+                    - button "동영상 재생" [ref=f5e10] [cursor=pointer]
+                    - button "재생 컨트롤 숨기기" [ref=f5e12] [cursor=pointer]
+                    - generic [ref=f5e14]:
+                      - generic [ref=f5e19]:
+                        - generic [ref=f5e20]:
+                          - link "Humanoid Teleoperation by Manus - Folding Clothes" [ref=f5e21] [cursor=pointer]:
+                            - /url: https://www.youtube.com/watch?v=KTttnSafVyo
+                          - link "ROBIN_DGIST" [ref=f5e22] [cursor=pointer]:
+                            - /url: /channel/UCC_Sw4ynsuwJ_RiO1LQwHew
+                        - generic [ref=f5e24]:
+                          - button [ref=f5e25] [cursor=pointer]
+                          - generic [ref=f5e27]:
+                            - generic: ROBIN_DGIST
+                            - generic: 구독자 15명
+                      - generic [ref=f5e28]:
+                        - button "링크 복사" [ref=f5e31] [cursor=pointer]
+                        - link "YouTube에서 보기" [ref=f5e42] [cursor=pointer]:
+                          - /url: https://www.youtube.com/watch?v=KTttnSafVyo
+                          - generic [ref=f5e43]: "다음에서 보기:"
+          - iframe [ref=e68]:
+            - generic [ref=f6e1]:
+              - generic "YouTube 동영상 플레이어" [ref=f6e3]
+              - generic [ref=f6e5]:
+                - generic:
+                  - generic:
+                    - button "동영상 재생" [ref=f6e10] [cursor=pointer]
+                    - button "재생 컨트롤 숨기기" [ref=f6e12] [cursor=pointer]
+                    - generic [ref=f6e14]:
+                      - generic [ref=f6e19]:
+                        - generic [ref=f6e20]:
+                          - link "Robotic Simulation Mobile Manipulator" [ref=f6e21] [cursor=pointer]:
+                            - /url: https://www.youtube.com/watch?v=fsxwgyEuShY
+                          - link "ROBIN_DGIST" [ref=f6e22] [cursor=pointer]:
+                            - /url: /channel/UCC_Sw4ynsuwJ_RiO1LQwHew
+                        - generic [ref=f6e24]:
+                          - button [ref=f6e25] [cursor=pointer]
+                          - generic [ref=f6e27]:
+                            - generic: ROBIN_DGIST
+                            - generic: 구독자 15명
+                      - generic [ref=f6e28]:
+                        - button "링크 복사" [ref=f6e31] [cursor=pointer]
+                        - link "YouTube에서 보기" [ref=f6e42] [cursor=pointer]:
+                          - /url: https://www.youtube.com/watch?v=fsxwgyEuShY
+                          - generic [ref=f6e43]: "다음에서 보기:"
+    - generic [ref=e71]:
+      - generic [ref=e72]: Conference Calendar
+      - complementary [ref=e74]:
+        - paragraph [ref=e75]: Research community
+        - heading "Conference Calendar & Locations" [level=2] [ref=e76]
+        - paragraph [ref=e77]: A 2026–2029 overview of major conference locations, dates, and regional announcements.
+        - link "View the conference calendar ↗" [ref=e78] [cursor=pointer]:
+          - /url: /conference-timeline/
+          - text: View the conference calendar
+          - generic [ref=e79]: ↗
+  - contentinfo [ref=e81]:
+    - paragraph [ref=e82]:
+      - link "Creative Commons":
+        - /url: https://creativecommons.org/licenses/by-nc-nd/4.0
+      - link "Creative Commons" [ref=e83] [cursor=pointer]:
+        - /url: https://creativecommons.org/licenses/by-nc-nd/4.0
+    - paragraph [ref=e92]:
+      - text: © 2026 DGIST Department of Robotics & Mechatronics Engineering. This work is licensed under
+      - link "CC BY NC ND 4.0" [ref=e93] [cursor=pointer]:
+        - /url: https://creativecommons.org/licenses/by-nc-nd/4.0
+    - paragraph [ref=e94]:
+      - text: Made with
+      - link "Hugo Blox Kit" [ref=e95] [cursor=pointer]:
+        - /url: https://hugoblox.com/templates/academic-cv?utm_source=site_footer&utm_medium=referral&utm_campaign=poweredby_oss&utm_content=brand_academic-cv&start=1
+      - text: .
+      - link "Build your site →" [ref=e96] [cursor=pointer]:
+        - /url: https://hugo.chat?utm_source=site_footer&utm_medium=referral&utm_campaign=poweredby_oss&utm_content=cta_academic-cv&template_id=academic-cv

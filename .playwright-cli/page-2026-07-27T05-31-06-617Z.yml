@@ -1,0 +1,100 @@
+- generic [active] [ref=f11e1]:
+  - banner [ref=f11e4]:
+    - navigation [ref=f11e5]:
+      - link "DGIST ROBIN Lab" [ref=f11e7] [cursor=pointer]:
+        - /url: /
+      - img "Open Menu" [ref=f11e9] [cursor=pointer]
+  - generic [ref=f11e11]:
+    - generic [ref=f11e14]:
+      - generic [ref=f11e15]: Research
+      - paragraph [ref=f11e17]: ROBIN integrates high-fidelity robot interfaces with complex environmental interaction to create the data, models, and systems required for Physical AI.
+    - generic [ref=f11e20]:
+      - generic [ref=f11e21]: Robot Interface
+      - generic [ref=f11e23]:
+        - list [ref=f11e24]:
+          - listitem [ref=f11e25]:
+            - generic [ref=f11e26]: ⌁
+            - generic [ref=f11e27]: Wearable Sensor Glove with Haptic Feedback
+            - generic [ref=f11e28]: "#HapticInterface"
+            - text: ↗
+          - listitem [ref=f11e29]:
+            - generic [ref=f11e30]: ◌
+            - generic [ref=f11e31]: Sensor-fusion based Human Motion Tracking
+            - generic [ref=f11e32]: "#Perception"
+            - text: ↗
+          - listitem [ref=f11e33]:
+            - generic [ref=f11e34]: ◇
+            - generic [ref=f11e35]: Dexterous Interface for Humanoid and Teleoperation
+            - generic [ref=f11e36]: "#Teleoperation"
+            - text: ↗
+        - generic "Robot Interface videos" [ref=f11e37]:
+          - generic [ref=f11e38]:
+            - generic "VIST demonstration" [ref=f11e39]
+            - text: VIST demonstration
+          - generic [ref=f11e40]:
+            - generic "Markerless VIST demonstration" [ref=f11e41]
+            - text: Markerless VIST demonstration
+    - generic [ref=f11e44]:
+      - generic [ref=f11e45]: Robot Interaction
+      - generic [ref=f11e47]:
+        - list [ref=f11e48]:
+          - listitem [ref=f11e49]:
+            - generic [ref=f11e50]: ✦
+            - generic [ref=f11e51]: Digital-Twin Generation with Gaussian Splatting
+            - generic [ref=f11e52]: "#GaussianSplatting"
+            - text: ↗
+          - listitem [ref=f11e53]:
+            - generic [ref=f11e54]: ▱
+            - generic [ref=f11e55]: Robotic Simulation for Physical AI
+            - generic [ref=f11e56]: "#Simulation"
+            - text: ↗
+          - listitem [ref=f11e57]:
+            - generic [ref=f11e58]: ⊙
+            - generic [ref=f11e59]: Safe and Efficient Human-Robot Interaction
+            - generic [ref=f11e60]: "#HumanRobotInteraction"
+            - text: ↗
+        - generic "Robot Interaction videos" [ref=f11e61]:
+          - generic [ref=f11e62]:
+            - generic "Winch simulation" [ref=f11e63]
+            - text: Winch simulation
+          - generic [ref=f11e64]:
+            - generic "RAL results" [ref=f11e65]
+            - text: RAL results
+    - generic [ref=f11e68]:
+      - generic [ref=f11e69]: Robot Intelligence
+      - generic [ref=f11e71]:
+        - list [ref=f11e72]:
+          - listitem [ref=f11e73]:
+            - generic [ref=f11e74]: ⌘
+            - generic [ref=f11e75]: Imitation Learning Dataset from Dexterous Interface
+            - generic [ref=f11e76]: "#ImitationLearning"
+            - text: ↗
+          - listitem [ref=f11e77]:
+            - generic [ref=f11e78]: ↗
+            - generic [ref=f11e79]: Reinforcement Learning with Digital-Twin Simulation
+            - generic [ref=f11e80]: "#ReinforcementLearning"
+            - text: ↗
+          - listitem [ref=f11e81]:
+            - generic [ref=f11e82]: ◈
+            - generic [ref=f11e83]: Long-horizon Generalizable Task with Robot Foundation Models (RFM)
+            - generic [ref=f11e84]: "#RobotFoundationModels"
+            - text: ↗
+        - generic "Robot Intelligence videos" [ref=f11e85]:
+          - generic [ref=f11e86]:
+            - generic "Samsung Research mobile manipulator teleoperation" [ref=f11e87]
+            - text: Samsung Research mobile manipulator teleoperation
+          - generic [ref=f11e88]:
+            - generic "SR teleoperation" [ref=f11e89]
+            - text: SR teleoperation
+    - generic [ref=f11e92]:
+      - generic [ref=f11e93]: Conference Calendar
+      - complementary [ref=f11e95]:
+        - paragraph [ref=f11e96]: Research community
+        - heading "Conference Calendar & Locations" [level=2] [ref=f11e97]
+        - paragraph [ref=f11e98]: A 2026–2029 overview of major conference locations, dates, and regional announcements.
+        - link "View the conference calendar ↗" [ref=f11e99] [cursor=pointer]:
+          - /url: /conference-timeline/
+          - text: View the conference calendar
+          - generic [ref=f11e100]: ↗
+  - contentinfo [ref=f11e102]:
+    - paragraph [ref=f11e103]: © 2026 DGIST ROBIN Lab

@@ -1,0 +1,81 @@
+- generic [active] [ref=f17e1]:
+  - banner [ref=f17e4]:
+    - navigation [ref=f17e5]:
+      - link "DGIST ROBIN Lab" [ref=f17e7] [cursor=pointer]:
+        - /url: /
+      - img "Open Menu" [ref=f17e9] [cursor=pointer]
+      - list [ref=f17e11]:
+        - listitem [ref=f17e12]:
+          - link "Research" [ref=f17e13] [cursor=pointer]:
+            - /url: /research/
+        - listitem [ref=f17e14]:
+          - link "Projects" [ref=f17e15] [cursor=pointer]:
+            - /url: /projects/
+        - listitem [ref=f17e16]:
+          - link "Publications" [ref=f17e17] [cursor=pointer]:
+            - /url: /publications/
+        - listitem [ref=f17e18]:
+          - button "Team" [ref=f17e19] [cursor=pointer]
+        - listitem [ref=f17e22]:
+          - link "News" [ref=f17e23] [cursor=pointer]:
+            - /url: /news/
+        - listitem [ref=f17e24]:
+          - link "Join" [ref=f17e25] [cursor=pointer]:
+            - /url: /join/
+        - listitem [ref=f17e26]:
+          - link "Contact" [ref=f17e27] [cursor=pointer]:
+            - /url: /contact/
+  - generic [ref=f17e28]:
+    - generic [ref=f17e33]:
+      - generic [ref=f17e34]:
+        - paragraph [ref=f17e35]: DGIST · Department of Robotics and Mechatronics Engineering
+        - heading [level=1] [ref=f17e36]:
+          - text: ROBIN
+          - emphasis [ref=f17e37]: Lab
+        - paragraph [ref=f17e38]: From human intent to physical intelligence.
+        - paragraph [ref=f17e39]: We combine high-fidelity teleoperation, digital twins, and robot learning to build Physical AI systems that seamlessly operate in complex real-world environments.
+        - generic [ref=f17e40]:
+          - link "Explore Research →" [ref=f17e41] [cursor=pointer]:
+            - /url: /research/
+            - text: Explore Research
+            - generic [ref=f17e42]: →
+          - link "Publications 📄" [ref=f17e43] [cursor=pointer]:
+            - /url: /publications/
+            - text: Publications
+            - generic [ref=f17e44]: 📄
+          - link "Open Positions →" [ref=f17e45] [cursor=pointer]:
+            - /url: /join/
+            - text: Open Positions
+            - generic [ref=f17e46]: →
+          - link "YouTube ↗" [ref=f17e47] [cursor=pointer]:
+            - /url: https://www.youtube.com/channel/UCC_Sw4ynsuwJ_RiO1LQwHew
+            - text: YouTube
+            - generic [ref=f17e48]: ↗
+      - generic "ROBIN dual RB5 cloth demonstration" [ref=f17e50]
+      - paragraph [ref=f17e51]: ROBOT INTERFACE, INTERACTION, AND INTELLIGENCE LABORATORY
+    - generic [ref=f17e54]:
+      - generic [ref=f17e55]: Research in Action
+      - generic [ref=f17e57]:
+        - generic [ref=f17e58]:
+          - generic [ref=f17e59]:
+            - paragraph [ref=f17e60]: "01"
+            - heading "Robot Interface" [level=3] [ref=f17e61]
+          - generic [ref=f17e62]:
+            - generic "Robot Interface VIST demonstration" [ref=f17e63]
+            - generic "Robot Interface markerless VIST demonstration" [ref=f17e64]
+        - generic [ref=f17e65]:
+          - generic [ref=f17e66]:
+            - paragraph [ref=f17e67]: "02"
+            - heading "Robot Interaction" [level=3] [ref=f17e68]
+          - generic [ref=f17e69]:
+            - generic "Robot Interaction winch simulation" [ref=f17e70]
+            - generic "Robot Interaction RAL results" [ref=f17e71]
+        - generic [ref=f17e72]:
+          - generic [ref=f17e73]:
+            - paragraph [ref=f17e74]: "03"
+            - heading "Robot Intelligence" [level=3] [ref=f17e75]
+          - generic [ref=f17e76]:
+            - generic "Robot Intelligence mobile manipulator teleoperation demonstration" [ref=f17e77]
+            - generic "Robot Intelligence SR teleoperation demonstration" [ref=f17e78]
+  - contentinfo [ref=f17e80]:
+    - paragraph [ref=f17e81]: © 2026 DGIST ROBIN Lab

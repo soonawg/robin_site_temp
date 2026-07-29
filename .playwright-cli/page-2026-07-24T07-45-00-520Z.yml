@@ -1,0 +1,131 @@
+- generic [active] [ref=f4e1]:
+  - banner [ref=f4e4]:
+    - navigation [ref=f4e5]:
+      - link "DGIST ROBIN Lab" [ref=f4e7] [cursor=pointer]:
+        - /url: /
+      - list [ref=f4e8]:
+        - listitem [ref=f4e9]:
+          - link "Research" [ref=f4e10] [cursor=pointer]:
+            - /url: /research/
+        - listitem [ref=f4e11]:
+          - link "Projects" [ref=f4e12] [cursor=pointer]:
+            - /url: /projects/
+        - listitem [ref=f4e13]:
+          - link "Publications" [ref=f4e14] [cursor=pointer]:
+            - /url: /publications/
+        - listitem [ref=f4e15]:
+          - link "Team" [ref=f4e16] [cursor=pointer]:
+            - /url: /team/
+        - listitem [ref=f4e17]:
+          - link "News" [ref=f4e18] [cursor=pointer]:
+            - /url: /news/
+        - listitem [ref=f4e19]:
+          - link "Join" [ref=f4e20] [cursor=pointer]:
+            - /url: /join/
+        - listitem [ref=f4e21]:
+          - link "Contact" [ref=f4e22] [cursor=pointer]:
+            - /url: /contact/
+  - generic [ref=f4e23]:
+    - article [ref=f4e25]:
+      - heading "Team" [level=1] [ref=f4e26]
+      - generic [ref=f4e27]:
+        - radio "Guitar" [checked] [ref=f4e28]
+        - radio "Cycling" [ref=f4e29]
+        - radio "Games" [ref=f4e30]
+        - generic [ref=f4e31]: Principal Investigator
+        - generic [ref=f4e32]:
+          - generic [ref=f4e33]:
+            - heading [level=1] [ref=f4e34]:
+              - text: Yong-SeokLee,
+              - emphasis [ref=f4e35]: Ph.D.
+            - paragraph [ref=f4e36]: Assistant Professor · Department of Robotics and Mechatronics Engineering · DGIST
+          - generic [ref=f4e37]:
+            - link "yslee@dgist.ac.kr" [ref=f4e38] [cursor=pointer]:
+              - /url: mailto:yslee@dgist.ac.kr
+            - paragraph [ref=f4e39]: "Bldg E5 #211, 333 Techno jungang-daeroHyeonpung-eup, Dalseong-gun, Daegu 42988, Korea"
+            - paragraph [ref=f4e40]:
+              - link "Google Scholar" [ref=f4e41] [cursor=pointer]:
+                - /url: https://scholar.google.com/
+              - text: ·
+              - link "CV" [ref=f4e42] [cursor=pointer]:
+                - /url: https://drive.google.com/
+          - figure [ref=f4e43]:
+            - img "Yong-Seok Lee" [ref=f4e44]
+        - generic [ref=f4e45]:
+          - generic [ref=f4e46]:
+            - heading "Education" [level=2] [ref=f4e47]
+            - paragraph [ref=f4e48]: Ph.D. in Mechanical Engineering, Seoul National University, 2021
+            - paragraph [ref=f4e49]: B.S. in Mechanical and Aerospace Engineering, Seoul National University, 2013 (Cum Laude, Top 12%)
+          - generic [ref=f4e50]:
+            - heading "Positions" [level=2] [ref=f4e51]
+            - paragraph [ref=f4e52]: Assistant Professor, DGIST, Korea, 2026–Present
+            - paragraph [ref=f4e53]: BK Assistant Professor, Seoul National University, Korea, 2024–2026
+            - paragraph [ref=f4e54]: Staff Engineer, Global AI Center, Samsung Research, 2021–2024
+        - button "Outside the lab ↗" [ref=f4e56] [cursor=pointer]:
+          - text: Outside the lab
+          - generic [ref=f4e57]: ↗
+      - heading "Members" [level=2] [ref=f4e58]
+      - heading "M.S. Students" [level=3] [ref=f4e59]
+      - list [ref=f4e60]:
+        - listitem [ref=f4e61]:
+          - text: Kyu-Tae Lee — MS student (2026S–) ·
+          - link "leekyutae@dgist.ac.kr" [ref=f4e62] [cursor=pointer]:
+            - /url: mailto:leekyutae@dgist.ac.kr
+        - listitem [ref=f4e63]:
+          - text: Yu-Seong Cheon — MS student (2026F–) ·
+          - link "cjsdntjd1234@gmail.com" [ref=f4e64] [cursor=pointer]:
+            - /url: mailto:cjsdntjd1234@gmail.com
+        - listitem [ref=f4e65]:
+          - text: Hwan-Chul La — MS student (2026F–) ·
+          - link "fkghkscjf@gmail.com" [ref=f4e66] [cursor=pointer]:
+            - /url: mailto:fkghkscjf@gmail.com
+      - heading "Undergraduate Students" [level=3] [ref=f4e67]
+      - paragraph [ref=f4e68]: Hye-Sung Lee · Jun-Hyeok Lee · Kang-Jae Seong · Yu-Bin Jeon · Sang-Woo Han · Young-Chan Shim · Sun-hong Min · Ui-Seong Shin · Tae-Yoon Kang · Min-Jae Kim · Tae-ho Kim · Min-Hyung Lee
+    - generic [ref=f4e70]:
+      - article [ref=f4e71]:
+        - link [ref=f4e73] [cursor=pointer]:
+          - /url: /team/pi/
+        - generic [ref=f4e78]:
+          - heading [level=3] [ref=f4e79]:
+            - link "Principal Investigator" [ref=f4e80] [cursor=pointer]:
+              - /url: /team/pi/
+          - paragraph [ref=f4e81]: Yong-Seok Lee, P.I.
+          - generic [ref=f4e82]:
+            - generic [ref=f4e83]:
+              - time [ref=f4e84]: Jan 1, 0001
+              - generic [ref=f4e85]: •
+              - generic [ref=f4e86]: 1 min read
+            - link "Read more" [ref=f4e88] [cursor=pointer]:
+              - /url: /team/pi/
+      - article [ref=f4e92]:
+        - link [ref=f4e94] [cursor=pointer]:
+          - /url: /team/members/
+        - generic [ref=f4e99]:
+          - heading [level=3] [ref=f4e100]:
+            - link "Members" [ref=f4e101] [cursor=pointer]:
+              - /url: /team/members/
+          - paragraph [ref=f4e102]: ROBIN Lab members
+          - generic [ref=f4e103]:
+            - generic [ref=f4e104]:
+              - time [ref=f4e105]: Jan 1, 0001
+              - generic [ref=f4e106]: •
+              - generic [ref=f4e107]: 1 min read
+            - link "Read more" [ref=f4e109] [cursor=pointer]:
+              - /url: /team/members/
+  - contentinfo [ref=f4e114]:
+    - paragraph [ref=f4e115]:
+      - link "Creative Commons":
+        - /url: https://creativecommons.org/licenses/by-nc-nd/4.0
+      - link "Creative Commons" [ref=f4e116] [cursor=pointer]:
+        - /url: https://creativecommons.org/licenses/by-nc-nd/4.0
+    - paragraph [ref=f4e125]:
+      - text: © 2026 DGIST Department of Robotics & Mechatronics Engineering. This work is licensed under
+      - link "CC BY NC ND 4.0" [ref=f4e126] [cursor=pointer]:
+        - /url: https://creativecommons.org/licenses/by-nc-nd/4.0
+    - paragraph [ref=f4e127]:
+      - text: Made with
+      - link "Hugo Blox — Open Source" [ref=f4e128] [cursor=pointer]:
+        - /url: https://hugoblox.com/templates/academic-cv?utm_source=site_footer&utm_medium=referral&utm_campaign=poweredby_oss&utm_content=brand_academic-cv&start=1
+      - text: .
+      - link "Create your site →" [ref=f4e129] [cursor=pointer]:
+        - /url: https://hugo.chat?utm_source=site_footer&utm_medium=referral&utm_campaign=poweredby_oss&utm_content=cta_academic-cv&template_id=academic-cv

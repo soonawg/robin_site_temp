@@ -1,0 +1,389 @@
+- generic [active] [ref=f7e1]:
+  - banner [ref=f7e4]:
+    - navigation [ref=f7e5]:
+      - link "DGIST ROBIN Lab" [ref=f7e7] [cursor=pointer]:
+        - /url: /
+      - img "Open Menu" [ref=f7e9] [cursor=pointer]
+  - generic [ref=f7e14]:
+    - generic [ref=f7e15]: Publications
+    - generic [ref=f7e17]:
+      - paragraph [ref=f7e18]:
+        - text: † indicates co-corresponding authors. For the most current links and PDFs, visit
+        - link "Google Scholar ↗" [ref=f7e19] [cursor=pointer]:
+          - /url: https://scholar.google.com/citations?user=iMjIpUkAAAAJ&hl=ko
+        - text: .
+      - heading "International Journal" [level=2] [ref=f7e20]
+      - list [ref=f7e21]:
+        - listitem [ref=f7e22]:
+          - generic [ref=f7e23]:
+            - generic [ref=f7e24]:
+              - strong [ref=f7e25]: Y. Lee
+              - text: ", H. Park, H. Kim, H. Ji, and"
+              - strong [ref=f7e26]: D. J. Lee
+              - text: ","
+            - generic [ref=f7e27]: Human-in-the-Loop Object Segmentation for 3D Gaussian-Splatting,
+            - generic [ref=f7e28]: Advanced Intelligent Systems, 2026.
+          - generic [ref=f7e29]:
+            - generic "PDF link pending" [ref=f7e30]: PDF
+            - generic "Code link pending" [ref=f7e31]: Code
+            - generic "Video link pending" [ref=f7e32]: Video
+            - generic "Project Page link pending" [ref=f7e33]: Project Page
+        - listitem [ref=f7e34]:
+          - generic [ref=f7e35]:
+            - generic [ref=f7e36]:
+              - text: J. Heo, H. Kim, E. Lee,
+              - strong [ref=f7e37]: Y. Lee
+              - text: ", H. Park,"
+              - strong [ref=f7e38]: Y. Lee
+              - text: †, and
+              - strong [ref=f7e39]: D. J. Lee
+              - text: †,
+            - generic [ref=f7e40]: "Finger-based 3D Human-Swarm Interaction Interface: Design and Human-Subject Evaluation,"
+            - generic [ref=f7e41]: Expert Systems with Applications, 2026.
+          - generic [ref=f7e42]:
+            - generic "PDF link pending" [ref=f7e43]: PDF
+            - generic "Code link pending" [ref=f7e44]: Code
+            - generic "Video link pending" [ref=f7e45]: Video
+            - generic "Project Page link pending" [ref=f7e46]: Project Page
+        - listitem [ref=f7e47]:
+          - generic [ref=f7e48]:
+            - generic [ref=f7e49]:
+              - strong [ref=f7e50]: Y. Lee
+              - text: and
+              - strong [ref=f7e51]: D. J. Lee
+              - text: ","
+            - generic [ref=f7e52]: Enlarging Error Detection Threshold of IMU-based Hand Tracking in VR with Haptic Feedback,
+            - generic [ref=f7e53]: International Journal of Human-Computer Interaction, 2025.
+          - generic [ref=f7e54]:
+            - generic "PDF link pending" [ref=f7e55]: PDF
+            - generic "Code link pending" [ref=f7e56]: Code
+            - generic "Video link pending" [ref=f7e57]: Video
+            - generic "Project Page link pending" [ref=f7e58]: Project Page
+        - listitem [ref=f7e59]:
+          - generic [ref=f7e61]:
+            - generic [ref=f7e62]:
+              - strong [ref=f7e63]: Y. Lee
+              - text: ", H. Kim, H. Ji, J. Heo,"
+              - strong [ref=f7e64]: Y. Lee
+              - text: ", H. Park, and"
+              - strong [ref=f7e65]: D. J. Lee
+              - text: ","
+            - generic [ref=f7e66]: Human-in-the-Loop Gaussian Splatting for Robotic Teleoperation,
+            - generic [ref=f7e67]: IEEE Robotics and Automation Letters, 2025.
+          - generic "Human-in-the-Loop robotic teleoperation preview" [ref=f7e68]
+          - generic [ref=f7e69]:
+            - generic "PDF link pending" [ref=f7e70]: PDF
+            - generic "Code link pending" [ref=f7e71]: Code
+            - link "Video preview" [ref=f7e72] [cursor=pointer]:
+              - /url: /media/sr-teleoperation.mp4
+              - text: Video
+            - generic "Project Page link pending" [ref=f7e73]: Project Page
+        - listitem [ref=f7e74]:
+          - generic [ref=f7e76]:
+            - generic [ref=f7e77]:
+              - strong [ref=f7e78]: Y. Lee
+              - text: ", W. Do, H. Yoon, J. Heo, W. Lee, and"
+              - strong [ref=f7e79]: D. J. Lee
+              - text: ","
+            - generic [ref=f7e80]: Visual-inertial hand motion tracking with robustness against occlusion, interference,
+            - generic [ref=f7e81]: Science Robotics, 2021.
+          - generic "Visual-inertial hand tracking preview" [ref=f7e82]
+          - generic [ref=f7e83]:
+            - generic "PDF link pending" [ref=f7e84]: PDF
+            - generic "Code link pending" [ref=f7e85]: Code
+            - link "Video preview" [ref=f7e86] [cursor=pointer]:
+              - /url: /media/vist-trimmed.mp4
+              - text: Video
+            - generic "Project Page link pending" [ref=f7e87]: Project Page
+        - listitem [ref=f7e88]:
+          - generic [ref=f7e89]:
+            - generic [ref=f7e90]:
+              - strong [ref=f7e91]: Y. Lee
+              - text: ", S. Lee, and"
+              - strong [ref=f7e92]: D. J. Lee
+              - text: ","
+            - generic [ref=f7e93]: Wearable Haptic Device for Stiffness Rendering of Virtual Objects in Augmented Reality,
+            - generic [ref=f7e94]: Applied Sciences, 2021.
+          - generic [ref=f7e95]:
+            - generic "PDF link pending" [ref=f7e96]: PDF
+            - generic "Code link pending" [ref=f7e97]: Code
+            - generic "Video link pending" [ref=f7e98]: Video
+            - generic "Project Page link pending" [ref=f7e99]: Project Page
+        - listitem [ref=f7e100]:
+          - generic [ref=f7e101]:
+            - generic [ref=f7e102]:
+              - strong [ref=f7e103]: Y. Lee
+              - text: ", M. Kim,"
+              - strong [ref=f7e104]: Y. Lee
+              - text: ", J. Kwon, Y-L. Park, and"
+              - strong [ref=f7e105]: D. J. Lee
+              - text: ","
+            - generic [ref=f7e106]: Wearable Cutaneous Haptic Interface for Multi-Fingered Virtual Manipulation,
+            - generic [ref=f7e107]: IEEE/ASME Transactions on Mechatronics, 2019.
+          - generic [ref=f7e108]:
+            - generic "PDF link pending" [ref=f7e109]: PDF
+            - generic "Code link pending" [ref=f7e110]: Code
+            - generic "Video link pending" [ref=f7e111]: Video
+            - generic "Project Page link pending" [ref=f7e112]: Project Page
+        - listitem [ref=f7e113]:
+          - generic [ref=f7e114]:
+            - generic [ref=f7e115]:
+              - text: M. Kim,
+              - strong [ref=f7e116]: Y. Lee
+              - text: ","
+              - strong [ref=f7e117]: Y. Lee
+              - text: ", and"
+              - strong [ref=f7e118]: D. J. Lee
+              - text: ","
+            - generic [ref=f7e119]: Haptic Rendering and Interactive Simulation using Passive Midpoint Integration,
+            - generic [ref=f7e120]: International Journal of Robotics Research, 2017.
+          - generic [ref=f7e121]:
+            - generic "PDF link pending" [ref=f7e122]: PDF
+            - generic "Code link pending" [ref=f7e123]: Code
+            - generic "Video link pending" [ref=f7e124]: Video
+            - generic "Project Page link pending" [ref=f7e125]: Project Page
+        - listitem [ref=f7e126]:
+          - generic [ref=f7e127]:
+            - generic [ref=f7e128]:
+              - text: H. Yang,
+              - strong [ref=f7e129]: Y. Lee
+              - text: ", S-Y. Jeon, and"
+              - strong [ref=f7e130]: D. J. Lee
+              - text: ","
+            - generic [ref=f7e131]: "Multi-Rotor Drone Tutorial: Systems, Mechanics, Control and State Estimation,"
+            - generic [ref=f7e132]: Intelligent Service Robotics, 2017.
+          - generic [ref=f7e133]:
+            - generic "PDF link pending" [ref=f7e134]: PDF
+            - generic "Code link pending" [ref=f7e135]: Code
+            - generic "Video link pending" [ref=f7e136]: Video
+            - generic "Project Page link pending" [ref=f7e137]: Project Page
+      - heading "International Conference" [level=2] [ref=f7e138]
+      - list [ref=f7e139]:
+        - listitem [ref=f7e140]:
+          - generic [ref=f7e141]:
+            - generic [ref=f7e142]:
+              - text: H. Ji,
+              - strong [ref=f7e143]: Y. Lee
+              - text: †, and
+              - strong [ref=f7e144]: D. J. Lee
+              - text: †,
+            - generic [ref=f7e145]: "TE-SDF: Tetra-Encoded Signed Distance Field for Memory-Efficient and Accurate Collision Detection,"
+            - generic [ref=f7e146]: RSS, 2026.
+          - generic [ref=f7e147]:
+            - generic "PDF link pending" [ref=f7e148]: PDF
+            - generic "Code link pending" [ref=f7e149]: Code
+            - generic "Video link pending" [ref=f7e150]: Video
+            - generic "Project Page link pending" [ref=f7e151]: Project Page
+        - listitem [ref=f7e152]:
+          - generic [ref=f7e154]:
+            - generic [ref=f7e155]:
+              - text: H. Choi, H. Park, H. Ji, S. Lee,
+              - strong [ref=f7e156]: Y. Lee
+              - text: †, and
+              - strong [ref=f7e157]: D. J. Lee
+              - text: †,
+            - generic [ref=f7e158]: Markerless Tracking of Human Hand Motion using Vision and Inertial Measurements,
+            - generic [ref=f7e159]: ICRA, 2026.
+          - generic "Markerless tracking preview" [ref=f7e160]
+          - generic [ref=f7e161]:
+            - generic "PDF link pending" [ref=f7e162]: PDF
+            - generic "Code link pending" [ref=f7e163]: Code
+            - link "Video preview" [ref=f7e164] [cursor=pointer]:
+              - /url: /media/markerless-vist.mp4
+              - text: Video
+            - generic "Project Page link pending" [ref=f7e165]: Project Page
+        - listitem [ref=f7e166]:
+          - generic [ref=f7e167]:
+            - generic [ref=f7e168]:
+              - strong [ref=f7e169]: Y. Lee
+              - text: ","
+              - strong [ref=f7e170]: Y. Lee
+              - text: ", H. Lee, H. Lee, and"
+              - strong [ref=f7e171]: D. J. Lee
+              - text: ","
+            - generic [ref=f7e172]: VR Hand-Demonstration Platform with Visual–Inertial Hand Tracking and GS-Articulated Objects for Dexterous Manipulation,
+            - generic [ref=f7e173]: IROS Workshop, 2025.
+          - generic [ref=f7e174]:
+            - generic "PDF link pending" [ref=f7e175]: PDF
+            - generic "Code link pending" [ref=f7e176]: Code
+            - generic "Video link pending" [ref=f7e177]: Video
+            - generic "Project Page link pending" [ref=f7e178]: Project Page
+        - listitem [ref=f7e179]:
+          - generic [ref=f7e181]:
+            - generic [ref=f7e182]:
+              - text: H. Ji, H. Kim, J. Lee, S. Lee, S. An, J. Heo,
+              - strong [ref=f7e183]: Y. Lee
+              - text: ","
+              - strong [ref=f7e184]: Y. Lee
+              - text: ", and"
+              - strong [ref=f7e185]: D. J. Lee
+              - text: ","
+            - generic [ref=f7e186]: GPU-Accelerated Subsystem-Based ADMM for Large-Scale Interactive Simulation,
+            - generic [ref=f7e187]: ICRA, 2025.
+          - generic "Interactive simulation preview" [ref=f7e188]
+          - generic [ref=f7e189]:
+            - generic "PDF link pending" [ref=f7e190]: PDF
+            - generic "Code link pending" [ref=f7e191]: Code
+            - link "Video preview" [ref=f7e192] [cursor=pointer]:
+              - /url: /media/winch-simulation.mp4
+              - text: Video
+            - generic "Project Page link pending" [ref=f7e193]: Project Page
+        - listitem [ref=f7e194]:
+          - generic [ref=f7e195]:
+            - generic [ref=f7e196]:
+              - strong [ref=f7e197]: Y. Lee
+              - text: ","
+            - generic [ref=f7e198]: Visual-inertial skeletal tracking algorithm for human hand motion,
+            - generic [ref=f7e199]: BioRob Workshop, 2022.
+          - generic [ref=f7e200]:
+            - generic "PDF link pending" [ref=f7e201]: PDF
+            - generic "Code link pending" [ref=f7e202]: Code
+            - generic "Video link pending" [ref=f7e203]: Video
+            - generic "Project Page link pending" [ref=f7e204]: Project Page
+        - listitem [ref=f7e205]:
+          - generic [ref=f7e206]:
+            - generic [ref=f7e207]:
+              - strong [ref=f7e208]: Y. Lee
+              - text: ", W. Do, H. Yoon, W. Lee, and"
+              - strong [ref=f7e209]: D. J. Lee
+              - text: ","
+            - generic [ref=f7e210]: Robust Wearable Visual-Inertial Hand Tracking Interface,
+            - generic [ref=f7e211]: IROS Workshop, 2019.
+          - generic [ref=f7e212]:
+            - generic "PDF link pending" [ref=f7e213]: PDF
+            - generic "Code link pending" [ref=f7e214]: Code
+            - generic "Video link pending" [ref=f7e215]: Video
+            - generic "Project Page link pending" [ref=f7e216]: Project Page
+        - listitem [ref=f7e217]:
+          - generic [ref=f7e218]:
+            - generic [ref=f7e219]:
+              - strong [ref=f7e220]: Y. Lee
+              - text: ", J. Yoon, H. Yang, C. Kim, and"
+              - strong [ref=f7e221]: D. J. Lee
+              - text: ","
+            - generic [ref=f7e222]: Camera-GPS-IMU Sensor Fusion for Autonomous Flying,
+            - generic [ref=f7e223]: ICUFN, 2016.
+          - generic [ref=f7e224]:
+            - generic "PDF link pending" [ref=f7e225]: PDF
+            - generic "Code link pending" [ref=f7e226]: Code
+            - generic "Video link pending" [ref=f7e227]: Video
+            - generic "Project Page link pending" [ref=f7e228]: Project Page
+        - listitem [ref=f7e229]:
+          - generic [ref=f7e230]:
+            - generic [ref=f7e231]:
+              - text: M. Kim, I. Jang,
+              - strong [ref=f7e232]: Y. Lee
+              - text: ","
+              - strong [ref=f7e233]: Y. Lee
+              - text: ", and"
+              - strong [ref=f7e234]: D. J. Lee
+              - text: ","
+            - generic [ref=f7e235]: Wearable 3-DOF Cutaneous Haptic Device with Integrated IMU-Based Finger Tracking,
+            - generic [ref=f7e236]: URAI, 2016.
+          - generic [ref=f7e237]:
+            - generic "PDF link pending" [ref=f7e238]: PDF
+            - generic "Code link pending" [ref=f7e239]: Code
+            - generic "Video link pending" [ref=f7e240]: Video
+            - generic "Project Page link pending" [ref=f7e241]: Project Page
+        - listitem [ref=f7e242]:
+          - generic [ref=f7e243]:
+            - generic [ref=f7e244]:
+              - strong [ref=f7e245]: Y. Lee
+              - text: ", J. Yoon, H. Yang, C. Kim, and"
+              - strong [ref=f7e246]: D. J. Lee
+              - text: ","
+            - generic [ref=f7e247]: Camera-GPS-IMU Sensor Fusion for Autonomous Flying using Information Filter Based Frame Calibration,
+            - generic [ref=f7e248]: ICCAS, 2016.
+          - generic [ref=f7e249]:
+            - generic "PDF link pending" [ref=f7e250]: PDF
+            - generic "Code link pending" [ref=f7e251]: Code
+            - generic "Video link pending" [ref=f7e252]: Video
+            - generic "Project Page link pending" [ref=f7e253]: Project Page
+        - listitem [ref=f7e254]:
+          - generic [ref=f7e255]:
+            - generic [ref=f7e256]:
+              - strong [ref=f7e257]: Y. Lee
+              - text: ", I. Jang, and"
+              - strong [ref=f7e258]: D. J. Lee
+              - text: ","
+            - generic [ref=f7e259]: Enlarging Just Noticeable Differences of Visual-Proprioceptive Conflict in VR using Haptic Feedback,
+            - generic [ref=f7e260]: World Haptics Conference, 2015.
+          - generic [ref=f7e261]:
+            - generic "PDF link pending" [ref=f7e262]: PDF
+            - generic "Code link pending" [ref=f7e263]: Code
+            - generic "Video link pending" [ref=f7e264]: Video
+            - generic "Project Page link pending" [ref=f7e265]: Project Page
+        - listitem [ref=f7e266]:
+          - generic [ref=f7e268]:
+            - generic [ref=f7e269]:
+              - text: C. Ha, S. Park, J. Her, I. Jang,
+              - strong [ref=f7e270]: Y. Lee
+              - text: ", G. Cho, H. Son, and"
+              - strong [ref=f7e271]: D. J. Lee
+              - text: ","
+            - generic [ref=f7e272]: Whole-Body Multi-Modal Semi-Autonomous Teleoperation of Mobile Manipulator Systems,
+            - generic [ref=f7e273]: ICRA, 2015.
+          - generic "Mobile manipulator preview" [ref=f7e274]
+          - generic [ref=f7e275]:
+            - generic "PDF link pending" [ref=f7e276]: PDF
+            - generic "Code link pending" [ref=f7e277]: Code
+            - link "Video preview" [ref=f7e278] [cursor=pointer]:
+              - /url: /media/samsung-research-mobile-manipulator.mp4
+              - text: Video
+            - generic "Project Page link pending" [ref=f7e279]: Project Page
+      - heading "Patents" [level=2] [ref=f7e280]
+      - list [ref=f7e281]:
+        - listitem [ref=f7e282]:
+          - generic [ref=f7e283]:
+            - generic [ref=f7e284]:
+              - strong [ref=f7e285]: Y. Lee
+              - text: ", S. Kwak, and G. Lee,"
+            - generic [ref=f7e286]: Method and electronic device for obtaining spatial map,
+            - generic [ref=f7e287]: US 20240242502, July 2024.
+          - generic [ref=f7e288]:
+            - generic "PDF link pending" [ref=f7e289]: PDF
+            - generic "Code link pending" [ref=f7e290]: Code
+            - generic "Video link pending" [ref=f7e291]: Video
+            - generic "Project Page link pending" [ref=f7e292]: Project Page
+        - listitem [ref=f7e293]:
+          - generic [ref=f7e294]:
+            - generic [ref=f7e295]:
+              - strong [ref=f7e296]: Y. Lee
+              - text: ", S. Kwak, and G. Lee,"
+            - generic [ref=f7e297]: Method and electronic device for obtaining spatial map,
+            - generic [ref=f7e298]: KR 1020230057771, May 2023.
+          - generic [ref=f7e299]:
+            - generic "PDF link pending" [ref=f7e300]: PDF
+            - generic "Code link pending" [ref=f7e301]: Code
+            - generic "Video link pending" [ref=f7e302]: Video
+            - generic "Project Page link pending" [ref=f7e303]: Project Page
+        - listitem [ref=f7e304]:
+          - generic [ref=f7e305]:
+            - generic [ref=f7e306]:
+              - strong [ref=f7e307]: Y. Lee
+              - text: ", S. Kwak, and G. Lee,"
+            - generic [ref=f7e308]: Method for controlling plurality of electronic devices based on context of user, and computing device for performing the same,
+            - generic [ref=f7e309]: KR 1020230082135, June 2023.
+          - generic [ref=f7e310]:
+            - generic "PDF link pending" [ref=f7e311]: PDF
+            - generic "Code link pending" [ref=f7e312]: Code
+            - generic "Video link pending" [ref=f7e313]: Video
+            - generic "Project Page link pending" [ref=f7e314]: Project Page
+        - listitem [ref=f7e315]:
+          - generic [ref=f7e316]:
+            - generic [ref=f7e317]:
+              - strong [ref=f7e318]: D. J. Lee
+              - text: ","
+              - strong [ref=f7e319]: Y. Lee
+              - text: ", J. Heo, S. Lee, and"
+              - strong [ref=f7e320]: Y. Lee
+              - text: ","
+            - generic [ref=f7e321]: System and method for tracking hand motion using strong coupling fusion of image sensor and inertial sensor,
+            - generic [ref=f7e322]: KR 1020210192663A, October 2022.
+          - generic [ref=f7e323]:
+            - generic "PDF link pending" [ref=f7e324]: PDF
+            - generic "Code link pending" [ref=f7e325]: Code
+            - generic "Video link pending" [ref=f7e326]: Video
+            - generic "Project Page link pending" [ref=f7e327]: Project Page
+  - contentinfo [ref=f7e329]:
+    - paragraph [ref=f7e330]: © 2026 DGIST ROBIN Lab

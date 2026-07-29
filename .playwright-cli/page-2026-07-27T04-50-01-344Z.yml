@@ -1,0 +1,57 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e4]:
+    - navigation [ref=e5]:
+      - link "DGIST ROBIN Lab" [ref=e7] [cursor=pointer]:
+        - /url: /
+      - list [ref=e8]:
+        - listitem [ref=e9]:
+          - link "Research" [ref=e10] [cursor=pointer]:
+            - /url: /research/
+        - listitem [ref=e11]:
+          - link "Projects" [ref=e12] [cursor=pointer]:
+            - /url: /projects/
+        - listitem [ref=e13]:
+          - link "Publications" [ref=e14] [cursor=pointer]:
+            - /url: /publications/
+        - listitem [ref=e15]:
+          - link "Team" [ref=e16] [cursor=pointer]:
+            - /url: /team/
+        - listitem [ref=e17]:
+          - link "News" [ref=e18] [cursor=pointer]:
+            - /url: /news/
+        - listitem [ref=e19]:
+          - link "Join" [ref=e20] [cursor=pointer]:
+            - /url: /join/
+        - listitem [ref=e21]:
+          - link "Contact" [ref=e22] [cursor=pointer]:
+            - /url: /contact/
+  - article [ref=e25]:
+    - heading "Contact" [level=1] [ref=e26]
+    - generic [ref=e27]:
+      - generic [ref=e28]:
+        - paragraph [ref=e29]: Find ROBIN
+        - heading "Come visit the lab." [level=1] [ref=e30]
+        - paragraph [ref=e31]: ROBIN Lab is based in the Department of Robotics and Mechatronics Engineering at DGIST, Daegu, Korea.
+      - generic [ref=e32]:
+        - article [ref=e33]:
+          - paragraph [ref=e34]: Address
+          - heading "DGIST · Building E5" [level=2] [ref=e35]
+          - paragraph [ref=e36]: "Room #211333 Techno jungang-daeroHyeonpung-eup, Dalseong-gunDaegu 42988, Korea"
+          - link "Open in Google Maps ↗" [ref=e37] [cursor=pointer]:
+            - /url: https://www.google.com/maps/search/?api=1&query=DGIST%20E5%20Building%2C%20333%20Techno%20jungang-daero%2C%20Daegu%2C%20Korea
+            - text: Open in Google Maps
+            - generic [ref=e38]: ↗
+        - article [ref=e39]:
+          - generic [ref=e40]: ROBIN
+          - generic [ref=e45]:
+            - paragraph [ref=e46]: Directions
+            - paragraph [ref=e47]: Use the map link for the latest campus route and building location.
+        - article [ref=e48]:
+          - paragraph [ref=e49]: Direct contact
+          - heading "Yong-Seok Lee" [level=2] [ref=e50]
+          - paragraph [ref=e51]: Assistant ProfessorDepartment of Robotics and Mechatronics Engineering · DGIST
+          - link "yslee@dgist.ac.kr" [ref=e52] [cursor=pointer]:
+            - /url: mailto:yslee@dgist.ac.kr
+          - paragraph [ref=e53]: +82 10-2961-5020
+  - contentinfo [ref=e56]:
+    - paragraph [ref=e57]: © 2026 DGIST ROBIN Lab

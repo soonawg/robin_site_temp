@@ -1,0 +1,136 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e4]:
+    - navigation [ref=e5]:
+      - link "DGIST ROBIN Lab" [ref=e7] [cursor=pointer]:
+        - /url: /
+      - list [ref=e8]:
+        - listitem [ref=e9]:
+          - link "Research" [ref=e10] [cursor=pointer]:
+            - /url: /research/
+        - listitem [ref=e11]:
+          - link "Projects" [ref=e12] [cursor=pointer]:
+            - /url: /projects/
+        - listitem [ref=e13]:
+          - link "Publications" [ref=e14] [cursor=pointer]:
+            - /url: /publications/
+        - listitem [ref=e15]:
+          - link "Team" [ref=e16] [cursor=pointer]:
+            - /url: /team/
+        - listitem [ref=e17]:
+          - link "News" [ref=e18] [cursor=pointer]:
+            - /url: /news/
+        - listitem [ref=e19]:
+          - link "Join" [ref=e20] [cursor=pointer]:
+            - /url: /join/
+        - listitem [ref=e21]:
+          - link "Contact" [ref=e22] [cursor=pointer]:
+            - /url: /contact/
+  - generic [ref=e23]:
+    - article [ref=e25]:
+      - heading "Publications" [level=1] [ref=e26]
+    - generic [ref=e29]:
+      - generic [ref=e30]:
+        - generic [ref=e31]:
+          - link "H. Ji" [ref=e33] [cursor=pointer]:
+            - /url: ""
+          - text: ","
+          - link "Y. Lee" [ref=e35] [cursor=pointer]:
+            - /url: ""
+          - text: ","
+          - link "D. J. Lee" [ref=e37] [cursor=pointer]:
+            - /url: ""
+        - text: (2026).
+        - 'link "TE-SDF: Tetra-Encoded Signed Distance Field for Memory-Efficient and Accurate Collision Detection" [ref=e38] [cursor=pointer]':
+          - /url: /publications/te-sdf/
+        - text: .
+        - emphasis [ref=e39]: RSS
+        - text: .
+      - generic [ref=e40]:
+        - generic [ref=e41]:
+          - link "H. Choi" [ref=e43] [cursor=pointer]:
+            - /url: ""
+          - text: ","
+          - link "H. Park" [ref=e45] [cursor=pointer]:
+            - /url: ""
+          - text: ","
+          - link "H. Ji" [ref=e47] [cursor=pointer]:
+            - /url: ""
+          - text: ","
+          - link "S. Lee" [ref=e49] [cursor=pointer]:
+            - /url: ""
+          - text: ","
+          - link "Y. Lee" [ref=e51] [cursor=pointer]:
+            - /url: ""
+          - text: ","
+          - link "D. J. Lee" [ref=e53] [cursor=pointer]:
+            - /url: ""
+        - text: (2026).
+        - link "Markerless Tracking of Human Hand Motion using Vision and Inertial Measurements" [ref=e54] [cursor=pointer]:
+          - /url: /publications/markerless-hand-tracking/
+        - text: .
+        - emphasis [ref=e55]: ICRA
+        - text: .
+      - generic [ref=e56]:
+        - generic [ref=e57]:
+          - link "Y. Lee" [ref=e59] [cursor=pointer]:
+            - /url: ""
+          - text: ","
+          - link "H. Park" [ref=e61] [cursor=pointer]:
+            - /url: ""
+          - text: ","
+          - link "H. Kim" [ref=e63] [cursor=pointer]:
+            - /url: ""
+          - text: ","
+          - link "H. Ji" [ref=e65] [cursor=pointer]:
+            - /url: ""
+          - text: ","
+          - link "D. J. Lee" [ref=e67] [cursor=pointer]:
+            - /url: ""
+        - text: (2026).
+        - link "Human-in-the-Loop Object Segmentation for 3D Gaussian-Splatting" [ref=e68] [cursor=pointer]:
+          - /url: /publications/hil-object-segmentation/
+        - text: .
+        - emphasis [ref=e69]: Advanced Intelligent Systems
+        - text: .
+      - generic [ref=e70]:
+        - generic [ref=e71]:
+          - link "J. Heo" [ref=e73] [cursor=pointer]:
+            - /url: ""
+          - text: ","
+          - link "H. Kim" [ref=e75] [cursor=pointer]:
+            - /url: ""
+          - text: ","
+          - link "E. Lee" [ref=e77] [cursor=pointer]:
+            - /url: ""
+          - text: ","
+          - link "Y. Lee" [ref=e79] [cursor=pointer]:
+            - /url: ""
+          - text: ","
+          - link "H. Park" [ref=e81] [cursor=pointer]:
+            - /url: ""
+          - text: ","
+          - link "D. J. Lee" [ref=e83] [cursor=pointer]:
+            - /url: ""
+        - text: (2026).
+        - 'link "Finger-based 3D Human-Swarm Interaction Interface: Design and Human-Subject Evaluation" [ref=e84] [cursor=pointer]':
+          - /url: /publications/finger-swarm-interface/
+        - text: .
+        - emphasis [ref=e85]: ESWA
+        - text: .
+  - contentinfo [ref=e87]:
+    - paragraph [ref=e88]:
+      - link "Creative Commons":
+        - /url: https://creativecommons.org/licenses/by-nc-nd/4.0
+      - link "Creative Commons" [ref=e89] [cursor=pointer]:
+        - /url: https://creativecommons.org/licenses/by-nc-nd/4.0
+    - paragraph [ref=e98]:
+      - text: © 2026 DGIST Department of Robotics & Mechatronics Engineering. This work is licensed under
+      - link "CC BY NC ND 4.0" [ref=e99] [cursor=pointer]:
+        - /url: https://creativecommons.org/licenses/by-nc-nd/4.0
+    - paragraph [ref=e100]:
+      - text: Made with
+      - link "Hugo Blox Kit" [ref=e101] [cursor=pointer]:
+        - /url: https://hugoblox.com/templates/academic-cv?utm_source=site_footer&utm_medium=referral&utm_campaign=poweredby_oss&utm_content=brand_academic-cv&start=1
+      - text: .
+      - link "Build your site →" [ref=e102] [cursor=pointer]:
+        - /url: https://hugo.chat?utm_source=site_footer&utm_medium=referral&utm_campaign=poweredby_oss&utm_content=cta_academic-cv&template_id=academic-cv

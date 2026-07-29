@@ -1,0 +1,101 @@
+- generic [active] [ref=f22e1]:
+  - banner [ref=f22e4]:
+    - navigation [ref=f22e5]:
+      - link "DGIST ROBIN Lab" [ref=f22e7] [cursor=pointer]:
+        - /url: /
+      - list [ref=f22e8]:
+        - listitem [ref=f22e9]:
+          - link "Research" [ref=f22e10] [cursor=pointer]:
+            - /url: /research/
+        - listitem [ref=f22e11]:
+          - link "Projects" [ref=f22e12] [cursor=pointer]:
+            - /url: /projects/
+        - listitem [ref=f22e13]:
+          - link "Publications" [ref=f22e14] [cursor=pointer]:
+            - /url: /publications/
+        - listitem [ref=f22e15]:
+          - link "Team" [ref=f22e16] [cursor=pointer]:
+            - /url: /team/
+        - listitem [ref=f22e17]:
+          - link "News" [ref=f22e18] [cursor=pointer]:
+            - /url: /news/
+        - listitem [ref=f22e19]:
+          - link "Join" [ref=f22e20] [cursor=pointer]:
+            - /url: /join/
+        - listitem [ref=f22e21]:
+          - link "Contact" [ref=f22e22] [cursor=pointer]:
+            - /url: /contact/
+  - generic [ref=f22e24]:
+    - generic [ref=f22e26]:
+      - generic [ref=f22e27]: Projects
+      - paragraph [ref=f22e28]: Research projects connecting robot interfaces, digital twins, and physical intelligence.
+    - generic [ref=f22e31]:
+      - article [ref=f22e32]:
+        - link [ref=f22e34] [cursor=pointer]:
+          - /url: /projects/bimanual-teleoperation/
+        - generic [ref=f22e39]:
+          - link "Teleoperation" [ref=f22e41] [cursor=pointer]:
+            - /url: /tags/teleoperation/
+          - heading [level=3] [ref=f22e43]:
+            - link "Humanoid Bimanual Teleoperation System for Precision Manipulation" [ref=f22e44] [cursor=pointer]:
+              - /url: /projects/bimanual-teleoperation/
+          - paragraph [ref=f22e45]: A low-latency haptic and visual-inertial interface for dual-arm humanoid robots.
+      - article [ref=f22e46]:
+        - link [ref=f22e48] [cursor=pointer]:
+          - /url: /projects/robot-object-motion/
+        - generic [ref=f22e53]:
+          - link "Robot Interface" [ref=f22e55] [cursor=pointer]:
+            - /url: /tags/robot-interface/
+          - heading [level=3] [ref=f22e57]:
+            - link "Motion Generation for General Robot-Object Interaction" [ref=f22e58] [cursor=pointer]:
+              - /url: /projects/robot-object-motion/
+          - paragraph [ref=f22e59]: Simultaneous hand-object tracking, digital twins, and co-training for real-world robot tasks.
+      - article [ref=f22e60]:
+        - link [ref=f22e62] [cursor=pointer]:
+          - /url: /projects/physical-simulator/
+        - generic [ref=f22e67]:
+          - link "Simulation" [ref=f22e69] [cursor=pointer]:
+            - /url: /tags/simulation/
+          - heading [level=3] [ref=f22e71]:
+            - link "Photo-Realistic Simulator and Multimodal Datasets for Robot Foundation Models" [ref=f22e72] [cursor=pointer]:
+              - /url: /projects/physical-simulator/
+          - paragraph [ref=f22e73]: Contact-rich simulation and multimodal datasets for physical AI and Sim-to-Real learning.
+      - article [ref=f22e74]:
+        - link [ref=f22e76] [cursor=pointer]:
+          - /url: /projects/aerial-manipulation/
+        - generic [ref=f22e81]:
+          - link "Aerial Manipulation" [ref=f22e83] [cursor=pointer]:
+            - /url: /tags/aerial-manipulation/
+          - heading [level=3] [ref=f22e85]:
+            - link "High-Payload Multi-Degree-of-Freedom Aerial Manipulation Robotic Platform" [ref=f22e86] [cursor=pointer]:
+              - /url: /projects/aerial-manipulation/
+          - paragraph [ref=f22e87]: Teleoperation, state estimation, and digital twins for aerial manipulation.
+      - article [ref=f22e88]:
+        - link [ref=f22e90] [cursor=pointer]:
+          - /url: /projects/samsung-gauss/
+        - generic [ref=f22e95]:
+          - link "Multimodal Models" [ref=f22e97] [cursor=pointer]:
+            - /url: /tags/multimodal-models/
+          - heading [level=3] [ref=f22e99]:
+            - link "Development of Large Multimodal Model “Samsung Gauss”" [ref=f22e100] [cursor=pointer]:
+              - /url: /projects/samsung-gauss/
+          - paragraph [ref=f22e101]: Vision-language architecture development and embodied AI exploration at Samsung Research.
+    - link "See all" [ref=f22e104] [cursor=pointer]:
+      - /url: /projects/
+  - contentinfo [ref=f22e107]:
+    - paragraph [ref=f22e108]:
+      - link "Creative Commons":
+        - /url: https://creativecommons.org/licenses/by-nc-nd/4.0
+      - link "Creative Commons" [ref=f22e109] [cursor=pointer]:
+        - /url: https://creativecommons.org/licenses/by-nc-nd/4.0
+    - paragraph [ref=f22e118]:
+      - text: © 2026 DGIST Department of Robotics & Mechatronics Engineering. This work is licensed under
+      - link "CC BY NC ND 4.0" [ref=f22e119] [cursor=pointer]:
+        - /url: https://creativecommons.org/licenses/by-nc-nd/4.0
+    - paragraph [ref=f22e120]:
+      - text: Made with
+      - link "Hugo Blox — Open Source" [ref=f22e121] [cursor=pointer]:
+        - /url: https://hugoblox.com/templates/academic-cv?utm_source=site_footer&utm_medium=referral&utm_campaign=poweredby_oss&utm_content=brand_academic-cv&start=1
+      - text: .
+      - link "Create your site →" [ref=f22e122] [cursor=pointer]:
+        - /url: https://hugo.chat?utm_source=site_footer&utm_medium=referral&utm_campaign=poweredby_oss&utm_content=cta_academic-cv&template_id=academic-cv

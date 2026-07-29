@@ -1,0 +1,827 @@
+<!DOCTYPE html>
+<!-- saved from url=(0050)https://robin-dgist.github.io/conference-timeline/ -->
+<html lang="ko"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>2026–2029 주요 학회 개최지 통합표</title><style>
+body{margin:0;padding:26px;background:#fafafa;color:#212529;font-family:-apple-system,'Apple SD Gothic Neo','Noto Sans KR',sans-serif;max-width:1100px;margin-inline:auto}
+h1{font-size:21px;margin:0 0 4px}
+.sub{color:#868e96;font-size:13px;margin-bottom:16px}
+.legend{display:flex;flex-wrap:wrap;gap:6px 14px;font-size:12px;margin-bottom:8px;color:#495057;align-items:center}
+.legend span{display:inline-flex;align-items:center;gap:5px}
+.dot{width:10px;height:10px;border-radius:50%;display:inline-block}
+.sec{font-size:15px;font-weight:700;margin:26px 0 10px;padding-bottom:6px;border-bottom:2px solid #343a40}
+.grid{display:grid;grid-template-columns:118px repeat(4,1fr);gap:6px}
+.hd{font-size:12px;font-weight:700;color:#868e96;text-align:center;padding:2px 0}
+.conf{font-weight:700;font-size:13px;display:flex;align-items:center}
+.c{border-radius:8px;padding:7px 9px;font-size:12px;line-height:1.35;border:1px solid transparent}
+.c b{display:block;font-size:12.5px}
+.c span{color:#495057;font-size:11px}
+.as{background:#fff4e6;border-color:#ffd8a8}.as b{color:#d9480f}
+.eu{background:#e7f1fb;border-color:#a5d8ff}.eu b{color:#1971c2}
+.na{background:#e9f7ec;border-color:#b2f2bb}.na b{color:#2f9e44}
+.sa{background:#f3ebfa;border-color:#d0bfff}.sa b{color:#7048e8}
+.me{background:#fff0f4;border-color:#fcc2d7}.me b{color:#c2255c}
+.oc{background:#e3fafc;border-color:#99e9f2}.oc b{color:#0c8599}
+.tba{background:#f1f3f5;border:1px dashed #ced4da}.tba b{color:#868e96;font-weight:600}.tba span{color:#adb5bd}
+.none{display:flex;align-items:center;justify-content:center;color:#ced4da;font-size:14px;border:none;background:none}
+.end{opacity:.5}
+.tag{font-style:normal;font-size:10px;background:#495057;color:#fff;border-radius:4px;padding:1px 5px;margin-left:5px;vertical-align:1px}
+.rg{font-style:normal;font-size:10px;border:1px solid currentColor;border-radius:4px;padding:0 4px;margin-left:4px;vertical-align:1px}
+.note{margin-top:24px;font-size:12px;color:#868e96;line-height:1.6}
+@media(max-width:720px){.grid{grid-template-columns:86px repeat(4,1fr)}.conf{font-size:11px}}
+</style><style>/* Update Required Modal Overlay */
+.lilys-update-modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 9999999;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Modal */
+.lilys-update-modal {
+  position: relative;
+  background: #ffffff;
+  border-radius: 16px;
+  padding: 32px;
+  min-width: 320px;
+  max-width: 400px;
+  box-shadow: 0px 8px 40px 0px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  font-family: Pretendard, -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+.lilys-update-modal__close {
+  position: absolute;
+  top: 16px;
+  right: 16px;
+  width: 28px;
+  height: 28px;
+  padding: 0;
+  border: none;
+  background: transparent;
+  color: #71717a;
+  font-family: Pretendard, -apple-system, BlinkMacSystemFont, sans-serif;
+  font-size: 24px;
+  font-weight: 300;
+  line-height: 1;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 4px;
+  transition: background 0.2s ease;
+}
+
+.lilys-update-modal__close:hover {
+  background: #f4f4f5;
+  color: #18181b;
+}
+
+.lilys-update-modal__icon {
+  font-size: 48px;
+  margin-bottom: 16px;
+}
+
+.lilys-update-modal__title {
+  font-family: Pretendard, -apple-system, BlinkMacSystemFont, sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 150%;
+  color: #18181b;
+  margin-bottom: 8px;
+}
+
+.lilys-update-modal__desc {
+  font-family: Pretendard, -apple-system, BlinkMacSystemFont, sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 150%;
+  color: #71717a;
+  margin-bottom: 24px;
+}
+
+.lilys-update-modal__buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.lilys-update-modal__btn {
+  width: 100%;
+  padding: 12px 24px;
+  border-radius: 8px;
+  font-family: Pretendard, -apple-system, BlinkMacSystemFont, sans-serif;
+  font-weight: 600;
+  font-size: 15px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.lilys-update-modal__btn--primary {
+  background: #d4f542;
+  border: none;
+  color: #1a1a1a;
+}
+
+.lilys-update-modal__btn--primary:hover {
+  background: #c9ea3d;
+}
+
+.lilys-update-modal__btn--secondary {
+  background: #ffffff;
+  border: 1px solid #e4e4e7;
+  color: #71717a;
+}
+
+.lilys-update-modal__btn--secondary:hover {
+  background: #f4f4f5;
+  color: #18181b;
+}
+</style><style>/* Popup Overlay */
+.lilys-disable-popup-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.3);
+  z-index: 9999999;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Popup */
+.lilys-disable-popup {
+  position: relative;
+  background: #ffffff;
+  border-radius: 12px;
+  padding: 24px;
+  min-width: 200px;
+  box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.15);
+  text-align: center;
+  font-family: Pretendard, -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+.lilys-disable-popup__close {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  width: 24px;
+  height: 24px;
+  padding: 0;
+  border: none;
+  background: transparent;
+  color: #71717A;
+  font-family: Pretendard, -apple-system, BlinkMacSystemFont, sans-serif;
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 1;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.lilys-disable-popup__close:hover {
+  color: #18181B;
+}
+
+.lilys-disable-popup__title {
+  font-family: Pretendard, -apple-system, BlinkMacSystemFont, sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 150%;
+  color: #18181B;
+  margin-bottom: 16px;
+}
+
+.lilys-disable-popup__btn {
+  width: 100%;
+  padding: 10px 16px;
+  border: 1px solid #E4E4E7;
+  border-radius: 8px;
+  background: #ffffff;
+  font-family: Pretendard, -apple-system, BlinkMacSystemFont, sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  color: #18181B;
+  cursor: pointer;
+  transition: background 0.2s ease;
+  margin-bottom: 8px;
+}
+
+.lilys-disable-popup__btn:last-child {
+  margin-bottom: 0;
+}
+
+.lilys-disable-popup__btn:hover {
+  background: #F4F4F5;
+}
+
+.lilys-disable-popup__btn--secondary {
+  border: none;
+  color: #71717A;
+  font-size: 13px;
+}
+
+.lilys-disable-popup__btn--secondary:hover {
+  background: transparent;
+  color: #18181B;
+}
+</style><style>/* Website Button Wrapper */
+.lilys-website-button-wrapper {
+  position: fixed;
+  right: -88px; /* 접힌 상태: 아이콘만 보이도록 */
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 999999;
+  transition: right 0.3s ease;
+}
+
+/* Wrapper hover시 펼침 */
+.lilys-website-button-wrapper:hover {
+  right: 0;
+}
+
+/* 드래그 중에는 transition 비활성화 */
+.lilys-website-button-wrapper.lilys-website-button--dragging {
+  transition: none !important;
+}
+
+/* Close Button */
+.lilys-website-button__close {
+  position: absolute;
+  top: -4px;
+  left: -7px;
+  width: 14px;
+  height: 14px;
+  padding: 0;
+  margin: 0;
+  border: none;
+  background: transparent;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  transition: opacity 0.2s ease;
+  z-index: 1000000;
+}
+
+.lilys-website-button__close-icon {
+  width: 18px;
+  height: 18px;
+  display: block;
+}
+
+.lilys-website-button-wrapper:hover .lilys-website-button__close {
+  opacity: 1;
+}
+
+.lilys-website-button__close:hover {
+  opacity: 0.8;
+}
+
+/* Website Button */
+.lilys-website-button {
+  position: relative;
+
+  height: 40px;
+  width: 130px;
+  padding: 0 10px;
+  overflow: hidden;
+
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+
+  background: #ffffff;
+  border: 1px solid #E4E4E7;
+  border-radius: 10px 0 0 10px;
+
+  box-shadow: 0px 4px 30px 0px #ADADAD66;
+
+  cursor: pointer;
+  user-select: none;
+}
+
+/* 드래그 중에는 transition 비활성화 */
+.lilys-website-button--dragging {
+  cursor: grabbing !important;
+}
+
+/* Loading state */
+.lilys-website-button--loading {
+  width: 145px;
+}
+
+.lilys-website-button-wrapper--loading {
+  right: -103px; /* 아이콘만 보이도록 */
+}
+
+.lilys-website-button-wrapper--loading:hover {
+  right: 0;
+}
+
+/* Completed state */
+.lilys-website-button--completed {
+  justify-content: flex-start;
+  width: 120px;
+}
+
+.lilys-website-button-wrapper--completed {
+  right: -78px; /* 아이콘만 보이도록 */
+}
+
+.lilys-website-button-wrapper--completed:hover {
+  right: 0;
+}
+
+.lilys-website-button-wrapper--completed:hover .lilys-website-button--completed {
+  width: 135px;
+}
+
+.lilys-website-button:disabled {
+  cursor: default;
+}
+
+.lilys-website-button:disabled:hover {
+  transform: none;
+}
+
+/* Icon */
+.lilys-website-button__icon {
+  width: 24px;
+  height: 24px;
+  flex-shrink: 0;
+  pointer-events: none;
+}
+
+/* Icon container (for check badge) */
+.lilys-website-button__icon-container {
+  position: relative;
+  flex-shrink: 0;
+}
+
+/* Check badge */
+.lilys-website-button__check {
+  position: absolute;
+  right: -4px;
+  bottom: -4px;
+  width: 14px;
+  height: 14px;
+  pointer-events: none;
+}
+
+/* Text */
+.lilys-website-button__text {
+  margin-left: 7px;
+  font-family: Pretendard, -apple-system, BlinkMacSystemFont, sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 150%;
+  letter-spacing: 0%;
+  vertical-align: middle;
+  color: #1a1a1a;
+  white-space: nowrap;
+}
+
+/* Loading state - Spinner */
+.lilys-website-button__spinner {
+  width: 24px;
+  height: 24px;
+  flex-shrink: 0;
+  pointer-events: none;
+}
+
+/* Arrow icon */
+.lilys-website-button__arrow {
+  width: 12px;
+  height: 12px;
+  margin-left: 8px;
+  flex-shrink: 0;
+  pointer-events: none;
+}
+
+</style><style>.lilys-toast {
+  position: fixed;
+  bottom: 24px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 9999999;
+
+  padding: 12px 20px;
+  background: #1a1a1a;
+  color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.25);
+
+  font-family: Pretendard, -apple-system, BlinkMacSystemFont, sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.4;
+
+  opacity: 0;
+  animation: lilys-toast-fade-in 0.3s ease forwards;
+}
+
+.lilys-toast--hiding {
+  animation: lilys-toast-fade-out 0.3s ease forwards;
+}
+
+@keyframes lilys-toast-fade-in {
+  from {
+    opacity: 0;
+    transform: translateX(-50%) translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(-50%) translateY(0);
+  }
+}
+
+@keyframes lilys-toast-fade-out {
+  from {
+    opacity: 1;
+    transform: translateX(-50%) translateY(0);
+  }
+  to {
+    opacity: 0;
+    transform: translateX(-50%) translateY(10px);
+  }
+}
+</style><style>/* PDF Button - 둥근 floating 버튼 */
+.lilys-pdf-button {
+  position: fixed;
+  top: 80px;
+  right: 30px;
+  z-index: 999999;
+
+  height: 40px;
+  min-width: 157px;
+  padding: 0 10px;
+  margin: 0;
+
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+
+  background: #ffffff;
+  border: 1px solid #E4E4E7;
+  border-radius: 10px;
+
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+
+  cursor: pointer;
+  user-select: none;
+
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+/* Completed state - space between for arrow */
+.lilys-pdf-button--completed {
+  justify-content: space-between;
+}
+
+.lilys-pdf-button:hover {
+  transform: scale(1.1);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.4);
+}
+
+.lilys-pdf-button:disabled {
+  cursor: default;
+}
+
+.lilys-pdf-button:disabled:hover {
+  transform: none;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+}
+
+/* Icon */
+.lilys-pdf-button__icon {
+  width: 24px;
+  height: 24px;
+  object-fit: contain;
+  flex-shrink: 0;
+  pointer-events: none;
+}
+
+/* Content wrapper (아이콘 + 텍스트 그룹) */
+.lilys-pdf-button__content {
+  display: flex;
+  align-items: center;
+}
+
+/* Icon container (for check badge) */
+.lilys-pdf-button__icon-container {
+  position: relative;
+  flex-shrink: 0;
+}
+
+/* Check badge */
+.lilys-pdf-button__check {
+  position: absolute;
+  right: -4px;
+  bottom: -3px;
+  width: 18px;
+  height: 18px;
+  pointer-events: none;
+}
+
+/* Text */
+.lilys-pdf-button__text {
+  margin-left: 7px;
+  font-family: Pretendard, -apple-system, BlinkMacSystemFont, sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 150%;
+  letter-spacing: 0%;
+  vertical-align: middle;
+  color: #1a1a1a;
+  white-space: nowrap;
+}
+
+/* Loading state - Spinner */
+.lilys-pdf-button__spinner {
+  width: 24px;
+  height: 24px;
+  flex-shrink: 0;
+  pointer-events: none;
+}
+
+/* Arrow icon */
+.lilys-pdf-button__arrow {
+  width: 12px;
+  height: 12px;
+  margin-left: 8px;
+  flex-shrink: 0;
+  pointer-events: none;
+}
+</style><style>/* YouTube Button - Title variant (타이틀 아래) */
+.lilys-youtube-btn {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  justify-content: flex-start;
+  height: 40px;
+  min-width: 157px;
+  padding: 0 10px;
+  margin: 0;
+  border: 1px solid #E4E4E7;
+  background: #ffffff;
+  border-radius: 10px;
+  box-shadow: none;
+  cursor: pointer;
+  opacity: 0.9;
+  transition: opacity 0.2s;
+  flex-shrink: 0;
+}
+
+/* Completed state - space between for arrow */
+.lilys-youtube-btn--completed {
+  justify-content: space-between;
+}
+
+.lilys-youtube-btn:hover {
+  opacity: 1;
+}
+
+.lilys-youtube-btn:disabled {
+  cursor: default;
+}
+
+/* Title variant - 유튜브 타이틀 아래 */
+.lilys-youtube-btn--title {
+  margin: 13px 8px 13px 0;
+}
+
+/* Icon */
+.lilys-youtube-btn__icon {
+  width: 24px;
+  height: 24px;
+  object-fit: contain;
+  flex-shrink: 0;
+  pointer-events: none;
+}
+
+/* Left wrapper (icon + text) for completed state */
+.lilys-youtube-btn__left {
+  display: flex;
+  align-items: center;
+}
+
+/* Icon container (for check badge) */
+.lilys-youtube-btn__icon-container {
+  position: relative;
+  flex-shrink: 0;
+}
+
+/* Check badge */
+.lilys-youtube-btn__check {
+  position: absolute;
+  right: -4px;
+  bottom: -1px;
+  width: 18px;
+  height: 18px;
+  pointer-events: none;
+}
+
+/* Text */
+.lilys-youtube-btn__text {
+  margin-left: 7px;
+  font-family: Pretendard, -apple-system, BlinkMacSystemFont, sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 150%;
+  letter-spacing: 0%;
+  vertical-align: middle;
+  color: #1a1a1a;
+  white-space: nowrap;
+}
+
+/* Loading state - Spinner */
+.lilys-youtube-btn__spinner {
+  width: 24px;
+  height: 24px;
+  flex-shrink: 0;
+  pointer-events: none;
+}
+
+/* Arrow icon */
+.lilys-youtube-btn__arrow {
+  width: 12px;
+  height: 12px;
+  margin-left: 8px;
+  flex-shrink: 0;
+  pointer-events: none;
+}
+
+/* ========================================
+   Sidebar variant - 카드 형태 (관련 동영상 위)
+   ======================================== */
+.lilys-youtube-btn-card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: 61px;
+  padding: 14.5px 16px;
+  margin-bottom: 60px;
+  background: #ffffff;
+  border: 1px solid #E4E4E7;
+  border-radius: 10px;
+  box-shadow: none;
+  box-sizing: border-box;
+  cursor: pointer;
+}
+
+
+.lilys-youtube-btn-card--loading {
+  cursor: default;
+}
+
+/* Logo wrapper */
+.lilys-youtube-btn-card__logo-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-shrink: 0;
+}
+
+/* Logo icon */
+.lilys-youtube-btn-card__logo {
+  width: 32px;
+  height: 32px;
+  object-fit: contain;
+  pointer-events: none;
+}
+
+/* Logo container (for check badge) */
+.lilys-youtube-btn-card__logo-container {
+  position: relative;
+  flex-shrink: 0;
+}
+
+/* Check badge */
+.lilys-youtube-btn-card__check {
+  position: absolute;
+  right: -4px;
+  bottom: -1px;
+  width: 18px;
+  height: 18px;
+  pointer-events: none;
+}
+
+/* Logo text (LilysAI) */
+.lilys-youtube-btn-card__logo-text {
+  height: 29px;
+  object-fit: contain;
+  pointer-events: none;
+}
+
+/* Status text (로딩/완료 상태에서 로고 텍스트 자리에 표시) */
+.lilys-youtube-btn-card__status-text {
+  font-family: Pretendard, -apple-system, BlinkMacSystemFont, sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 150%;
+  color: #1a1a1a;
+  white-space: nowrap;
+  vertical-align: middle;
+}
+
+/* Spinner */
+.lilys-youtube-btn-card__spinner {
+  width: 24px;
+  height: 24px;
+  pointer-events: none;
+}
+
+/* Action button (연두색 버튼) */
+.lilys-youtube-btn-card__action-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 8px 16px;
+  background: #DFFF32;
+  border-radius: 8px;
+  font-family: Pretendard, -apple-system, BlinkMacSystemFont, sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 150%;
+  color: #1a1a1a;
+  white-space: nowrap;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.lilys-youtube-btn-card__action-btn:hover {
+  background: #c9ea3d;
+}
+
+/* Arrow inside action button */
+.lilys-youtube-btn-card__arrow {
+  width: 12px;
+  height: 12px;
+  margin-left: 8px;
+  pointer-events: none;
+}
+</style></head><body>
+<h1>2026–2029 주요 학회 개최지 통합표</h1>
+<div class="sub">기준일 · 2026년 7월 18일 &nbsp;|&nbsp; Robotics · Vision · ML · AI 25개 주요 학회</div>
+<div class="legend">
+<span><i class="dot" style="background:#ff922b"></i>아시아</span>
+<span><i class="dot" style="background:#4dabf7"></i>유럽</span>
+<span><i class="dot" style="background:#51cf66"></i>북미</span>
+<span><i class="dot" style="background:#9775fa"></i>남미</span>
+<span><i class="dot" style="background:#f06595"></i>중동</span>
+<span><i class="dot" style="background:#3bc9db"></i>오세아니아</span>
+<span><i class="dot" style="background:#ced4da"></i>TBA · 지역 미정</span>
+<span>— 해당 연도 미개최(격년제)</span>
+<span><i class="tag">종료</i> 기준일 이전 종료</span>
+<span><i class="rg" style="color:#495057">권역</i> 권역만 공개</span>
+</div>
+
+<div class="sec">Robotics · Robot Learning · Control</div>
+<div class="grid">
+<div></div><div class="hd">2026</div><div class="hd">2027</div><div class="hd">2028</div><div class="hd">2029</div>
+<div class="conf">ICRA</div><div class="c eu end"><b>Vienna<i class="tag">종료</i></b><span>Austria · 6/1–5</span></div><div class="c as"><b>Seoul</b><span>Korea · 5/24–28</span></div><div class="c na"><b>Guadalajara</b><span>Mexico · 5/15–19</span></div><div class="c eu"><b>Milan</b><span>Italy · 5/7–12</span></div>
+<div class="conf">IROS</div><div class="c na"><b>Pittsburgh</b><span>USA · 9/27–10/1</span></div><div class="c eu"><b>Florence</b><span>Italy · 9/26–10/1</span></div><div class="c oc"><b>Sydney</b><span>Australia · 10/2–6</span></div><div class="c tba"><b>TBA</b><span>예년 9–10월경</span></div>
+<div class="conf">RSS</div><div class="c oc end"><b>Sydney<i class="tag">종료</i></b><span>Australia · 7/13–17</span></div><div class="c eu"><b>Athens</b><span>Greece · 날짜 미공개</span></div><div class="c tba"><b>TBA</b><span>예년 7월경</span></div><div class="c tba"><b>TBA</b><span>예년 7월경</span></div>
+<div class="conf">CoRL</div><div class="c na"><b>Austin</b><span>USA · 11/9–12</span></div><div class="c tba"><b>TBA</b><span>예년 11월경</span></div><div class="c tba"><b>TBA</b><span>예년 11월경</span></div><div class="c tba"><b>TBA</b><span>예년 11월경</span></div>
+<div class="conf">HRI</div><div class="c eu end"><b>Edinburgh<i class="tag">종료</i></b><span>UK · 3/16–19</span></div><div class="c na"><b>Santa Clara</b><span>USA · 3/8–12</span></div><div class="c tba"><b>TBA</b><span>예년 3월경</span></div><div class="c tba"><b>TBA</b><span>예년 3월경</span></div>
+<div class="conf">WAFR</div><div class="c eu end"><b>Oulu<i class="tag">종료</i></b><span>Finland · 6/15–17</span></div><div class="c none">—</div><div class="c tba"><b>TBA</b><span>예년 6월경</span></div><div class="c none">—</div>
+<div class="conf">Humanoids</div><div class="c na"><b>Santa Clara</b><span>USA · 12/7–9</span></div><div class="c tba"><b>TBA</b><span>예년 11–12월경</span></div><div class="c tba"><b>TBA</b><span>예년 11–12월경</span></div><div class="c tba"><b>TBA</b><span>예년 11–12월경</span></div>
+<div class="conf">IV</div><div class="c na end"><b>Detroit<i class="tag">종료</i></b><span>USA · 6/22–25</span></div><div class="c oc"><b>Perth</b><span>Australia · 6/15–18</span></div><div class="c eu"><b>Barcelona</b><span>Spain · 6/27–30</span></div><div class="c tba"><b>TBA</b><span>예년 6월경</span></div>
+<div class="conf">ITSC</div><div class="c eu"><b>Naples</b><span>Italy · 9/15–18</span></div><div class="c na"><b>Boston</b><span>USA · 날짜 미공개</span></div><div class="c as"><b>Tokyo</b><span>Japan · 9/12–15</span></div><div class="c tba"><b>TBA</b><span>예년 9월경</span></div>
+<div class="conf">UR</div><div class="c as end"><b>Ibaraki, Osaka<i class="tag">종료</i></b><span>Japan · 7/15–18</span></div><div class="c tba"><b>TBA</b><span>예년 7월경</span></div><div class="c tba"><b>TBA</b><span>예년 7월경</span></div><div class="c tba"><b>TBA</b><span>예년 7월경</span></div>
+<div class="conf">ICCAS</div><div class="c as"><b>Sapporo</b><span>Japan · 10/27–30</span></div><div class="c as"><b>Jeju</b><span>Korea · 11/2–5</span></div><div class="c tba"><b>TBA</b><span>예년 10월경</span></div><div class="c tba"><b>TBA</b><span>예년 10월경</span></div>
+<div class="conf">iSpaRo</div><div class="c eu"><b>Cologne</b><span>Germany · 11/3–6</span></div><div class="c tba"><b>TBA</b><span>예년 11월경</span></div><div class="c tba"><b>TBA</b><span>예년 11월경</span></div><div class="c tba"><b>TBA</b><span>예년 11월경</span></div>
+</div>
+
+<div class="sec">Computer Vision · Machine Learning · AI</div>
+<div class="grid">
+<div></div><div class="hd">2026</div><div class="hd">2027</div><div class="hd">2028</div><div class="hd">2029</div>
+<div class="conf">CVPR</div><div class="c na end"><b>Denver<i class="tag">종료</i></b><span>USA · 6/3–7</span></div><div class="c na"><b>Seattle</b><span>USA · 6/20–24</span></div><div class="c na"><b>San Antonio</b><span>USA · 날짜 미공개</span></div><div class="c na"><b>Los Angeles</b><span>USA · 날짜 미공개</span></div>
+<div class="conf">WACV</div><div class="c na end"><b>Tucson<i class="tag">종료</i></b><span>USA · 3/6–10</span></div><div class="c na"><b>Orlando</b><span>USA · 1/4–8</span></div><div class="c tba"><b>TBA</b><span>예년 1–3월경</span></div><div class="c tba"><b>TBA</b><span>예년 1–3월경</span></div>
+<div class="conf">BMVC</div><div class="c eu"><b>Lancaster</b><span>UK · 11/23–26</span></div><div class="c tba"><b>TBA</b><span>예년 11월경</span></div><div class="c tba"><b>TBA</b><span>예년 11월경</span></div><div class="c tba"><b>TBA</b><span>예년 11월경</span></div>
+<div class="conf">ICCV</div><div class="c none">—</div><div class="c as"><b>Hong Kong</b><span>China · 10/2–8</span></div><div class="c none">—</div><div class="c me"><b>Dubai</b><span>UAE · 날짜 미공개</span></div>
+<div class="conf">ECCV</div><div class="c eu"><b>Malmö</b><span>Sweden · 9/8–12</span></div><div class="c none">—</div><div class="c tba"><b>TBA</b><span>예년 9월경</span></div><div class="c none">—</div>
+<div class="conf">3DV</div><div class="c na end"><b>Vancouver<i class="tag">종료</i></b><span>Canada · 3/20–23</span></div><div class="c eu"><b>Thessaloniki</b><span>Greece · 4/6–9</span></div><div class="c tba"><b>TBA</b><span>예년 3–4월경</span></div><div class="c tba"><b>TBA</b><span>예년 3–4월경</span></div>
+<div class="conf">ISMAR</div><div class="c eu"><b>Bari</b><span>Italy · 10/5–9</span></div><div class="c as"><b>Kobe</b><span>Japan · 10/11–15</span></div><div class="c eu"><b>Cyprus<i class="rg">도시 TBA</i></b><span>10/9–13</span></div><div class="c na"><b>Canada<i class="rg">도시 TBA</i></b><span>10월 초</span></div>
+<div class="conf">SIGGRAPH Asia</div><div class="c as"><b>Kuala Lumpur</b><span>Malaysia · 12/1–4</span></div><div class="c tba"><b>TBA</b><span>예년 12월경</span></div><div class="c tba"><b>TBA</b><span>예년 12월경</span></div><div class="c tba"><b>TBA</b><span>예년 12월경</span></div>
+<div class="conf">ICLR</div><div class="c sa end"><b>Rio de Janeiro<i class="tag">종료</i></b><span>Brazil · 4/23–27</span></div><div class="c na"><b>북미 서부<i class="rg">권역</i></b><span>도시·날짜 미공개</span></div><div class="c tba"><b>TBA</b><span>예년 4–5월경</span></div><div class="c tba"><b>TBA</b><span>예년 4–5월경</span></div>
+<div class="conf">ICML</div><div class="c as end"><b>Seoul<i class="tag">종료</i></b><span>Korea · 7/6–11</span></div><div class="c tba"><b>TBA</b><span>예년 7월경</span></div><div class="c na"><b>미국 동부<i class="rg">권역</i></b><span>도시·날짜 미공개</span></div><div class="c tba"><b>TBA</b><span>예년 7월경</span></div>
+<div class="conf">NeurIPS</div><div class="c oc"><b>Sydney</b><span>Australia · 12/6–12</span></div><div class="c eu"><b>Europe<i class="rg">권역</i></b><span>도시·날짜 미공개</span></div><div class="c na"><b>Western US<i class="rg">권역</i></b><span>도시·날짜 미공개</span></div><div class="c tba"><b>TBA</b><span>예년 12월경</span></div>
+<div class="conf">AAAI</div><div class="c as end"><b>Singapore<i class="tag">종료</i></b><span>1/20–27</span></div><div class="c na"><b>Montréal</b><span>Canada · 2/16–23</span></div><div class="c tba"><b>TBA</b><span>예년 1–2월경</span></div><div class="c tba"><b>TBA</b><span>예년 1–2월경</span></div>
+<div class="conf">AAMAS</div><div class="c eu end"><b>Paphos<i class="tag">종료</i></b><span>Cyprus · 5/25–29</span></div><div class="c tba"><b>TBA</b><span>예년 5월경</span></div><div class="c tba"><b>TBA</b><span>예년 5월경</span></div><div class="c tba"><b>TBA</b><span>예년 5월경</span></div>
+</div>
+
+<div class="note">도시 또는 권역이 공개된 일정과 TBA 일정 표시 · TBA의 시기는 예년 개최 시기 기준 추정<br>Update 기준일 : 2026.07.24</div>
+
+</body></html>

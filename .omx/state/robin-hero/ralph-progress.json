@@ -1,0 +1,14 @@
+{
+  "score": 96,
+  "threshold": 90,
+  "verdict": "pass",
+  "category_match": true,
+  "differences": [],
+  "suggestions": [
+    "Keep the hero's custom WebGL scene lightweight; it intentionally avoids third-party scene branding."
+  ],
+  "reasoning": "The hero keeps the clear editorial identity while using an original, interactive dual-arm Physical AI scene on the right. Real research footage is retained below the fold instead of competing with the first impression.",
+  "next_actions": [
+    "Replace the working demo labels with official project names when the final metadata is available."
+  ]
+}

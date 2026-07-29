@@ -1,0 +1,53 @@
+- generic [active] [ref=f27e1]:
+  - banner [ref=f27e4]:
+    - navigation [ref=f27e5]:
+      - link "DGIST ROBIN Lab" [ref=f27e7] [cursor=pointer]:
+        - /url: /
+      - list [ref=f27e8]:
+        - listitem [ref=f27e9]:
+          - link "Research" [ref=f27e10] [cursor=pointer]:
+            - /url: /research/
+        - listitem [ref=f27e11]:
+          - link "Projects" [ref=f27e12] [cursor=pointer]:
+            - /url: /projects/
+        - listitem [ref=f27e13]:
+          - link "Publications" [ref=f27e14] [cursor=pointer]:
+            - /url: /publications/
+        - listitem [ref=f27e15]:
+          - link "Team" [ref=f27e16] [cursor=pointer]:
+            - /url: /team/
+        - listitem [ref=f27e17]:
+          - link "News" [ref=f27e18] [cursor=pointer]:
+            - /url: /news/
+        - listitem [ref=f27e19]:
+          - link "Join" [ref=f27e20] [cursor=pointer]:
+            - /url: /join/
+        - listitem [ref=f27e21]:
+          - link "Contact" [ref=f27e22] [cursor=pointer]:
+            - /url: /contact/
+  - article [ref=f27e25]:
+    - heading "Contact" [level=1] [ref=f27e26]
+    - paragraph [ref=f27e27]:
+      - strong [ref=f27e28]: ROBIN Lab
+      - text: "Department of Robotics and Mechatronics Engineering, DGISTBldg E5 #211, 333 Techno jungang-daero, Hyeonpung-eup, Dalseong-gun, Daegu 42988, Korea"
+    - paragraph [ref=f27e29]:
+      - link "yslee@dgist.ac.kr" [ref=f27e30] [cursor=pointer]:
+        - /url: mailto:yslee@dgist.ac.kr
+      - text: · +82 10-2961-5020
+  - contentinfo [ref=f27e33]:
+    - paragraph [ref=f27e34]:
+      - link "Creative Commons":
+        - /url: https://creativecommons.org/licenses/by-nc-nd/4.0
+      - link "Creative Commons" [ref=f27e35] [cursor=pointer]:
+        - /url: https://creativecommons.org/licenses/by-nc-nd/4.0
+    - paragraph [ref=f27e44]:
+      - text: © 2026 DGIST Department of Robotics & Mechatronics Engineering. This work is licensed under
+      - link "CC BY NC ND 4.0" [ref=f27e45] [cursor=pointer]:
+        - /url: https://creativecommons.org/licenses/by-nc-nd/4.0
+    - paragraph [ref=f27e46]:
+      - text: Made with
+      - link "Hugo Blox — Open Source" [ref=f27e47] [cursor=pointer]:
+        - /url: https://hugoblox.com/templates/academic-cv?utm_source=site_footer&utm_medium=referral&utm_campaign=poweredby_oss&utm_content=brand_academic-cv&start=1
+      - text: .
+      - link "Create your site →" [ref=f27e48] [cursor=pointer]:
+        - /url: https://hugo.chat?utm_source=site_footer&utm_medium=referral&utm_campaign=poweredby_oss&utm_content=cta_academic-cv&template_id=academic-cv

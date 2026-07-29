@@ -1,0 +1,52 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e4]:
+    - navigation [ref=e5]:
+      - link "DGIST ROBIN Lab" [ref=e7] [cursor=pointer]:
+        - /url: /
+      - list [ref=e8]:
+        - listitem [ref=e9]:
+          - link "Research" [ref=e10] [cursor=pointer]:
+            - /url: /research/
+        - listitem [ref=e11]:
+          - link "Projects" [ref=e12] [cursor=pointer]:
+            - /url: /projects/
+        - listitem [ref=e13]:
+          - link "Publications" [ref=e14] [cursor=pointer]:
+            - /url: /publications/
+        - listitem [ref=e15]:
+          - link "Team" [ref=e16] [cursor=pointer]:
+            - /url: /team/
+        - listitem [ref=e17]:
+          - link "News" [ref=e18] [cursor=pointer]:
+            - /url: /news/
+        - listitem [ref=e19]:
+          - link "Join" [ref=e20] [cursor=pointer]:
+            - /url: /join/
+        - listitem [ref=e21]:
+          - link "Contact" [ref=e22] [cursor=pointer]:
+            - /url: /contact/
+  - article [ref=e25]:
+    - heading "News" [level=1] [ref=e26]
+    - generic [ref=e27]:
+      - article [ref=e28]:
+        - paragraph [ref=e29]: 2026 · DGIST
+        - heading "ROBIN Lab is now at DGIST." [level=2] [ref=e30]
+        - paragraph [ref=e31]: ROBIN is building interfaces, interaction systems, and robot intelligence for Physical AI.
+      - article [ref=e32]:
+        - paragraph [ref=e33]: Research
+        - 'heading "Research in action: six system demonstrations are now available." [level=2] [ref=e34]'
+        - paragraph [ref=e35]:
+          - text: Explore work in robot interface, robot interaction, and robot intelligence on the
+          - link "Research" [ref=e36] [cursor=pointer]:
+            - /url: /research/
+          - text: page.
+      - article [ref=e37]:
+        - paragraph [ref=e38]: Join ROBIN
+        - heading "We are looking for graduate students, undergraduate researchers, and postdoctoral researchers." [level=2] [ref=e39]
+        - paragraph [ref=e40]:
+          - text: See the
+          - link "Join" [ref=e41] [cursor=pointer]:
+            - /url: /join/
+          - text: page for current application materials and contact information.
+  - contentinfo [ref=e44]:
+    - paragraph [ref=e45]: © 2026 DGIST ROBIN Lab

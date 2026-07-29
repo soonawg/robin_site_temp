@@ -1,0 +1,6 @@
+---
+title: Robot Hardware Atlas
+summary: Platforms and interfaces used by ROBIN.
+---
+
+<div class="robin-tool-page"><div class="robin-page-lede"><p class="robin-page-kicker">LAB PLATFORM</p><h1>Hardware <em>Atlas</em></h1><p>The physical systems that turn ROBIN research into repeatable experiments.</p></div><div class="robin-hardware-grid"><article><div class="robin-hardware-mark">RB5</div><h2>RB5 Mobile Platform</h2><p>Our compact research platform for mobile manipulation, perception, and teleoperation experiments.</p><div><span>#MobileManipulation</span><span>#Teleoperation</span></div></article><article><div class="robin-hardware-mark">VR</div><h2>Human Interface Stack</h2><p>Wearable and immersive interfaces for capturing hand motion, haptic feedback, and operator intent.</p><div><span>#Haptics</span><span>#MotionTracking</span></div></article><article><div class="robin-hardware-mark">SIM</div><h2>Digital-Twin Simulation</h2><p>Gaussian-splatting and physics-based environments for scalable data collection and policy learning.</p><div><span>#GaussianSplatting</span><span>#RL</span></div></article></div><div class="robin-tool-links"><a href="/research/">See the research systems <span>↗</span></a><a href="/projects/">View projects using these platforms <span>↗</span></a></div></div>

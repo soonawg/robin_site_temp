@@ -1,0 +1,8 @@
+- generic [active] [ref=f21e1]:
+  - banner [ref=f21e4]:
+    - navigation [ref=f21e5]:
+      - link "DGIST ROBIN Lab" [ref=f21e7] [cursor=pointer]:
+        - /url: /
+      - img "Open Menu" [ref=f21e9] [cursor=pointer]
+  - contentinfo [ref=f21e13]:
+    - paragraph [ref=f21e14]: © 2026 DGIST ROBIN Lab

@@ -1,0 +1,42 @@
+- generic [active] [ref=f22e1]:
+  - banner [ref=f22e4]:
+    - navigation [ref=f22e5]:
+      - link "DGIST ROBIN Lab" [ref=f22e7] [cursor=pointer]:
+        - /url: /
+      - img "Open Menu" [ref=f22e9] [cursor=pointer]
+  - article [ref=f22e13]:
+    - heading "Research Map" [level=1] [ref=f22e14]
+    - generic [ref=f22e15]:
+      - generic [ref=f22e16]:
+        - paragraph [ref=f22e17]: ROBIN SYSTEM
+        - heading [level=1] [ref=f22e18]:
+          - text: Research
+          - emphasis [ref=f22e19]: Map
+        - paragraph [ref=f22e20]: Follow the path from human intent to physical intelligence. Each node connects a research question to the projects, demos, and publications that make it concrete.
+      - generic "ROBIN research map" [ref=f22e21]:
+        - link "01 Robot Interface Capture human intent" [ref=f22e22] [cursor=pointer]:
+          - /url: /research/#interface
+          - generic [ref=f22e23]: "01"
+          - strong [ref=f22e24]: Robot Interface
+          - generic [ref=f22e25]: Capture human intent
+        - generic [ref=f22e26]: →
+        - link "02 Robot Interaction Act in the physical world" [ref=f22e27] [cursor=pointer]:
+          - /url: /research/#interaction
+          - generic [ref=f22e28]: "02"
+          - strong [ref=f22e29]: Robot Interaction
+          - generic [ref=f22e30]: Act in the physical world
+        - generic [ref=f22e31]: →
+        - link "03 Robot Intelligence Learn and generalize" [ref=f22e32] [cursor=pointer]:
+          - /url: /research/#intelligence
+          - generic [ref=f22e33]: "03"
+          - strong [ref=f22e34]: Robot Intelligence
+          - generic [ref=f22e35]: Learn and generalize
+      - generic [ref=f22e36]:
+        - link "Explore projects ↗" [ref=f22e37] [cursor=pointer]:
+          - /url: /projects/
+        - link "Browse publications ↗" [ref=f22e38] [cursor=pointer]:
+          - /url: /publications/
+        - link "See research demos ↗" [ref=f22e39] [cursor=pointer]:
+          - /url: /research/
+  - contentinfo [ref=f22e42]:
+    - paragraph [ref=f22e43]: © 2026 DGIST ROBIN Lab

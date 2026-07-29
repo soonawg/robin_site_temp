@@ -1,0 +1,47 @@
+- generic [active] [ref=f25e1]:
+  - banner [ref=f25e4]:
+    - navigation [ref=f25e5]:
+      - link "DGIST ROBIN Lab" [ref=f25e7] [cursor=pointer]:
+        - /url: /
+      - list [ref=f25e8]:
+        - listitem [ref=f25e9]:
+          - link "Research" [ref=f25e10] [cursor=pointer]:
+            - /url: /research/
+        - listitem [ref=f25e11]:
+          - link "Projects" [ref=f25e12] [cursor=pointer]:
+            - /url: /projects/
+        - listitem [ref=f25e13]:
+          - link "Publications" [ref=f25e14] [cursor=pointer]:
+            - /url: /publications/
+        - listitem [ref=f25e15]:
+          - link "Team" [ref=f25e16] [cursor=pointer]:
+            - /url: /team/
+        - listitem [ref=f25e17]:
+          - link "News" [ref=f25e18] [cursor=pointer]:
+            - /url: /news/
+        - listitem [ref=f25e19]:
+          - link "Join" [ref=f25e20] [cursor=pointer]:
+            - /url: /join/
+        - listitem [ref=f25e21]:
+          - link "Contact" [ref=f25e22] [cursor=pointer]:
+            - /url: /contact/
+  - article [ref=f25e25]:
+    - heading "News" [level=1] [ref=f25e26]
+    - paragraph [ref=f25e27]: Official announcements, publication news, awards, and research updates from ROBIN Lab will appear here.
+  - contentinfo [ref=f25e30]:
+    - paragraph [ref=f25e31]:
+      - link "Creative Commons":
+        - /url: https://creativecommons.org/licenses/by-nc-nd/4.0
+      - link "Creative Commons" [ref=f25e32] [cursor=pointer]:
+        - /url: https://creativecommons.org/licenses/by-nc-nd/4.0
+    - paragraph [ref=f25e41]:
+      - text: © 2026 DGIST Department of Robotics & Mechatronics Engineering. This work is licensed under
+      - link "CC BY NC ND 4.0" [ref=f25e42] [cursor=pointer]:
+        - /url: https://creativecommons.org/licenses/by-nc-nd/4.0
+    - paragraph [ref=f25e43]:
+      - text: Made with
+      - link "Hugo Blox — Open Source" [ref=f25e44] [cursor=pointer]:
+        - /url: https://hugoblox.com/templates/academic-cv?utm_source=site_footer&utm_medium=referral&utm_campaign=poweredby_oss&utm_content=brand_academic-cv&start=1
+      - text: .
+      - link "Create your site →" [ref=f25e45] [cursor=pointer]:
+        - /url: https://hugo.chat?utm_source=site_footer&utm_medium=referral&utm_campaign=poweredby_oss&utm_content=cta_academic-cv&template_id=academic-cv

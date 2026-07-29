@@ -1,0 +1,90 @@
+- generic [active] [ref=f38e1]:
+  - banner [ref=f38e4]:
+    - navigation [ref=f38e5]:
+      - link "DGIST ROBIN Lab" [ref=f38e7] [cursor=pointer]:
+        - /url: /
+      - list [ref=f38e8]:
+        - listitem [ref=f38e9]:
+          - link "Research" [ref=f38e10] [cursor=pointer]:
+            - /url: /research/
+        - listitem [ref=f38e11]:
+          - link "Projects" [ref=f38e12] [cursor=pointer]:
+            - /url: /projects/
+        - listitem [ref=f38e13]:
+          - link "Publications" [ref=f38e14] [cursor=pointer]:
+            - /url: /publications/
+        - listitem [ref=f38e15]:
+          - link "Team" [ref=f38e16] [cursor=pointer]:
+            - /url: /team/
+        - listitem [ref=f38e17]:
+          - link "News" [ref=f38e18] [cursor=pointer]:
+            - /url: /news/
+        - listitem [ref=f38e19]:
+          - link "Join" [ref=f38e20] [cursor=pointer]:
+            - /url: /join/
+        - listitem [ref=f38e21]:
+          - link "Contact" [ref=f38e22] [cursor=pointer]:
+            - /url: /contact/
+  - generic [ref=f38e26]:
+    - generic [ref=f38e27]: Projects
+    - generic [ref=f38e29]:
+      - article [ref=f38e30]:
+        - heading "Motion Generation for General Robot-Object Interaction" [level=2] [ref=f38e31]
+        - paragraph [ref=f38e32]: Principal Investigator · 2025–Present · Sejong Science Fellowship, National Research Foundation of Korea (NRF)
+        - list [ref=f38e33]:
+          - listitem [ref=f38e34]: Simultaneous hand motion and object tracking
+          - listitem [ref=f38e35]: Digital-twin simulation and dataset expansion
+          - listitem [ref=f38e36]: Robot motion generation with real–virtual data co-training
+          - listitem [ref=f38e37]: Daily-environment datasets for real-world robotic tasks
+      - article [ref=f38e38]:
+        - heading "Humanoid Bimanual Teleoperation System for Precision Manipulation" [level=2] [ref=f38e39]
+        - paragraph [ref=f38e40]: 2025–Present · Robot Center, Samsung Research
+        - list [ref=f38e41]:
+          - listitem [ref=f38e42]: A teleoperation glove combining haptic feedback and visual–inertial hand tracking
+          - listitem [ref=f38e43]: A low-latency, high-precision interface for dual-arm and dual-hand humanoids
+          - listitem [ref=f38e44]: Real-time precision-task deployment and validation on bimanual robots
+      - article [ref=f38e45]:
+        - heading "Photo-Realistic/Physically-Precise Simulator and Large-Scale Multimodal Datasets for Robot Foundation Model" [level=2] [ref=f38e46]
+        - paragraph [ref=f38e47]: 2025–Present · Ministry of Trade, Industry and Energy (MOTIE)
+        - list [ref=f38e48]:
+          - listitem [ref=f38e49]: High-precision, photo-realistic physics simulation for contact-rich robot behavior
+          - listitem [ref=f38e50]: Accurate physical signals and real-world-quality visual outputs
+          - listitem [ref=f38e51]: Humanoid Sim-to-Real validation using Robot Foundation Model methods
+      - article [ref=f38e52]:
+        - heading "High-Payload Multi-Degree-of-Freedom Aerial Manipulation Robotic Platform" [level=2] [ref=f38e53]
+        - paragraph [ref=f38e54]: 2024–Present · Ministry of Trade, Industry and Energy (MOTIE)
+        - list [ref=f38e55]:
+          - listitem [ref=f38e56]: Bimanual finger-based interface for aerial-manipulator teleoperation
+          - listitem [ref=f38e57]: Sensor fusion and SLAM for real-time state estimation and 3D digital twins
+          - listitem [ref=f38e58]: Digital-twin simulation for physically accurate robot AI learning
+      - article [ref=f38e59]:
+        - heading "AI Simulation Platform for Smart Robots" [level=2] [ref=f38e60]
+        - paragraph [ref=f38e61]: 2022–2024 · Global AI Center, Samsung Research
+        - list [ref=f38e62]:
+          - listitem [ref=f38e63]: Real-time Vision, IMU, LIDAR, BLDC, and Servo-data simulation in smart-home environments
+          - listitem [ref=f38e64]: Control strategies using reinforcement learning, transformers, and motion planning
+          - listitem [ref=f38e65]: Contributions to Samsung robots, including robotic vacuum cleaners and Bot Handy
+      - article [ref=f38e66]:
+        - heading "Development of Large Multimodal Model “Samsung Gauss”" [level=2] [ref=f38e67]
+        - paragraph [ref=f38e68]: 2023–2024 · Global AI Center, Samsung Research
+        - list [ref=f38e69]:
+          - listitem [ref=f38e70]: Development of a proprietary large multimodal foundation model
+          - listitem [ref=f38e71]: Vision-language architecture design and training for cross-modal understanding
+          - listitem [ref=f38e72]: Embodied AI integration and real-world performance optimization
+  - contentinfo [ref=f38e74]:
+    - paragraph [ref=f38e75]:
+      - link "Creative Commons":
+        - /url: https://creativecommons.org/licenses/by-nc-nd/4.0
+      - link "Creative Commons" [ref=f38e76] [cursor=pointer]:
+        - /url: https://creativecommons.org/licenses/by-nc-nd/4.0
+    - paragraph [ref=f38e85]:
+      - text: © 2026 DGIST Department of Robotics & Mechatronics Engineering. This work is licensed under
+      - link "CC BY NC ND 4.0" [ref=f38e86] [cursor=pointer]:
+        - /url: https://creativecommons.org/licenses/by-nc-nd/4.0
+    - paragraph [ref=f38e87]:
+      - text: Made with
+      - link "Hugo Blox — Open Source" [ref=f38e88] [cursor=pointer]:
+        - /url: https://hugoblox.com/templates/academic-cv?utm_source=site_footer&utm_medium=referral&utm_campaign=poweredby_oss&utm_content=brand_academic-cv&start=1
+      - text: .
+      - link "Create your site →" [ref=f38e89] [cursor=pointer]:
+        - /url: https://hugo.chat?utm_source=site_footer&utm_medium=referral&utm_campaign=poweredby_oss&utm_content=cta_academic-cv&template_id=academic-cv

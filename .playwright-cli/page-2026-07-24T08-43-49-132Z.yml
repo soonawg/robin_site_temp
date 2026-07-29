@@ -1,0 +1,88 @@
+- generic [active] [ref=f44e1]:
+  - banner [ref=f44e4]:
+    - navigation [ref=f44e5]:
+      - link "DGIST ROBIN Lab" [ref=f44e7] [cursor=pointer]:
+        - /url: /
+      - list [ref=f44e8]:
+        - listitem [ref=f44e9]:
+          - link "Research" [ref=f44e10] [cursor=pointer]:
+            - /url: /research/
+        - listitem [ref=f44e11]:
+          - link "Projects" [ref=f44e12] [cursor=pointer]:
+            - /url: /projects/
+        - listitem [ref=f44e13]:
+          - link "Publications" [ref=f44e14] [cursor=pointer]:
+            - /url: /publications/
+        - listitem [ref=f44e15]:
+          - link "Team" [ref=f44e16] [cursor=pointer]:
+            - /url: /team/
+        - listitem [ref=f44e17]:
+          - link "News" [ref=f44e18] [cursor=pointer]:
+            - /url: /news/
+        - listitem [ref=f44e19]:
+          - link "Join" [ref=f44e20] [cursor=pointer]:
+            - /url: /join/
+        - listitem [ref=f44e21]:
+          - link "Contact" [ref=f44e22] [cursor=pointer]:
+            - /url: /contact/
+  - generic [ref=f44e23]:
+    - generic [ref=f44e26]:
+      - generic [ref=f44e27]: Research
+      - paragraph [ref=f44e29]: ROBIN integrates high-fidelity robot interfaces with complex environmental interaction to create the data, models, and systems required for Physical AI.
+    - generic [ref=f44e32]:
+      - generic [ref=f44e33]: Robot Interface
+      - generic [ref=f44e35]:
+        - list [ref=f44e36]:
+          - listitem [ref=f44e37]: Wearable Sensor Glove with Haptic Feedback
+          - listitem [ref=f44e38]: Sensor-fusion based Human Motion Tracking
+          - listitem [ref=f44e39]: Dexterous Interface for Humanoid and Teleoperation
+        - generic "Robot Interface videos" [ref=f44e40]:
+          - generic "VIST demonstration" [ref=f44e42]
+          - generic "Markerless VIST demonstration" [ref=f44e44]
+    - generic [ref=f44e47]:
+      - generic [ref=f44e48]: Robot Interaction
+      - generic [ref=f44e50]:
+        - list [ref=f44e51]:
+          - listitem [ref=f44e52]: Digital-Twin Generation with Gaussian Splatting
+          - listitem [ref=f44e53]: Robotic Simulation for Physical AI
+          - listitem [ref=f44e54]: Safe and Efficient Human-Robot Interaction
+        - generic "Robot Interaction videos" [ref=f44e55]:
+          - generic "Winch simulation" [ref=f44e57]
+          - generic "RAL results" [ref=f44e59]
+    - generic [ref=f44e62]:
+      - generic [ref=f44e63]: Robot Intelligence
+      - generic [ref=f44e65]:
+        - list [ref=f44e66]:
+          - listitem [ref=f44e67]: Imitation Learning Dataset from Dexterous Interface
+          - listitem [ref=f44e68]: Reinforcement Learning with Digital-Twin Simulation
+          - listitem [ref=f44e69]: Long-horizon Generalizable Task with Robot Foundation Models (RFM)
+        - generic "Robot Intelligence videos" [ref=f44e70]:
+          - generic "Samsung Research mobile manipulator teleoperation" [ref=f44e72]
+          - generic "SR teleoperation" [ref=f44e74]
+    - generic [ref=f44e77]:
+      - generic [ref=f44e78]: Conference Calendar
+      - complementary [ref=f44e80]:
+        - paragraph [ref=f44e81]: Research community
+        - heading "Conference Calendar & Locations" [level=2] [ref=f44e82]
+        - paragraph [ref=f44e83]: A 2026–2029 overview of major conference locations, dates, and regional announcements.
+        - link "View the conference calendar ↗" [ref=f44e84] [cursor=pointer]:
+          - /url: /conference-timeline/
+          - text: View the conference calendar
+          - generic [ref=f44e85]: ↗
+  - contentinfo [ref=f44e87]:
+    - paragraph [ref=f44e88]:
+      - link "Creative Commons":
+        - /url: https://creativecommons.org/licenses/by-nc-nd/4.0
+      - link "Creative Commons" [ref=f44e89] [cursor=pointer]:
+        - /url: https://creativecommons.org/licenses/by-nc-nd/4.0
+    - paragraph [ref=f44e98]:
+      - text: © 2026 DGIST Department of Robotics & Mechatronics Engineering. This work is licensed under
+      - link "CC BY NC ND 4.0" [ref=f44e99] [cursor=pointer]:
+        - /url: https://creativecommons.org/licenses/by-nc-nd/4.0
+    - paragraph [ref=f44e100]:
+      - text: Made with
+      - link "Hugo Blox — Open Source" [ref=f44e101] [cursor=pointer]:
+        - /url: https://hugoblox.com/templates/academic-cv?utm_source=site_footer&utm_medium=referral&utm_campaign=poweredby_oss&utm_content=brand_academic-cv&start=1
+      - text: .
+      - link "Create your site →" [ref=f44e102] [cursor=pointer]:
+        - /url: https://hugo.chat?utm_source=site_footer&utm_medium=referral&utm_campaign=poweredby_oss&utm_content=cta_academic-cv&template_id=academic-cv

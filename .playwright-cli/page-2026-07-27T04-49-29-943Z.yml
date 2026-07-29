@@ -1,0 +1,222 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e4]:
+    - navigation [ref=e5]:
+      - link "DGIST ROBIN Lab" [ref=e7] [cursor=pointer]:
+        - /url: /
+      - list [ref=e8]:
+        - listitem [ref=e9]:
+          - link "Research" [ref=e10] [cursor=pointer]:
+            - /url: /research/
+        - listitem [ref=e11]:
+          - link "Projects" [ref=e12] [cursor=pointer]:
+            - /url: /projects/
+        - listitem [ref=e13]:
+          - link "Publications" [ref=e14] [cursor=pointer]:
+            - /url: /publications/
+        - listitem [ref=e15]:
+          - link "Team" [ref=e16] [cursor=pointer]:
+            - /url: /team/
+        - listitem [ref=e17]:
+          - link "News" [ref=e18] [cursor=pointer]:
+            - /url: /news/
+        - listitem [ref=e19]:
+          - link "Join" [ref=e20] [cursor=pointer]:
+            - /url: /join/
+        - listitem [ref=e21]:
+          - link "Contact" [ref=e22] [cursor=pointer]:
+            - /url: /contact/
+  - article [ref=e25]:
+    - heading "Team" [level=1] [ref=e26]
+    - generic [ref=e27]:
+      - radio [checked] [ref=e28]
+      - radio [ref=e29]
+      - radio [ref=e30]
+      - generic [ref=e31]: Principal Investigator
+      - generic [ref=e32]:
+        - generic [ref=e33]:
+          - heading [level=1] [ref=e34]:
+            - text: Yong-SeokLee,
+            - emphasis [ref=e35]: Ph.D.
+          - paragraph [ref=e36]: Assistant Professor · Department of Robotics and Mechatronics Engineering · DGIST
+        - generic [ref=e37]:
+          - link "yslee@dgist.ac.kr" [ref=e38] [cursor=pointer]:
+            - /url: mailto:yslee@dgist.ac.kr
+          - paragraph [ref=e39]: "Bldg E5 #211, 333 Techno jungang-daeroHyeonpung-eup, Dalseong-gun, Daegu 42988, Korea"
+          - paragraph [ref=e40]:
+            - link "Google Scholar" [ref=e41] [cursor=pointer]:
+              - /url: https://scholar.google.com/citations?user=iMjIpUkAAAAJ&hl=ko
+            - text: ·
+            - link "CV" [ref=e42] [cursor=pointer]:
+              - /url: https://drive.google.com/file/d/1ft_tTYYAxwcRiHFwuH35i7CKHGxtr7Eo/view?usp=sharing
+        - figure [ref=e43]:
+          - img "Yong-Seok Lee" [ref=e44]
+      - generic [ref=e45]:
+        - generic [ref=e46]:
+          - heading "Education" [level=2] [ref=e47]
+          - paragraph [ref=e48]: Ph.D. in Mechanical Engineering, Seoul National University, 2021
+          - paragraph [ref=e49]: B.S. in Mechanical and Aerospace Engineering, Seoul National University, 2013 (Cum Laude, Top 12%)
+        - generic [ref=e50]:
+          - heading "Positions" [level=2] [ref=e51]
+          - paragraph [ref=e52]: Assistant Professor, DGIST, Korea, 2026–Present
+          - paragraph [ref=e53]: BK Assistant Professor, Seoul National University, Korea, 2024–2026
+          - paragraph [ref=e54]: Staff Engineer, Global AI Center, Samsung Research, 2021–2024
+      - generic [ref=e55]:
+        - heading "Outside the Lab" [level=2] [ref=e56]
+        - paragraph [ref=e57]: Beyond robotics, Yong-Seok enjoys making music, cycling, and games.
+        - generic "Outside the lab interests" [ref=e58]:
+          - button "🎸 Guitar" [ref=e59] [cursor=pointer]:
+            - text: 🎸
+            - generic [ref=e60]: Guitar
+          - button "🚴 Cycling" [ref=e61] [cursor=pointer]:
+            - text: 🚴
+            - generic [ref=e62]: Cycling
+          - button "🎮 Games" [ref=e63] [cursor=pointer]:
+            - text: 🎮
+            - generic [ref=e64]: Games
+    - generic [ref=e65]:
+      - heading "Members" [level=2] [ref=e66]
+      - generic [ref=e67]:
+        - heading "Master’s Students 03" [level=3] [ref=e68]:
+          - text: Master’s Students
+          - generic [ref=e69]: "03"
+        - generic [ref=e70]:
+          - article [ref=e71]:
+            - img "Illustrative temporary profile avatar" [ref=e72]
+            - heading "Kyu-Tae Lee" [level=4] [ref=e73]
+            - paragraph [ref=e74]: MS student · 2026S–
+            - link "Email" [ref=e75] [cursor=pointer]:
+              - /url: mailto:leekyutae@dgist.ac.kr
+            - generic [ref=e76]:
+              - generic [ref=e77]: Robotics
+              - generic [ref=e78]: Physical AI
+          - article [ref=e79]:
+            - img "Illustrative temporary profile avatar" [ref=e80]
+            - heading "Yu-Seong Cheon" [level=4] [ref=e81]
+            - paragraph [ref=e82]: MS student · 2026F–
+            - link "Email" [ref=e83] [cursor=pointer]:
+              - /url: mailto:cjsdntjd1234@gmail.com
+            - generic [ref=e84]:
+              - generic [ref=e85]: Robotics
+              - generic [ref=e86]: Physical AI
+          - article [ref=e87]:
+            - img "Illustrative temporary profile avatar" [ref=e88]
+            - heading "Hwan-Chul La" [level=4] [ref=e89]
+            - paragraph [ref=e90]: MS student · 2026F–
+            - link "Email" [ref=e91] [cursor=pointer]:
+              - /url: mailto:fkghkscjf@gmail.com
+            - generic [ref=e92]:
+              - generic [ref=e93]: Robotics
+              - generic [ref=e94]: Physical AI
+      - generic [ref=e95]:
+        - heading "Ph.D. Students 00" [level=3] [ref=e96]:
+          - text: Ph.D. Students
+          - generic [ref=e97]: "00"
+        - paragraph [ref=e98]: Ph.D. researcher profiles will be added as the cohort grows.
+      - generic [ref=e99]:
+        - heading "Undergraduate Students 12" [level=3] [ref=e100]:
+          - text: Undergraduate Students
+          - generic [ref=e101]: "12"
+        - generic [ref=e102]:
+          - article [ref=e103]:
+            - img "Illustrative temporary profile avatar" [ref=e104]
+            - heading "Hye-Sung Lee" [level=4] [ref=e105]
+            - paragraph [ref=e106]: Undergraduate student
+            - generic [ref=e107]:
+              - generic [ref=e108]: Robotics
+              - generic [ref=e109]: Physical AI
+            - generic [ref=e110]: Profile pending
+          - article [ref=e112]:
+            - img "Illustrative temporary profile avatar" [ref=e113]
+            - heading "Jun-Hyeok Lee" [level=4] [ref=e114]
+            - paragraph [ref=e115]: Undergraduate student
+            - generic [ref=e116]:
+              - generic [ref=e117]: Robotics
+              - generic [ref=e118]: Physical AI
+            - generic [ref=e119]: Profile pending
+          - article [ref=e121]:
+            - img "Illustrative temporary profile avatar" [ref=e122]
+            - heading "Kang-Jae Seong" [level=4] [ref=e123]
+            - paragraph [ref=e124]: Undergraduate student
+            - generic [ref=e125]:
+              - generic [ref=e126]: Robotics
+              - generic [ref=e127]: Physical AI
+            - generic [ref=e128]: Profile pending
+          - article [ref=e130]:
+            - img "Illustrative temporary profile avatar" [ref=e131]
+            - heading "Yu-Bin Jeon" [level=4] [ref=e132]
+            - paragraph [ref=e133]: Undergraduate student
+            - generic [ref=e134]:
+              - generic [ref=e135]: Robotics
+              - generic [ref=e136]: Physical AI
+            - generic [ref=e137]: Profile pending
+          - article [ref=e139]:
+            - img "Illustrative temporary profile avatar" [ref=e140]
+            - heading "Sang-Woo Han" [level=4] [ref=e141]
+            - paragraph [ref=e142]: Undergraduate student
+            - generic [ref=e143]:
+              - generic [ref=e144]: Robotics
+              - generic [ref=e145]: Physical AI
+            - generic [ref=e146]: Profile pending
+          - article [ref=e148]:
+            - img "Illustrative temporary profile avatar" [ref=e149]
+            - heading "Young-Chan Shim" [level=4] [ref=e150]
+            - paragraph [ref=e151]: Undergraduate student
+            - generic [ref=e152]:
+              - generic [ref=e153]: Robotics
+              - generic [ref=e154]: Physical AI
+            - generic [ref=e155]: Profile pending
+          - article [ref=e157]:
+            - img "Illustrative temporary profile avatar" [ref=e158]
+            - heading "Sun-hong Min" [level=4] [ref=e159]
+            - paragraph [ref=e160]: Undergraduate student
+            - generic [ref=e161]:
+              - generic [ref=e162]: Robotics
+              - generic [ref=e163]: Physical AI
+            - generic [ref=e164]: Profile pending
+          - article [ref=e166]:
+            - img "Illustrative temporary profile avatar" [ref=e167]
+            - heading "Ui-Seong Shin" [level=4] [ref=e168]
+            - paragraph [ref=e169]: Undergraduate student
+            - generic [ref=e170]:
+              - generic [ref=e171]: Robotics
+              - generic [ref=e172]: Physical AI
+            - generic [ref=e173]: Profile pending
+          - article [ref=e175]:
+            - img "Illustrative temporary profile avatar" [ref=e176]
+            - heading "Tae-Yoon Kang" [level=4] [ref=e177]
+            - paragraph [ref=e178]: Undergraduate student
+            - generic [ref=e179]:
+              - generic [ref=e180]: Robotics
+              - generic [ref=e181]: Physical AI
+            - generic [ref=e182]: Profile pending
+          - article [ref=e184]:
+            - img "Illustrative temporary profile avatar" [ref=e185]
+            - heading "Min-Jae Kim" [level=4] [ref=e186]
+            - paragraph [ref=e187]: Undergraduate student
+            - generic [ref=e188]:
+              - generic [ref=e189]: Robotics
+              - generic [ref=e190]: Physical AI
+            - generic [ref=e191]: Profile pending
+          - article [ref=e193]:
+            - img "Illustrative temporary profile avatar" [ref=e194]
+            - heading "Tae-ho Kim" [level=4] [ref=e195]
+            - paragraph [ref=e196]: Undergraduate student
+            - generic [ref=e197]:
+              - generic [ref=e198]: Robotics
+              - generic [ref=e199]: Physical AI
+            - generic [ref=e200]: Profile pending
+          - article [ref=e202]:
+            - img "Illustrative temporary profile avatar" [ref=e203]
+            - heading "Min-Hyung Lee" [level=4] [ref=e204]
+            - paragraph [ref=e205]: Undergraduate student
+            - generic [ref=e206]:
+              - generic [ref=e207]: Robotics
+              - generic [ref=e208]: Physical AI
+            - generic [ref=e209]: Profile pending
+      - generic [ref=e211]:
+        - heading "Alumni 00" [level=3] [ref=e212]:
+          - text: Alumni
+          - generic [ref=e213]: "00"
+        - paragraph [ref=e214]: Alumni profiles will be added as ROBIN Lab records its first graduating cohorts.
+  - contentinfo [ref=e217]:
+    - paragraph [ref=e218]: © 2026 DGIST ROBIN Lab

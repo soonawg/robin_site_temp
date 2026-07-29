@@ -1,0 +1,342 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e4]:
+    - navigation [ref=e5]:
+      - link "DGIST ROBIN Lab" [ref=e7] [cursor=pointer]:
+        - /url: /
+      - list [ref=e8]:
+        - listitem [ref=e9]:
+          - link "Research" [ref=e10] [cursor=pointer]:
+            - /url: /#research
+        - listitem [ref=e11]:
+          - link "Projects" [ref=e12] [cursor=pointer]:
+            - /url: /projects/
+        - listitem [ref=e13]:
+          - link "Publications" [ref=e14] [cursor=pointer]:
+            - /url: /publications/
+        - listitem [ref=e15]:
+          - button "Team" [ref=e16] [cursor=pointer]
+        - listitem [ref=e19]:
+          - link "News" [ref=e20] [cursor=pointer]:
+            - /url: /news/
+        - listitem [ref=e21]:
+          - link "Join" [ref=e22] [cursor=pointer]:
+            - /url: /join/
+        - listitem [ref=e23]:
+          - link "Contact" [ref=e24] [cursor=pointer]:
+            - /url: /contact/
+      - generic [ref=e25]:
+        - button "toggle search" [ref=e26] [cursor=pointer]
+        - button "appearance" [ref=e30] [cursor=pointer]
+        - combobox [ref=e38] [cursor=pointer]:
+          - option "Theme" [selected]
+          - option "Coffee"
+          - option "Contrast"
+          - option "Cupcake"
+          - option "Default"
+          - option "Dracula"
+          - option "Marine"
+          - option "Matcha"
+          - option "Minimal"
+          - option "Retro"
+          - option "Solar"
+          - option "Synthwave"
+  - generic [ref=e39]:
+    - generic [ref=e44]:
+      - generic [ref=e45]:
+        - paragraph [ref=e46]: DGIST · Robotics and Mechatronics Engineering
+        - img "ROBIN Lab logo" [ref=e47]
+        - heading [level=1] [ref=e48]:
+          - text: Building
+          - emphasis [ref=e49]: Physical AI
+        - paragraph [ref=e50]: ROBIN Lab develops the interfaces, interactions, and intelligence that let robots act in the physical world.
+        - generic [ref=e51]:
+          - link "Explore research" [ref=e52] [cursor=pointer]:
+            - /url: "#research"
+          - link "Join ROBIN" [ref=e53] [cursor=pointer]:
+            - /url: /join-us
+        - paragraph [ref=e54]: ROBot INterface, INteraction, and INtelligence Laboratory
+      - generic "Interactive ROBIN Concept System" [ref=e55]:
+        - generic "Interactive 3D ROBIN Concept System" [ref=e56]
+        - generic: ROBIN CONCEPT SYSTEM
+    - generic [ref=e63]:
+      - generic [ref=e64]: 🔬 Research Pillars
+      - generic [ref=e66]:
+        - generic [ref=e67]:
+          - generic [ref=e68]:
+            - generic [ref=e69]: 🎮
+            - generic [ref=e70]: 01 / INTERFACE
+          - heading "High-Fidelity Interfaces" [level=3] [ref=e71]
+          - paragraph [ref=e72]: Bilateral Teleoperation systems, Human-Robot Interfaces (HRI), bio-signal feedback, and force reflection for gathering rich real-world demonstration dataset pipelines.
+          - generic [ref=e73]:
+            - generic [ref=e74]: Teleoperation
+            - generic [ref=e75]: HRI & Haptics
+            - generic [ref=e76]: Bio-Signals
+        - generic [ref=e77]:
+          - generic [ref=e78]:
+            - generic [ref=e79]: 🌐
+            - generic [ref=e80]: 02 / INTERACTION
+          - heading "Environmental Interactions" [level=3] [ref=e81]
+          - paragraph [ref=e82]: Dense tactile sensing arrays, contact-rich whole-body manipulation, multi-modal perception, and GPU-accelerated Digital Twins for robust Sim2Real transfer.
+          - generic [ref=e83]:
+            - generic [ref=e84]: Tactile Sensing
+            - generic [ref=e85]: Digital Twins
+            - generic [ref=e86]: Sim2Real
+        - generic [ref=e87]:
+          - generic [ref=e88]:
+            - generic [ref=e89]: 🧠
+            - generic [ref=e90]: 03 / INTELLIGENCE
+          - heading "Physical AI & Intelligence" [level=3] [ref=e91]
+          - paragraph [ref=e92]: Robot Foundation Models, Reinforcement Learning, Humanoid whole-body control, and Imitation Learning for autonomous physical decision making.
+          - generic [ref=e93]:
+            - generic [ref=e94]: Humanoid Robots
+            - generic [ref=e95]: Foundation Models
+            - generic [ref=e96]: RL & Control
+    - generic [ref=e99]:
+      - generic [ref=e100]: 🎬 Demos & Video Showcase
+      - generic [ref=e102]:
+        - generic [ref=e103]:
+          - generic [ref=e104]: 🤖
+          - heading "Bilateral Humanoid Teleoperation" [level=4] [ref=e107]
+          - paragraph [ref=e108]: Real-time haptic feedback teleoperation for multi-finger dexterous humanoid manipulation.
+          - generic [ref=e109]:
+            - generic [ref=e110]: Video Demo
+            - generic [ref=e111]: IROS 2025
+        - generic [ref=e112]:
+          - generic [ref=e113]: 🌐
+          - heading "GPU Tactile Digital Twin" [level=4] [ref=e116]
+          - paragraph [ref=e117]: Physics-informed simulation of dense tactile sensor arrays for zero-shot Sim2Real transfer.
+          - generic [ref=e118]:
+            - generic [ref=e119]: Simulation
+            - generic [ref=e120]: ICRA 2025
+    - generic [ref=e121]:
+      - generic [ref=e123]: 📄 Featured Publications
+      - generic [ref=e126]:
+        - article [ref=e127]:
+          - link [ref=e129] [cursor=pointer]:
+            - /url: /publications/finger-swarm-interface/
+          - generic [ref=e134]:
+            - link "Robot Interface" [ref=e136] [cursor=pointer]:
+              - /url: /tags/robot-interface/
+            - heading [level=3] [ref=e138]:
+              - 'link "Finger-based 3D Human-Swarm Interaction Interface: Design and Human-Subject Evaluation" [ref=e139] [cursor=pointer]':
+                - /url: /publications/finger-swarm-interface/
+            - paragraph [ref=e140]: Design and evaluation of a finger-based interface for 3D human-swarm interaction.
+            - generic [ref=e141]:
+              - generic [ref=e142]:
+                - generic [ref=e143]: j.-heo
+                - generic [ref=e149]: •
+                - time [ref=e150]: Jan 1, 2026
+                - generic [ref=e151]: •
+                - generic [ref=e152]: 1 min read
+              - link "Read more" [ref=e154] [cursor=pointer]:
+                - /url: /publications/finger-swarm-interface/
+        - article [ref=e158]:
+          - link [ref=e160] [cursor=pointer]:
+            - /url: /publications/hil-object-segmentation/
+          - generic [ref=e165]:
+            - link "Robot Interaction" [ref=e167] [cursor=pointer]:
+              - /url: /tags/robot-interaction/
+            - heading [level=3] [ref=e169]:
+              - link "Human-in-the-Loop Object Segmentation for 3D Gaussian-Splatting" [ref=e170] [cursor=pointer]:
+                - /url: /publications/hil-object-segmentation/
+            - paragraph [ref=e171]: Human-in-the-loop object segmentation for 3D Gaussian-splatting environments.
+            - generic [ref=e172]:
+              - generic [ref=e173]:
+                - generic [ref=e174]: y.-lee
+                - generic [ref=e180]: •
+                - time [ref=e181]: Jan 1, 2026
+                - generic [ref=e182]: •
+                - generic [ref=e183]: 1 min read
+              - link "Read more" [ref=e185] [cursor=pointer]:
+                - /url: /publications/hil-object-segmentation/
+        - article [ref=e189]:
+          - link [ref=e191] [cursor=pointer]:
+            - /url: /publications/markerless-hand-tracking/
+          - generic [ref=e196]:
+            - link "Robot Interface" [ref=e198] [cursor=pointer]:
+              - /url: /tags/robot-interface/
+            - heading [level=3] [ref=e200]:
+              - link "Markerless Tracking of Human Hand Motion using Vision and Inertial Measurements" [ref=e201] [cursor=pointer]:
+                - /url: /publications/markerless-hand-tracking/
+            - paragraph [ref=e202]: Markerless human-hand tracking through vision and inertial sensing.
+            - generic [ref=e203]:
+              - generic [ref=e204]:
+                - generic [ref=e205]: h.-choi
+                - generic [ref=e211]: •
+                - time [ref=e212]: Jan 1, 2026
+                - generic [ref=e213]: •
+                - generic [ref=e214]: 1 min read
+              - link "Read more" [ref=e216] [cursor=pointer]:
+                - /url: /publications/markerless-hand-tracking/
+        - article [ref=e220]:
+          - link [ref=e222] [cursor=pointer]:
+            - /url: /publications/te-sdf/
+          - generic [ref=e227]:
+            - link "Robot Interaction" [ref=e229] [cursor=pointer]:
+              - /url: /tags/robot-interaction/
+            - heading [level=3] [ref=e231]:
+              - 'link "TE-SDF: Tetra-Encoded Signed Distance Field for Memory-Efficient and Accurate Collision Detection" [ref=e232] [cursor=pointer]':
+                - /url: /publications/te-sdf/
+            - paragraph [ref=e233]: Memory-efficient and accurate collision detection for robot interaction.
+            - generic [ref=e234]:
+              - generic [ref=e235]:
+                - generic [ref=e236]: h.-ji
+                - generic [ref=e242]: •
+                - time [ref=e243]: Jan 1, 2026
+                - generic [ref=e244]: •
+                - generic [ref=e245]: 1 min read
+              - link "Read more" [ref=e247] [cursor=pointer]:
+                - /url: /publications/te-sdf/
+    - generic [ref=e251]:
+      - generic [ref=e253]: 📢 Recent Lab News
+      - generic [ref=e256]:
+        - article [ref=e257]:
+          - generic [ref=e258]:
+            - generic [ref=e259]:
+              - generic [ref=e260]: Trending
+              - generic [ref=e261]: 🔥
+            - link "⚡️ Turn Jupyter Notebooks into Blog Posts featured image":
+              - /url: /blog/notebook-onboarding/
+              - img "⚡️ Turn Jupyter Notebooks into Blog Posts featured image" [ref=e262] [cursor=pointer]
+          - generic [ref=e263]:
+            - link "Hugo Blox" [ref=e265] [cursor=pointer]:
+              - /url: /tags/hugo-blox/
+            - heading [level=3] [ref=e267]:
+              - link "⚡️ Turn Jupyter Notebooks into Blog Posts" [ref=e268] [cursor=pointer]:
+                - /url: /blog/notebook-onboarding/
+            - paragraph [ref=e269]: Publish your data science and research directly from Jupyter Notebooks. No screenshots required.
+            - generic [ref=e270]:
+              - generic [ref=e271]:
+                - generic [ref=e272]:
+                  - img "avatar" [ref=e274]
+                  - generic [ref=e275]: Dr. Alex Johnson
+                - generic [ref=e276]: •
+                - time [ref=e277]: Jul 15, 2024
+                - generic [ref=e278]: •
+                - generic [ref=e279]: 2 min read
+              - link "Read more" [ref=e281] [cursor=pointer]:
+                - /url: /blog/notebook-onboarding/
+        - article [ref=e285]:
+          - generic [ref=e286]:
+            - generic [ref=e287]:
+              - generic [ref=e288]: Trending
+              - generic [ref=e289]: 🔥
+            - link "🎉 Easily create your own simple yet highly customizable blog featured image":
+              - /url: /blog/get-started/
+              - img "🎉 Easily create your own simple yet highly customizable blog featured image" [ref=e290] [cursor=pointer]
+          - generic [ref=e291]:
+            - link "Academic" [ref=e293] [cursor=pointer]:
+              - /url: /tags/academic/
+            - heading [level=3] [ref=e295]:
+              - link "🎉 Easily create your own simple yet highly customizable blog" [ref=e296] [cursor=pointer]:
+                - /url: /blog/get-started/
+            - paragraph [ref=e297]: Take full control of your personal brand and privacy by migrating away from the big tech platforms!
+            - generic [ref=e298]:
+              - generic [ref=e299]:
+                - generic [ref=e300]:
+                  - img "avatar" [ref=e302]
+                  - generic [ref=e303]: Dr. Alex Johnson
+                - generic [ref=e304]: •
+                - time [ref=e305]: Oct 27, 2023
+                - generic [ref=e306]: •
+                - generic [ref=e307]: 2 min read
+              - link "Read more" [ref=e309] [cursor=pointer]:
+                - /url: /blog/get-started/
+        - article [ref=e313]:
+          - generic [ref=e314]:
+            - link "🧠 Sharpen your thinking with a second brain featured image":
+              - /url: /blog/second-brain/
+              - img "🧠 Sharpen your thinking with a second brain featured image" [ref=e315] [cursor=pointer]
+          - generic [ref=e316]:
+            - link "Second Brain" [ref=e318] [cursor=pointer]:
+              - /url: /tags/second-brain/
+            - heading [level=3] [ref=e320]:
+              - link "🧠 Sharpen your thinking with a second brain" [ref=e321] [cursor=pointer]:
+                - /url: /blog/second-brain/
+            - paragraph [ref=e322]: Create a personal knowledge base and share your knowledge with your peers.
+            - generic [ref=e323]:
+              - generic [ref=e324]:
+                - generic [ref=e325]:
+                  - img "avatar" [ref=e327]
+                  - generic [ref=e328]: Dr. Alex Johnson
+                - generic [ref=e329]: •
+                - time [ref=e330]: Oct 26, 2023
+                - generic [ref=e331]: •
+                - generic [ref=e332]: 1 min read
+              - link "Read more" [ref=e334] [cursor=pointer]:
+                - /url: /blog/second-brain/
+        - article [ref=e338]:
+          - generic [ref=e339]:
+            - link "📈 Communicate your results effectively with the best data visualizations featured image":
+              - /url: /blog/data-visualization/
+              - img "📈 Communicate your results effectively with the best data visualizations featured image" [ref=e340] [cursor=pointer]
+          - generic [ref=e341]:
+            - link "Hugo" [ref=e343] [cursor=pointer]:
+              - /url: /tags/hugo/
+            - heading [level=3] [ref=e345]:
+              - link "📈 Communicate your results effectively with the best data visualizations" [ref=e346] [cursor=pointer]:
+                - /url: /blog/data-visualization/
+            - paragraph [ref=e347]: Use popular tools such as HuggingFace, Plotly, Mermaid, and data frames.
+            - generic [ref=e348]:
+              - generic [ref=e349]:
+                - generic [ref=e350]:
+                  - img "avatar" [ref=e352]
+                  - generic [ref=e353]: Dr. Alex Johnson
+                - generic [ref=e354]: •
+                - time [ref=e355]: Oct 25, 2023
+                - generic [ref=e356]: •
+                - generic [ref=e357]: 3 min read
+              - link "Read more" [ref=e359] [cursor=pointer]:
+                - /url: /blog/data-visualization/
+        - article [ref=e363]:
+          - generic [ref=e364]:
+            - link "✅ Manage your projects featured image":
+              - /url: /blog/project-management/
+              - img "✅ Manage your projects featured image" [ref=e365] [cursor=pointer]
+          - generic [ref=e366]:
+            - link "Hugo Blox" [ref=e368] [cursor=pointer]:
+              - /url: /tags/hugo-blox/
+            - heading [level=3] [ref=e370]:
+              - link "✅ Manage your projects" [ref=e371] [cursor=pointer]:
+                - /url: /blog/project-management/
+            - paragraph [ref=e372]: Easily manage your projects - create ideation mind maps, Gantt charts, todo lists, and more!
+            - generic [ref=e373]:
+              - generic [ref=e374]:
+                - generic [ref=e375]:
+                  - img "avatar" [ref=e377]
+                  - generic [ref=e378]: Dr. Alex Johnson
+                - generic [ref=e379]: •
+                - time [ref=e380]: Oct 23, 2023
+                - generic [ref=e381]: •
+                - generic [ref=e382]: 1 min read
+              - link "Read more" [ref=e384] [cursor=pointer]:
+                - /url: /blog/project-management/
+    - generic [ref=e391]:
+      - heading "🎓 Join ROBIN Lab @ DGIST!" [level=2] [ref=e392]
+      - generic [ref=e393]:
+        - text: We are actively looking for highly motivated
+        - strong [ref=e394]: Ph.D., M.S./Ph.D. Integrated, Master Students
+        - text: ", and"
+        - strong [ref=e395]: Undergraduate Research Interns
+        - text: passionate about
+        - strong [ref=e396]: Physical AI, Humanoid Robotics, Teleoperation, Tactile Sensing, and Digital Twins
+        - text: . If you are eager to build cutting-edge physical AI systems and publish in top robotics venues (ICRA, IROS, T-RO, RSS, CVPR), please contact us!
+      - link "✉️ Contact PI / Apply" [ref=e398] [cursor=pointer]:
+        - /url: mailto:kspark@dgist.ac.kr
+  - contentinfo [ref=e401]:
+    - paragraph [ref=e402]:
+      - link "Creative Commons":
+        - /url: https://creativecommons.org/licenses/by-nc-nd/4.0
+      - link "Creative Commons" [ref=e403] [cursor=pointer]:
+        - /url: https://creativecommons.org/licenses/by-nc-nd/4.0
+    - paragraph [ref=e412]:
+      - text: © 2026 DGIST Department of Robotics & Mechatronics Engineering. This work is licensed under
+      - link "CC BY NC ND 4.0" [ref=e413] [cursor=pointer]:
+        - /url: https://creativecommons.org/licenses/by-nc-nd/4.0
+    - paragraph [ref=e414]:
+      - text: Made with
+      - link "Hugo Blox — Open Source" [ref=e415] [cursor=pointer]:
+        - /url: https://hugoblox.com/templates/academic-cv?utm_source=site_footer&utm_medium=referral&utm_campaign=poweredby_oss&utm_content=brand_academic-cv&start=1
+      - text: .
+      - link "Create your site →" [ref=e416] [cursor=pointer]:
+        - /url: https://hugo.chat?utm_source=site_footer&utm_medium=referral&utm_campaign=poweredby_oss&utm_content=cta_academic-cv&template_id=academic-cv

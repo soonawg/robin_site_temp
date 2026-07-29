@@ -12,7 +12,7 @@ sections:
           <p class="robin-publications-note">† indicates co-corresponding authors. For the most current links and PDFs, visit <a href="https://scholar.google.com/citations?user=iMjIpUkAAAAJ&amp;hl=ko" target="_blank" rel="noopener noreferrer">Google Scholar ↗</a>.</p>
           <h2>International Journal</h2>
           <ol>
-            <li>Y. Lee, H. Park, H. Kim, H. Ji, and D. J. Lee, “Human-in-the-Loop Object Segmentation for 3D Gaussian-Splatting,” <em>Advanced Intelligent Systems</em>, 2026.</li>
+            <li class="robin-publication-entry robin-publication-with-gif"><img src="/media/publications/HIL-GS.gif" alt="Human-in-the-Loop Object Segmentation for 3D Gaussian-Splatting preview"><span>Y. Lee, H. Park, H. Kim, H. Ji, and D. J. Lee, “Human-in-the-Loop Object Segmentation for 3D Gaussian-Splatting,” <em>Advanced Intelligent Systems</em>, 2026.</span></li>
             <li>J. Heo, H. Kim, E. Lee, Y. Lee, H. Park, Y. Lee†, and D. J. Lee†, “Finger-based 3D Human-Swarm Interaction Interface: Design and Human-Subject Evaluation,” <em>Expert Systems with Applications</em>, 2026.</li>
             <li>Y. Lee and D. J. Lee, “Enlarging Error Detection Threshold of IMU-based Hand Tracking in VR with Haptic Feedback,” <em>International Journal of Human-Computer Interaction</em>, 2025.</li>
             <li class="robin-publication-entry"><div>Y. Lee, H. Kim, H. Ji, J. Heo, Y. Lee, H. Park, and D. J. Lee, “Human-in-the-Loop Gaussian Splatting for Robotic Teleoperation,” <em>IEEE Robotics and Automation Letters</em>, 2025.</div><video autoplay muted loop playsinline preload="metadata" aria-label="Human-in-the-Loop robotic teleoperation preview"><source src="/media/sr-teleoperation.mp4" type="video/mp4"></video></li>

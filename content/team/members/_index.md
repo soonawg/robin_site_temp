@@ -18,7 +18,7 @@ sections:
             <h3>Master’s Students <span class="robin-group-count">03</span></h3>
             <div class="robin-member-grid">
               <article class="robin-member-card"><img src="/media/team-avatar-a.png" alt="Kyu-Tae Lee"><h4><a class="robin-member-name-link" href="/team/members/kyu-tae-lee/">Kyu-Tae Lee</a></h4><p>MS student · 2026S–</p><a class="robin-member-email" href="mailto:leekyutae@dgist.ac.kr">leekyutae@dgist.ac.kr</a></article>
-              <article class="robin-member-card"><img src="/media/team-avatar-b.png" alt="Yu-Seong Cheon"><h4><a class="robin-member-name-link" href="/team/members/yu-seong-cheon/">Yu-Seong Cheon</a></h4><p>MS student · 2026F–</p><a class="robin-member-email" href="mailto:cjsdntjd1234@gmail.com">cjsdntjd1234@gmail.com</a></article>
+              <article class="robin-member-card"><img src="/images/members/yu-seong-cheon.jpg" alt="Yu-Seong Cheon"><h4><a class="robin-member-name-link" href="/team/members/yu-seong-cheon/">Yu-Seong Cheon</a></h4><p>MS student · 2026F–</p><a class="robin-member-email" href="mailto:cjsdntjd1234@gmail.com">cjsdntjd1234@gmail.com</a></article>
               <article class="robin-member-card"><img src="/media/team-avatar-c.png" alt="Hwan-Chul La"><h4><a class="robin-member-name-link" href="/team/members/hwan-chul-la/">Hwan-Chul La</a></h4><p>MS student · 2026F–</p><a class="robin-member-email" href="mailto:fkghkscjf@gmail.com">fkghkscjf@gmail.com</a></article>
             </div>
           </div>

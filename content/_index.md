@@ -25,7 +25,7 @@ sections:
             </div>
           </div>
           <div class="robin-real-stage robin-gripper-stage">
-            <video class="robin-gripper-video" autoplay muted playsinline preload="auto" poster="/media/poster-robin-gripper-4k.png" aria-label="ROBIN dual RB5 cloth demonstration"><source src="/media/dual-rb5-robin-cloth-1440p.mp4?v=20260729-2" type="video/mp4"></video>
+            <video class="robin-gripper-video" autoplay muted playsinline preload="auto" aria-label="ROBIN dual RB5 cloth demonstration"><source src="/media/dual-rb5-robin-cloth-1440p.mp4?v=20260731-1" type="video/mp4"></video>
           </div>
           <p class="robin-real-fullname">ROBOT INTERFACE, INTERACTION, AND INTELLIGENCE LABORATORY</p>
         </section>

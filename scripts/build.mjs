@@ -1,11 +1,15 @@
 import { existsSync, mkdirSync, readFileSync, writeFileSync } from 'node:fs';
 import { execFileSync } from 'node:child_process';
-import { join } from 'node:path';
+import { delimiter, join } from 'node:path';
 
 const version = '0.162.0';
 const root = process.cwd();
 const binDir = join(root, '.hugo-bin');
 const binary = join(binDir, process.platform === 'win32' ? 'hugo.exe' : 'hugo');
+const buildEnv = {
+  ...process.env,
+  PATH: [join(root, '.go', 'go', 'bin'), process.env.PATH].filter(Boolean).join(delimiter),
+};
 
 function run(command, args, options = {}) {
   return execFileSync(command, args, { cwd: root, stdio: 'inherit', ...options });
@@ -41,5 +45,5 @@ async function ensureHugo() {
 }
 
 const hugo = process.env.HUGO_BIN || await ensureHugo();
-run(hugo, ['--minify']);
+run(hugo, ['--minify'], { env: buildEnv });
 run(process.platform === 'win32' ? 'pnpm.cmd' : 'pnpm', ['run', 'pagefind']);

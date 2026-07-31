@@ -251,7 +251,7 @@ header, .site-header {
 .robin-3d-caption { position:absolute; z-index:2; right:clamp(1.5rem,4vw,4rem); bottom:clamp(1.5rem,4vw,4rem); margin:0; color:#183744; font-size:.62rem; font-weight:700; letter-spacing:.14em; text-align:right; text-transform:uppercase; }
 .robin-3d-caption span { display:block; margin-top:.45rem; color:#5e7a84; font-size:.52rem; letter-spacing:.12em; }
 .robin-action-grid { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:1.5rem; margin:1.75rem 0 .5rem; }
-.robin-home-research-intro { max-width:48rem; margin:0 0 1.5rem; color:#40535b; font-size:1.05rem; line-height:1.7; }
+.robin-home-research-intro { max-width:48rem; margin:0 auto 1.5rem; color:#40535b; font-size:1.05rem; line-height:1.7; text-align:center; }
 .robin-action-card { overflow:hidden; border-top:1px solid #c9c7bf; padding-top:.75rem; }
 .robin-action-card video { display:block; width:100%; aspect-ratio:16/9; background:#e7ecee; object-fit:cover; }
 .robin-action-card div { display:grid; grid-template-columns:2rem 1fr; gap:.5rem; padding:.8rem 0 .15rem; }

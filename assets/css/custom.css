@@ -241,9 +241,26 @@ header, .site-header {
 /* Orbitron is reserved for concise technical metadata, never long-form reading. */
 .robin-real-kicker,.robin-real-fullname,.robin-3d-caption,.robin-action-pillar-head p,.robin-team-label,.robin-conference-kicker,.robin-home-lab-emph { font-family:'Orbitron','Space Grotesk',sans-serif; }
 .robin-real-fullname .robin-home-lab-emph {
-  color:#005b7c;
-  font-weight:700;
-  border-bottom:1px solid rgba(0,91,124,.45);
+  color: #8de0e1;
+  font-weight: 800;
+  font-size: 1.18em;
+  letter-spacing: 0.02em;
+  border-bottom: none;
+  text-shadow: 0 2px 12px rgba(5, 94, 126, 0.45);
+}
+
+/* Homepage-specific emphasis for the lab phrase under ROBIN video hero. */
+body .robin-real-hero .robin-real-fullname {
+  color: #ffffff;
+  font-size: clamp(1rem, 1.4vw, 1.32rem);
+  letter-spacing: 0.13em;
+}
+
+body .robin-real-hero .robin-real-fullname .robin-home-lab-emph {
+  color: #8de0e1;
+  font-size: 1.2em;
+  font-weight: 800;
+  text-shadow: 0 2px 8px rgba(0, 112, 154, 0.55);
 }
 .robin-publications { margin-top:1rem; }.robin-publications-note { margin:0 0 2.5rem; color:#64748b; font-size:.95rem; }.robin-publications h2 { margin:3.5rem 0 1rem; border-top:1px solid #c9c7bf; padding-top:1rem; font-size:clamp(1.6rem,3.1vw,2.45rem); }.robin-publications ol { margin:0; padding:0; list-style:none; counter-reset:publication; }.robin-publications li { counter-increment:publication; position:relative; min-height:182px; margin-bottom:.4rem; border-top:1px solid #e1e4e6; padding:1.3rem 0 3.8rem 232px; color:#53646b; font-size:1rem; line-height:1.68; }.robin-publications li::before { content:counter(publication,decimal-leading-zero); position:absolute; z-index:2; top:1.55rem; left:0; color:#64748b; font-family:'Orbitron','Space Grotesk',sans-serif; font-size:.7rem; font-weight:600; }.robin-publications li::after { content:''; position:absolute; top:1.25rem; left:24px; width:188px; height:120px; border:1px solid #d8e0e3; border-radius:3px; background:#edf3f4 url('/images/publications/HIL-GS.gif') center/cover no-repeat; }.robin-publications em { color:#005b7c; font-weight:650; }.robin-publication-copy { display:flex; flex-direction:column; gap:.35rem; min-width:0; }.robin-publication-authors { color:#64748b; font-size:.84rem; line-height:1.5; }.robin-author-highlight { color:#102a3a; font-weight:800; }.robin-publication-title { color:#102a3a; font-size:1.12rem; font-weight:700; letter-spacing:-.02em; line-height:1.42; }.robin-publication-meta { color:#53646b; font-size:.88rem; line-height:1.5; }.robin-publications .robin-publication-entry > div { min-width:0; }.robin-publication-entry::after { display:none; }.robin-publication-entry video,.robin-publication-entry .robin-publication-image { position:absolute; z-index:1; top:1.25rem; left:24px; display:block; width:188px; height:120px; border-radius:3px; background:#121b20; object-fit:cover; }.pub-badges { position:absolute; left:232px; right:0; bottom:1rem; display:flex; flex-wrap:wrap; gap:.4rem; align-items:center; }.pub-badge { display:inline-flex; align-items:center; justify-content:center; min-height:1.55rem; border:1px solid #8aa8b5; border-radius:999px; padding:.2rem .6rem; color:#005b7c; background:#f5fafb; font-family:'Space Grotesk','Inter',sans-serif; font-size:.72rem; font-weight:700; line-height:1; text-decoration:none; transition:background .16s ease,border-color .16s ease,color .16s ease,transform .16s ease; }.pub-badge:hover { border-color:#005b7c; background:#e8f4f5; color:#003f57; transform:translateY(-1px); }.pub-badge.is-pending { border-color:#d4dce0; color:#8b989d; background:#f7f8f8; cursor:not-allowed; }.pub-badge-video { border-color:#005b7c; color:#fff; background:#005b7c; }.pub-badge-video:hover { border-color:#003f57; color:#fff; background:#003f57; }
 @media (max-width:700px) { .robin-publications li { min-height:0; padding:1rem 0 4.6rem 2.5rem; }.robin-publications li::after { position:static; display:block; width:100%; height:auto; aspect-ratio:16/9; margin-top:.85rem; }.robin-publication-entry video,.robin-publication-entry .robin-publication-image { position:static; width:100%; height:auto; aspect-ratio:16/9; margin-top:.85rem; }.pub-badges { left:2.5rem; right:0; bottom:1rem; } }
@@ -1059,6 +1076,77 @@ body .robin-member-grid-undergraduate {
   }
 }
 
+/* Dedicated HOME Join variant: independent from /join page styles. */
+#join-at-home .robin-join-home {
+  padding: 0 !important;
+}
+
+#join-at-home .robin-join-home .robin-page-lede {
+  margin-bottom: 1.75rem !important;
+}
+
+#join-at-home .robin-join-home .robin-page-lede h1 {
+  max-width: min(44rem, 100%) !important;
+  font-size: clamp(2rem, 4.2vw, 3.2rem) !important;
+  letter-spacing: -0.052em !important;
+  line-height: 1.05 !important;
+}
+
+#join-at-home .robin-join-home .robin-page-kicker {
+  margin-bottom: 0.55rem !important;
+  letter-spacing: 0.1em !important;
+}
+
+#join-at-home .robin-join-home .robin-page-lede > p:last-child {
+  max-width: min(55ch, 100%) !important;
+  font-size: 1.04rem !important;
+  line-height: 1.72 !important;
+}
+
+#join-at-home .robin-join-home .robin-join-detail-grid {
+  display: grid !important;
+  grid-template-columns: minmax(0, 1.35fr) minmax(0, 1fr) !important;
+  gap: 1.4rem !important;
+  margin-top: 0 !important;
+}
+
+#join-at-home .robin-join-home .robin-join-card {
+  padding: 1.5rem !important;
+  min-height: auto !important;
+  border-radius: 12px !important;
+}
+
+#join-at-home .robin-join-home .robin-join-card h2 {
+  font-size: clamp(1.4rem, 2vw, 1.75rem) !important;
+  margin: 0 0 1.1rem !important;
+}
+
+#join-at-home .robin-join-home .robin-join-reason {
+  margin-bottom: 1.25rem !important;
+  padding-bottom: 1.1rem !important;
+}
+
+#join-at-home .robin-join-home .robin-join-reason h3 {
+  font-size: 0.98rem !important;
+  line-height: 1.45 !important;
+}
+
+#join-at-home .robin-join-home .robin-apply-intro {
+  margin: 0.1rem 0 0 !important;
+  font-size: 0.98rem !important;
+}
+
+@media (max-width: 900px) {
+  #join-at-home .robin-join-home .robin-join-detail-grid {
+    grid-template-columns: 1fr !important;
+    gap: 1rem !important;
+  }
+
+  #join-at-home .robin-join-home .robin-join-card {
+    padding: 1.25rem 1rem !important;
+  }
+}
+
 /* Projects 페이지 과제 제목(H2) 글꼴을 깔끔하고 세련된 Modern Sans-serif 서체로 변경 */
 .robin-projects-list h2 {
   font-family: 'Plus Jakarta Sans', 'Pretendard', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif !important;
@@ -1270,8 +1358,8 @@ body .robin-real-hero > .robin-real-fullname {
   width: max-content;
   max-width: calc(100% - 3rem);
   margin: 0;
-  color: #b8f2f3 !important;
-  font-size: clamp(0.82rem, 1.2vw, 1.08rem);
+  color: #ffffff !important;
+  font-size: clamp(1rem, 1.4vw, 1.32rem) !important;
   font-weight: 700;
   letter-spacing: 0.14em;
   line-height: 1.45;
@@ -1306,62 +1394,219 @@ body:has(.robin-publications) .robin-publications h2 {
   -webkit-text-fill-color: #102a3a !important;
 }
 
-/* Join cards keep their headings readable regardless of persisted dark mode. */
-body:has(.robin-join-page) .robin-join-card h2 {
+#join-at-home .robin-join-home .robin-join-card h2,
+.robin-join-standalone .robin-join-card h2 {
   color: #102a3a !important;
   -webkit-text-fill-color: #102a3a !important;
 }
 
-body:has(.robin-join-page) .robin-join-reason h3 {
+#join-at-home .robin-join-home .robin-join-reason h3,
+.robin-join-standalone .robin-join-reason h3 {
   color: #005b7c !important;
   -webkit-text-fill-color: #005b7c !important;
 }
 
-body:has(.robin-join-page) .robin-join-reason p,
-body:has(.robin-join-page) .robin-apply-intro,
-body:has(.robin-join-page) .robin-apply-list li {
+#join-at-home .robin-join-home .robin-join-reason p,
+#join-at-home .robin-join-home .robin-apply-intro,
+#join-at-home .robin-join-home .robin-apply-list li,
+.robin-join-standalone .robin-join-reason p,
+.robin-join-standalone .robin-apply-intro,
+.robin-join-standalone .robin-apply-list li {
   color: #40535b !important;
   -webkit-text-fill-color: #40535b !important;
 }
 
-body:has(.robin-join-page) .robin-join-card strong {
+#join-at-home .robin-join-home .robin-join-card strong,
+.robin-join-standalone .robin-join-card strong {
   color: #102a3a !important;
   -webkit-text-fill-color: #102a3a !important;
 }
 
-body:has(.robin-join-page) {
+#join-at-home .robin-join-home,
+.robin-join-standalone {
   --font-body: 'Noto Sans KR', 'Pretendard', sans-serif;
 }
 
-body:has(.robin-join-page) .robin-join-page,
-body:has(.robin-join-page) .robin-join-card,
-body:has(.robin-join-page) .robin-page-lede,
-body:has(.robin-join-page) .robin-apply-intro,
-body:has(.robin-join-page) .robin-join-reason {
+#join-at-home .robin-join-home .robin-join-page,
+#join-at-home .robin-join-home .robin-join-card,
+#join-at-home .robin-join-home .robin-page-lede,
+#join-at-home .robin-join-home .robin-apply-intro,
+#join-at-home .robin-join-home .robin-join-reason,
+.robin-join-standalone .robin-join-page,
+.robin-join-standalone .robin-join-card,
+.robin-join-standalone .robin-page-lede,
+.robin-join-standalone .robin-apply-intro,
+.robin-join-standalone .robin-join-reason {
   font-family: 'Noto Sans KR', 'Pretendard', -apple-system, BlinkMacSystemFont, sans-serif !important;
 }
 
-body:has(.robin-join-page) .robin-join-card h2,
-body:has(.robin-join-page) .robin-join-reason h3,
-body:has(.robin-join-page) .robin-notice-heading,
-body:has(.robin-join-page) .robin-apply-btn {
+#join-at-home .robin-join-home .robin-join-card h2,
+#join-at-home .robin-join-home .robin-join-reason h3,
+#join-at-home .robin-join-home .robin-notice-heading,
+#join-at-home .robin-join-home .robin-apply-btn,
+.robin-join-standalone .robin-join-card h2,
+.robin-join-standalone .robin-join-reason h3,
+.robin-join-standalone .robin-notice-heading,
+.robin-join-standalone .robin-apply-btn {
   font-family: 'Noto Sans KR', 'Pretendard', -apple-system, sans-serif !important;
 }
 
-body:has(.robin-join-page) .robin-apply-intro a,
-body:has(.robin-join-page) .robin-notice-heading {
+#join-at-home .robin-join-home .robin-apply-intro a,
+#join-at-home .robin-join-home .robin-notice-heading,
+.robin-join-standalone .robin-apply-intro a,
+.robin-join-standalone .robin-notice-heading {
   color: #005b7c !important;
   -webkit-text-fill-color: #005b7c !important;
 }
 
-body:has(.robin-join-page) .robin-apply-notice p:not(.robin-notice-heading) {
+#join-at-home .robin-join-home .robin-apply-notice p:not(.robin-notice-heading),
+.robin-join-standalone .robin-apply-notice p:not(.robin-notice-heading) {
   color: #2b4550 !important;
   -webkit-text-fill-color: #2b4550 !important;
 }
 
-body:has(.robin-join-page) .robin-apply-btn {
+#join-at-home .robin-join-home .robin-apply-btn,
+.robin-join-standalone .robin-apply-btn {
   color: #ffffff !important;
   -webkit-text-fill-color: #ffffff !important;
+}
+
+/* Hardened JOIN layout overrides: class-scoped first, id-scoped fallback. */
+.robin-join-home,
+.robin-join-standalone {
+  width: 100% !important;
+  max-width: min(calc(100vw - 3rem), 1360px) !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
+#join-at-home,
+#join-at-home .robin-join-page {
+  width: 100% !important;
+  max-width: min(calc(100vw - 3rem), 1360px) !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
+.robin-join-home .robin-join-page,
+#join-at-home .robin-join-page,
+.robin-join-standalone,
+.robin-join-standalone .robin-join-page {
+  overflow: hidden !important;
+  box-sizing: border-box !important;
+}
+
+.robin-join-home .robin-page-lede,
+#join-at-home .robin-page-lede,
+.robin-join-standalone .robin-page-lede {
+  margin-bottom: 1.75rem !important;
+}
+
+.robin-join-home .robin-page-lede h1,
+#join-at-home .robin-page-lede h1,
+.robin-join-standalone .robin-page-lede h1 {
+  max-width: min(44rem, 100%) !important;
+  font-size: clamp(2rem, 4.2vw, 3.2rem) !important;
+  margin-top: 0 !important;
+  letter-spacing: -0.052em !important;
+  line-height: 1.05 !important;
+}
+
+.robin-join-home .robin-page-lede .robin-page-kicker,
+#join-at-home .robin-page-kicker,
+.robin-join-standalone .robin-page-kicker {
+  margin-bottom: 0.55rem !important;
+  letter-spacing: 0.1em !important;
+}
+
+.robin-join-home .robin-page-lede > p:last-child,
+#join-at-home .robin-page-lede > p:last-child,
+.robin-join-standalone .robin-page-lede > p:last-child {
+  max-width: min(55ch, 100%) !important;
+  font-size: 1.04rem !important;
+  line-height: 1.72 !important;
+}
+
+.robin-join-home .robin-join-detail-grid,
+#join-at-home .robin-join-detail-grid,
+.robin-join-standalone .robin-join-detail-grid {
+  display: grid !important;
+  grid-template-columns: minmax(0, 1.35fr) minmax(0, 1fr) !important;
+  gap: 1.4rem !important;
+  margin-top: 0 !important;
+  align-items: start !important;
+}
+
+.robin-join-home .robin-join-card,
+#join-at-home .robin-join-card,
+.robin-join-standalone .robin-join-card {
+  min-width: 0 !important;
+  width: 100% !important;
+  padding: 1.5rem !important;
+  min-height: auto !important;
+  border-radius: 12px !important;
+}
+
+.robin-join-home .robin-join-card h2,
+#join-at-home .robin-join-card h2,
+.robin-join-standalone .robin-join-card h2 {
+  font-size: clamp(1.4rem, 2vw, 1.75rem) !important;
+  margin: 0 0 1.1rem !important;
+}
+
+.robin-join-home .robin-join-reason,
+#join-at-home .robin-join-reason,
+.robin-join-standalone .robin-join-reason {
+  margin-bottom: 1.25rem !important;
+  padding-bottom: 1.1rem !important;
+}
+
+.robin-join-home .robin-join-reason h3,
+#join-at-home .robin-join-reason h3,
+.robin-join-standalone .robin-join-reason h3 {
+  font-size: 0.98rem !important;
+  line-height: 1.45 !important;
+  letter-spacing: 0.01em !important;
+}
+
+.robin-join-home .robin-join-reason p,
+#join-at-home .robin-join-reason p,
+.robin-join-standalone .robin-join-reason p {
+  margin: 0 !important;
+  color: #40535b !important;
+  font-size: 1rem !important;
+  line-height: 1.72 !important;
+  letter-spacing: -0.005em !important;
+}
+
+.robin-join-home .robin-apply-intro,
+#join-at-home .robin-apply-intro,
+.robin-join-standalone .robin-apply-intro {
+  margin: 0.1rem 0 0 !important;
+  color: #40535b !important;
+  font-size: 0.98rem !important;
+  line-height: 1.72 !important;
+}
+
+.robin-join-home .robin-apply-list li,
+#join-at-home .robin-apply-list li,
+.robin-join-standalone .robin-apply-list li {
+  margin-bottom: 0.45rem !important;
+}
+
+@media (max-width: 900px) {
+  .robin-join-home .robin-join-detail-grid,
+  #join-at-home .robin-join-detail-grid,
+  .robin-join-standalone .robin-join-detail-grid {
+    grid-template-columns: 1fr !important;
+    gap: 1rem !important;
+  }
+
+  .robin-join-home .robin-join-card,
+  #join-at-home .robin-join-card,
+  .robin-join-standalone .robin-join-card {
+    padding: 1.25rem 1rem !important;
+  }
 }
 
 .robin-google-map {

@@ -51,7 +51,7 @@ sections:
     content:
       title: ""
       text: |
-        <section class="robin-join-page">
+        <section id="join-at-home" class="robin-join-page robin-join-home">
           <div class="robin-page-lede">
             <p class="robin-page-kicker">OPEN POSITIONS</p>
             <h1>Join the ROBIN Lab:<br><em>Seeking Future Co-founders</em></h1>

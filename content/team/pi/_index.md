@@ -9,9 +9,6 @@ sections:
       title: ""
       text: |-
         <section class="robin-team-lead" style="margin-top: 0;">
-          <input class="robin-hobby-input" type="radio" name="pi-hobby" id="hobby-guitar" checked>
-          <input class="robin-hobby-input" type="radio" name="pi-hobby" id="hobby-cycling">
-          <input class="robin-hobby-input" type="radio" name="pi-hobby" id="hobby-gaming">
           <div class="robin-team-label">Principal Investigator</div>
           <div class="robin-team-heading">
             <div>
@@ -31,20 +28,21 @@ sections:
           </div>
           <div class="robin-team-hobbies">
             <h2>Outside the Lab</h2>
-            <div class="robin-hobby-tabs" aria-label="Outside the lab interests">
-              <button class="robin-hobby-chip" type="button" data-pi-hobby-open data-hobby="guitar">🎸 <span>Guitar</span></button>
-              <button class="robin-hobby-chip" type="button" data-pi-hobby-open data-hobby="cycling">🚴 <span>Cycling</span></button>
-              <button class="robin-hobby-chip" type="button" data-pi-hobby-open data-hobby="gaming">🎮 <span>Games</span></button>
+            <div class="robin-hobby-gallery robin-hobby-static-gallery" aria-label="Outside the lab photos">
+              <figure>
+                <img src="/media/pi-guitar.jpg" alt="Yong-Seok Lee playing guitar">
+                <figcaption>Guitar</figcaption>
+              </figure>
+              <figure>
+                <img src="/media/pi-cycling.jpg" alt="Yong-Seok Lee cycling">
+                <figcaption>Cycling</figcaption>
+              </figure>
+              <figure>
+                <img src="/media/pi-gaming.jpg" alt="Yong-Seok Lee playing games">
+                <figcaption>Games</figcaption>
+              </figure>
             </div>
           </div>
-          <dialog class="robin-hobby-dialog" id="pi-hobby-dialog" aria-label="Outside the lab photo gallery">
-            <div class="robin-hobby-dialog-head"><p>Outside the Lab</p><button type="button" data-pi-hobby-close aria-label="Close photo gallery">×</button></div>
-            <div class="robin-hobby-gallery">
-              <img class="robin-hobby-panel robin-hobby-guitar" src="/media/pi-guitar.jpg" alt="Yong-Seok Lee playing guitar">
-              <img class="robin-hobby-panel robin-hobby-cycling" src="/media/pi-cycling.jpg" alt="Yong-Seok Lee cycling">
-              <img class="robin-hobby-panel robin-hobby-gaming" src="/media/pi-gaming.jpg" alt="Yong-Seok Lee playing games">
-            </div>
-          </dialog>
           <div class="robin-contact-wrapper">
             <h2>Contact</h2>
             <div class="robin-contact-grid">

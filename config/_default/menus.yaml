@@ -33,6 +33,3 @@ main:
   - name: Join
     url: /join/
     weight: 60
-  - name: Contact
-    url: /contact/
-    weight: 70

@@ -871,6 +871,43 @@ body .robin-member-grid-undergraduate {
 /* ══════════════════════════════════════════════════════════════════════════════
    REFINED JOIN PAGE STYLES (CLEAN & MODERN CARDS)
    ══════════════════════════════════════════════════════════════════════════════ */
+
+/* Home page-only Join section protection (prevents inherited layout collisions). */
+#join-at-home,
+#join-at-home .robin-join-page {
+  width: 100% !important;
+  max-width: min(calc(100vw - 3rem), 1360px) !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
+#join-at-home .robin-join-page,
+#join-at-home .robin-join-page .robin-page-lede,
+#join-at-home .robin-join-detail-grid {
+  overflow: hidden;
+  box-sizing: border-box;
+}
+
+#join-at-home .robin-page-lede {
+  margin-bottom: 2rem !important;
+}
+
+#join-at-home .robin-page-lede h1 {
+  max-width: none !important;
+  margin-top: 0 !important;
+}
+
+#join-at-home .robin-page-lede > p:last-child,
+#join-at-home .robin-join-reason p,
+#join-at-home .robin-apply-intro,
+#join-at-home .robin-apply-list {
+  overflow-wrap: anywhere !important;
+}
+
+#join-at-home .robin-join-card {
+  min-width: 0 !important;
+}
+
 .robin-join-detail-grid {
   display: grid !important;
   grid-template-columns: minmax(0, 1.35fr) minmax(0, 1fr) !important;

@@ -46,8 +46,8 @@ sections:
       columns: '1'
   - block: markdown
     id: join-at-home
-    title: "Join ROBIN"
-    subtitle: "Open Positions"
+    title: ""
+    subtitle: ""
     content:
       title: ""
       text: |

@@ -813,7 +813,7 @@ body .robin-team-role {
 /* PI 교수님 프로필 그리드 비율 확대 (사진 크기 300px로 넉넉하게 조정) */
 body .robin-team-heading {
   grid-template-columns: minmax(0, 1fr) 360px !important;
-  column-gap: 4.5rem !important;
+  column-gap: 6rem !important;
 }
 
 body .robin-team-portrait {
@@ -1933,5 +1933,33 @@ body .site-header .nav-dropdown-link:hover {
     grid-column: 2;
     grid-row: 3 / span 2;
     margin: 0 !important;
+  }
+}
+
+/* Make the PI's primary profile links easier to notice and activate. */
+.robin-team-contact .robin-social-badges {
+  gap: 0.75rem;
+  margin-top: 1.15rem;
+}
+
+.robin-team-contact .robin-social-badges .robin-social-badge {
+  min-height: 2.6rem;
+  padding: 0.65rem 1.05rem;
+  border-width: 1.5px;
+  font-size: 0.82rem;
+  line-height: 1;
+  transition: border-color 0.18s ease, background 0.18s ease, color 0.18s ease, transform 0.18s ease;
+}
+
+.robin-team-contact .robin-social-badges .robin-social-badge:hover {
+  border-color: #005b7c;
+  color: #ffffff;
+  background: #005b7c;
+  transform: translateY(-2px);
+}
+
+@media (max-width: 800px) {
+  body .robin-team-heading {
+    column-gap: 2rem !important;
   }
 }

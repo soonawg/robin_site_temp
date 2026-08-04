@@ -326,7 +326,7 @@ body .robin-real-hero .robin-real-fullname .robin-home-lab-emph {
 .robin-team-lead { margin:1rem 0 5rem; border-top:1px solid #c9c7bf; color:#13222a; }
 .robin-team-label { margin:1rem 0 4rem; color:#64748b; font-size:.72rem; font-weight:700; letter-spacing:.13em; text-transform:uppercase; }
 .robin-team-heading { display:grid; grid-template-columns:minmax(0,1fr) 260px; column-gap:3rem; row-gap:1.5rem; align-items:start; padding-bottom:3rem; border-bottom:1px solid #c9c7bf; }
-.robin-team-heading h1 { margin:0; color:#102a3a; font-size:clamp(3.4rem,8vw,8rem); font-weight:600; letter-spacing:-.08em; line-height:.82; }
+.robin-team-heading h1 { margin:0; color:#102a3a; font-size:clamp(3.4rem,8vw,8rem); font-weight:600; letter-spacing:-.08em; line-height:.92; }
 .robin-team-heading h1 em { color:#005b7c; font-style:normal; }.robin-team-role { max-width:38rem; margin:1.5rem 0 0; color:#53646b; font-size:1rem; line-height:1.6; }
 .robin-team-contact { grid-column:1; padding-bottom:.3rem; color:#53646b; font-size:.9rem; line-height:1.6; }.robin-team-contact a { color:#005b7c; font-weight:700; text-decoration:none; }.robin-team-contact p { margin:.8rem 0 0; }
 .robin-team-portrait { grid-column:2; grid-row:1 / span 2; width:260px; height:390px; margin:0; overflow:hidden; background:#e7e5df; }.robin-team-portrait img { display:block; width:100%; height:100%; object-fit:cover; object-position:center top; }

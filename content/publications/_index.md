@@ -38,10 +38,10 @@ sections:
           </ol>
           <h2>Patents</h2>
           <ol>
-            <li>Y. Lee, S. Kwak, and G. Lee, “Method and electronic device for obtaining spatial map,” US 20240242502, July 2024.</li>
-            <li>Y. Lee, S. Kwak, and G. Lee, “Method and electronic device for obtaining spatial map,” KR 1020230057771, May 2023.</li>
-            <li>Y. Lee, S. Kwak, and G. Lee, “Method for controlling plurality of electronic devices based on context of user, and computing device for performing the same,” KR 1020230082135, June 2023.</li>
-            <li>D. J. Lee, Y. Lee, J. Heo, S. Lee, and Y. Lee, “System and method for tracking hand motion using strong coupling fusion of image sensor and inertial sensor,” KR 1020210192663A, October 2022.</li>
+            <li class="robin-publication-entry"><div>Y. Lee, S. Kwak, and G. Lee, “Method and electronic device for obtaining spatial map,” US 20240242502, July 2024.</div><img class="robin-publication-image" src="/images/publications/Method%20and%20electronic%20device%20for%20obtaining%20spatial%20map.png" alt="Method and electronic device for obtaining spatial map preview"></li>
+            <li class="robin-publication-entry"><div>Y. Lee, S. Kwak, and G. Lee, “Method and electronic device for obtaining spatial map,” KR 1020230057771, May 2023.</div><img class="robin-publication-image" src="/images/publications/Method%20and%20electronic%20device%20for%20obtaining%20spatial%20map.png" alt="Method and electronic device for obtaining spatial map preview"></li>
+            <li class="robin-publication-entry"><div>Y. Lee, S. Kwak, and G. Lee, “Method for controlling plurality of electronic devices based on context of user, and computing device for performing the same,” KR 1020230082135, June 2023.</div><img class="robin-publication-image" src="/images/publications/Method%20for%20controlling%20plurality%20of%20electronic%20devices%20based%20on%20context%20of%20user,%20and%20computing%20device%20for%20performing%20the%20same.png" alt="Method for controlling electronic devices based on user context preview"></li>
+            <li class="robin-publication-entry"><div>D. J. Lee, Y. Lee, J. Heo, S. Lee, and Y. Lee, “System and method for tracking hand motion using strong coupling fusion of image sensor and inertial sensor,” KR 1020210192663A, October 2022.</div><img class="robin-publication-image" src="/images/publications/patent_last.jpg" alt="System and method for tracking hand motion preview"></li>
           </ol>
         </section>
 ---

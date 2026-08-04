@@ -4,6 +4,17 @@
   #   The weight parameter defines the order that the links will appear in.
 
 main:
+  - name: Team
+    url: /team/
+    weight: 5
+  - name: PI (Principal Investigator)
+    url: /team/pi/
+    parent: Team
+    weight: 6
+  - name: Members
+    url: /team/members/
+    parent: Team
+    weight: 7
   - name: Research
     url: /research/
     weight: 10
@@ -13,17 +24,6 @@ main:
   - name: Publications
     url: /publications/
     weight: 30
-  - name: Team
-    url: /team/
-    weight: 40
-  - name: PI (Principal Investigator)
-    url: /team/pi/
-    parent: Team
-    weight: 41
-  - name: Members
-    url: /team/members/
-    parent: Team
-    weight: 42
   - name: News
     url: /news/
     weight: 50

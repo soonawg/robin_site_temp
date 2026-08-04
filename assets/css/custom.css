@@ -1775,19 +1775,29 @@ body .site-header .nav-dropdown-link:hover {
 
 @media (min-width: 701px) {
   .robin-publications li {
-    min-height: 212px;
-    padding-left: 278px;
+    min-height: 240px;
+    padding-left: 322px;
   }
 
   .robin-publications li::after,
   .robin-publication-entry video,
   .robin-publication-entry .robin-publication-image {
     left: 28px;
-    width: 228px;
-    height: 146px;
+    width: 272px;
+    height: 174px;
   }
 
   .pub-badges {
-    left: 278px;
+    left: 322px;
+  }
+}
+
+@media (max-width: 700px) {
+  .robin-publications li::after,
+  .robin-publication-entry video,
+  .robin-publication-entry .robin-publication-image {
+    width: calc(100% + 2.5rem);
+    max-width: none;
+    margin-left: -2.5rem;
   }
 }

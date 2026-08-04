@@ -1359,7 +1359,7 @@ body .robin-real-hero > .robin-real-fullname {
   max-width: calc(100% - 3rem);
   margin: 0;
   color: #ffffff !important;
-  font-size: clamp(1rem, 1.4vw, 1.32rem) !important;
+  font-size: clamp(1.1rem, 1.65vw, 1.52rem) !important;
   font-weight: 700;
   letter-spacing: 0.14em;
   line-height: 1.45;

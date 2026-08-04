@@ -26,7 +26,7 @@ sections:
           <div class="robin-real-stage robin-gripper-stage">
             <video class="robin-gripper-video" autoplay muted playsinline preload="auto" aria-label="ROBIN dual RB5 cloth demonstration"><source src="/media/dual-rb5-robin-cloth-1440p.mp4?v=20260731-1" type="video/mp4"></video>
           </div>
-            <p class="robin-real-fullname"><span class="robin-home-lab-emph">ROB</span>OT INTERFACE, <span class="robin-home-lab-emph">IN</span>TERACTION, AND <span class="robin-home-lab-emph">IN</span>TELLIGENCE LABORATORY</p>
+            <p class="robin-real-fullname"><span class="robin-home-lab-emph">ROB</span>OT <span class="robin-home-lab-emph">IN</span>TERFACE, <span class="robin-home-lab-emph">IN</span>TERACTION, AND <span class="robin-home-lab-emph">IN</span>TELLIGENCE LABORATORY</p>
         </section>
     design:
       columns: '1'

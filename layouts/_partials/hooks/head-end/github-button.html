@@ -45,30 +45,19 @@ document.addEventListener('DOMContentLoaded', () => {
 
   publications.querySelectorAll('li').forEach((entry) => {
     if (entry.querySelector('.pub-badges')) return;
+    const video = entry.querySelector('video source');
+    if (!video) return;
+
     const badges = document.createElement('div');
     badges.className = 'pub-badges';
-    const video = entry.querySelector('video source');
-    const items = [
-      { label: 'PDF', className: 'pub-badge-pdf' },
-      { label: 'Code', className: 'pub-badge-code' },
-      { label: 'Video', className: 'pub-badge-video', href: video?.getAttribute('src') },
-      { label: 'Project Page', className: 'pub-badge-project' }
-    ];
-    items.forEach(({ label, className, href }) => {
-      const badge = href ? document.createElement('a') : document.createElement('span');
-      badge.className = `pub-badge ${className}${href ? '' : ' is-pending'}`;
-      badge.textContent = label;
-      if (href) {
-        badge.href = href;
-        badge.target = '_blank';
-        badge.rel = 'noopener noreferrer';
-        badge.setAttribute('aria-label', `${label} preview`);
-      } else {
-        badge.setAttribute('aria-disabled', 'true');
-        badge.title = `${label} link pending`;
-      }
-      badges.appendChild(badge);
-    });
+    const badge = document.createElement('a');
+    badge.className = 'pub-badge pub-badge-video';
+    badge.textContent = 'Video';
+    badge.href = video.getAttribute('src');
+    badge.target = '_blank';
+    badge.rel = 'noopener noreferrer';
+    badge.setAttribute('aria-label', 'Video preview');
+    badges.appendChild(badge);
     entry.appendChild(badges);
   });
 });

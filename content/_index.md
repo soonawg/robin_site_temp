@@ -19,7 +19,7 @@ sections:
             <div class="robin-real-actions">
               <a href="/research/" class="robin-action-primary">Explore Research <span>→</span></a>
               <a href="/publications/" class="robin-action-secondary">Publications <span>📄</span></a>
-              <a href="/join/" class="robin-action-secondary">Open Positions <span>→</span></a>
+              <a href="#join-at-home" class="robin-action-secondary">Open Positions <span>→</span></a>
               <a href="https://www.youtube.com/channel/UCC_Sw4ynsuwJ_RiO1LQwHew" target="_blank" rel="noopener noreferrer" class="robin-action-yt">YouTube <span>↗</span></a>
             </div>
           </div>

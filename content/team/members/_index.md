@@ -27,7 +27,7 @@ sections:
             <p class="robin-member-empty-note">Ph.D. researcher profiles will be added as the cohort grows.</p>
           </div>
           <div class="robin-member-group">
-            <h3>Undergraduate Students <span class="robin-group-count">12</span></h3>
+            <h3>Undergraduate Students <span class="robin-group-count">10</span></h3>
             <div class="robin-member-grid robin-member-grid-undergraduate">
               <article class="robin-member-card"><img src="/images/members/hye-sung-lee.jpg" alt="Hye-Sung Lee"><h4><a class="robin-member-name-link" href="/team/members/hye-sung-lee/">Hye-Sung Lee</a></h4><p>Undergraduate student</p><a class="robin-member-email" href="mailto:mireflare@snu.ac.kr">mireflare@snu.ac.kr</a></article>
               <article class="robin-member-card"><img src="/images/members/jun-hyeok-lee.jpg" alt="Jun-Hyeok Lee"><h4><a class="robin-member-name-link" href="/team/members/jun-hyeok-lee/">Jun-Hyeok Lee</a></h4><p>Undergraduate student</p><a class="robin-member-email" href="mailto:leejh9396@dgist.ac.kr">leejh9396@dgist.ac.kr</a></article>
@@ -37,9 +37,7 @@ sections:
               <article class="robin-member-card"><img src="/images/members/young-chan-shim.jpg" alt="Young-Chan Shim"><h4><a class="robin-member-name-link" href="/team/members/young-chan-shim/">Young-Chan Shim</a></h4><p>Undergraduate student</p><a class="robin-member-email" href="mailto:david532498@gmail.com">david532498@gmail.com</a></article>
               <article class="robin-member-card"><img src="/images/members/sun-hong-min.jpg" alt="Sun-hong Min"><h4><a class="robin-member-name-link" href="/team/members/sun-hong-min/">Sun-hong Min</a></h4><p>Undergraduate student</p><a class="robin-member-email" href="mailto:devminsh02@gmail.com">devminsh02@gmail.com</a></article>
               <article class="robin-member-card"><img src="/images/members/ui-seong-shin.jpg" alt="Ui-Seong Shin"><h4><a class="robin-member-name-link" href="/team/members/ui-seong-shin/">Ui-Seong Shin</a></h4><p>Undergraduate student</p><a class="robin-member-email" href="mailto:tlsdmltjd52@gmail.com">tlsdmltjd52@gmail.com</a></article>
-              <article class="robin-member-card"><img src="/images/members/tea-yoon-kang.jpg" alt="Tae-Yoon Kang"><h4><a class="robin-member-name-link" href="/team/members/tae-yoon-kang/">Tae-Yoon Kang</a></h4><p>Undergraduate student</p><a class="robin-member-email" href="mailto:chinbat7700@dgist.ac.kr">chinbat7700@dgist.ac.kr</a></article>
               <article class="robin-member-card"><img src="/images/members/min-jae-kim.jpg" alt="Min-Jae Kim"><h4><a class="robin-member-name-link" href="https://mjkim001130.github.io/">Min-Jae Kim</a></h4><p>Undergraduate student</p><a class="robin-member-email" href="mailto:mjkim00@yonsei.ac.kr">mjkim00@yonsei.ac.kr</a></article>
-              <article class="robin-member-card"><img src="/images/members/tae-ho-kim.jpg" alt="Tae-ho Kim"><h4><a class="robin-member-name-link" href="/team/members/tae-ho-kim/">Tae-ho Kim</a></h4><p>Undergraduate student</p><a class="robin-member-email" href="mailto:rlaxogh1416@pusan.ac.kr">rlaxogh1416@pusan.ac.kr</a></article>
               <article class="robin-member-card"><img src="/images/members/min-hyung-lee.jpg" alt="Min-Hyung Lee"><h4><a class="robin-member-name-link" href="/team/members/min-hyung-lee/">Min-Hyung Lee</a></h4><p>Undergraduate student</p><a class="robin-member-email" href="mailto:fnskspdk0719@naver.com">fnskspdk0719@naver.com</a></article>
             </div>
           </div>

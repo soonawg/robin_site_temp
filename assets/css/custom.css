@@ -1766,3 +1766,28 @@ body .site-header .nav-dropdown-link:hover {
     min-width: 0;
   }
 }
+
+/* Give publication titles and visual previews stronger hierarchy. */
+.robin-publication-title {
+  font-size: clamp(1.22rem, 1.5vw, 1.38rem);
+  line-height: 1.38;
+}
+
+@media (min-width: 701px) {
+  .robin-publications li {
+    min-height: 212px;
+    padding-left: 278px;
+  }
+
+  .robin-publications li::after,
+  .robin-publication-entry video,
+  .robin-publication-entry .robin-publication-image {
+    left: 28px;
+    width: 228px;
+    height: 146px;
+  }
+
+  .pub-badges {
+    left: 278px;
+  }
+}

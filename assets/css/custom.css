@@ -22,6 +22,13 @@
   --text-secondary: #4a5a62;
 }
 
+html,
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
 body {
   font-family: var(--font-body) !important;
   background-color: #ffffff;
@@ -1992,15 +1999,30 @@ body .site-header .nav-dropdown-link:hover {
     height: 0.7rem !important;
   }
 
-  body .page-body > section > div,
-  body .page-body > section > div > .prose,
+  body .page-body > section:not(:has(.robin-real-hero)) > div,
+  body .page-body > section:not(:has(.robin-real-hero)) > div > .prose,
   body .robin-team-lead,
   body .robin-team-members,
   body .robin-team-heading,
   body .robin-team-history,
   body .robin-member-group {
-    width: min(calc(100vw - 5rem), 1520px) !important;
+    width: 100% !important;
     max-width: 1520px !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    justify-self: center !important;
+    box-sizing: border-box !important;
+  }
+
+  body .robin-publications,
+  body .robin-projects-list,
+  body .robin-research-topics,
+  body .robin-research-videos,
+  body .robin-join-home,
+  body .robin-join-standalone,
+  body .robin-team-contact {
+    margin-left: auto !important;
+    margin-right: auto !important;
   }
 
   .robin-publications {

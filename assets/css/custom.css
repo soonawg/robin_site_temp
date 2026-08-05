@@ -2019,8 +2019,7 @@ body .site-header .nav-dropdown-link:hover {
   body .robin-research-topics,
   body .robin-research-videos,
   body .robin-join-home,
-  body .robin-join-standalone,
-  body .robin-team-contact {
+  body .robin-join-standalone {
     margin-left: auto !important;
     margin-right: auto !important;
   }

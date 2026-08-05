@@ -1964,115 +1964,83 @@ body .site-header .nav-dropdown-link:hover {
   }
 }
 
-/* Desktop-wide scale pass: larger navigation, reading width, titles, and media. */
+/* Desktop-wide layout pass: use more horizontal space without oversized type. */
 @media (min-width: 1100px) {
   body #site-header .navbar,
   body .site-header .navbar,
   body #site-header .container-fluid {
-    max-width: 1600px !important;
-    padding: 1.05rem 2rem !important;
+    max-width: 1680px !important;
+    padding: 0.85rem 2.5rem !important;
   }
 
   body #site-header .navbar-nav,
   body .site-header .navbar-nav {
-    gap: clamp(1.3rem, 2vw, 3.3rem) !important;
+    gap: clamp(1.2rem, 1.7vw, 2.5rem) !important;
   }
 
   body #site-header .nav-link,
   body .site-header .nav-link,
   body .site-header a.nav-link {
-    font-size: clamp(1.02rem, 1.3vw, 1.36rem) !important;
+    font-size: clamp(0.96rem, 1vw, 1.08rem) !important;
     line-height: 1.35 !important;
   }
 
   body #site-header .nav-item.dropdown .nav-link svg,
   body #site-header .nav-item.dropdown .dropdown-toggle::after,
   body #site-header .nav-item.dropdown [data-hbx-icon] {
-    width: 0.9rem !important;
-    height: 0.9rem !important;
+    width: 0.7rem !important;
+    height: 0.7rem !important;
   }
 
-  body .page-body > section,
   body .page-body > section > div,
+  body .page-body > section > div > .prose,
   body .robin-team-lead,
   body .robin-team-members,
   body .robin-team-heading,
   body .robin-team-history,
   body .robin-member-group {
-    max-width: 1600px !important;
+    width: min(calc(100vw - 5rem), 1520px) !important;
+    max-width: 1520px !important;
   }
 
   .robin-publications {
-    width: min(calc(100vw - 4rem), 1440px);
+    width: 100%;
+    max-width: 1520px;
   }
 
   body:has(.robin-publications) .page-body .mb-6.text-3xl.font-bold {
-    font-size: 2.8rem !important;
+    font-size: 2.25rem !important;
   }
 
   .robin-publications h2 {
-    font-size: clamp(2.4rem, 3.6vw, 3.7rem);
+    font-size: clamp(2rem, 2.8vw, 2.8rem);
   }
 
   .robin-publications li {
-    min-height: 330px;
-    padding-left: 470px;
-    font-size: 1.18rem;
+    min-height: 270px;
+    padding-left: 386px;
+    font-size: 1rem;
   }
 
   .robin-publications li::after,
   .robin-publication-entry video,
   .robin-publication-entry .robin-publication-image {
-    left: 34px;
-    width: 408px;
-    height: 261px;
+    left: 30px;
+    width: 330px;
+    height: 211px;
   }
 
   .robin-publication-title {
-    font-size: clamp(1.72rem, 2vw, 2.05rem);
-    line-height: 1.34;
-  }
-
-  .robin-publication-authors {
-    font-size: 1.05rem;
-  }
-
-  .robin-publication-meta {
-    font-size: 1.08rem;
+    font-size: clamp(1.35rem, 1.55vw, 1.62rem);
+    line-height: 1.38;
   }
 
   .pub-badges {
-    left: 470px;
-  }
-
-  .pub-badge {
-    min-height: 2.2rem;
-    padding: 0.42rem 0.9rem;
-    font-size: 0.9rem;
+    left: 386px;
   }
 
   .robin-projects-list h2 {
-    font-size: clamp(1.8rem, 3vw, 2.45rem) !important;
-  }
-
-  .robin-member-card h4,
-  .robin-member-grid-undergraduate .robin-member-card h4 {
-    font-size: 1.38rem;
-  }
-
-  .robin-member-card p,
-  .robin-member-grid-undergraduate .robin-member-card p {
-    font-size: 0.98rem;
-  }
-
-  .robin-page-lede h1 {
-    max-width: 48rem;
-    font-size: clamp(3.9rem, 7vw, 7.8rem);
-  }
-
-  .robin-page-lede > p:last-child {
-    max-width: 62rem;
-    font-size: 1.25rem;
+    font-size: clamp(1.45rem, 2vw, 1.85rem) !important;
   }
 }
 

@@ -2217,9 +2217,11 @@ body {
 }
 
 @media (max-width: 700px) {
-  body .robin-real-hero {
+  body:has(.robin-real-hero) .robin-real-hero {
     width: 100%;
+    height: auto !important;
     min-height: 0;
+    overflow: visible;
   }
 
   body .robin-real-hero .robin-real-copy {
@@ -2238,10 +2240,24 @@ body {
   }
 
   body .robin-real-hero > .robin-real-fullname {
+    position: static;
+    z-index: auto;
+    right: auto;
+    bottom: auto;
+    left: auto;
     width: calc(100% - 2.5rem);
     max-width: none;
-    font-size: clamp(0.88rem, 3.8vw, 1.1rem) !important;
+    margin: 0 auto;
+    padding: 1.25rem 0 1.75rem;
+    color: #102a3a !important;
+    font-size: clamp(0.82rem, 3.8vw, 1.05rem) !important;
     letter-spacing: 0.045em;
+    text-shadow: none;
+    transform: none;
+  }
+
+  body .robin-real-hero .robin-real-fullname .robin-home-lab-emph {
+    color: #006b8f;
   }
 
   .robin-real-actions {

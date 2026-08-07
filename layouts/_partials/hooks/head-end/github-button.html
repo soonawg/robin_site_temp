@@ -155,9 +155,11 @@ document.addEventListener('DOMContentLoaded', () => {
   document.querySelectorAll('.robin-publication-entry video[data-trim-start][data-trim-end]').forEach((video) => {
     const start = Math.max(0, Number(video.dataset.trimStart || 0));
     const endCut = Math.max(0, Number(video.dataset.trimEnd || 0));
+    const previewDuration = Math.max(1, Number(video.dataset.previewDuration || 10));
     const enforceTrimWindow = () => {
       if (!Number.isFinite(video.duration) || video.duration <= 0) return;
-      const end = Math.max((video.duration || 0) - endCut, start + 0.1);
+      const sourceEnd = Math.max((video.duration || 0) - endCut, start + 0.1);
+      const end = Math.min(sourceEnd, start + previewDuration);
       if (video.currentTime < start) video.currentTime = start;
       if (video.currentTime >= end) video.currentTime = start;
     };

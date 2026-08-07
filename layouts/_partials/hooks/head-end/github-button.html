@@ -129,7 +129,7 @@ document.addEventListener('DOMContentLoaded', () => {
     if (match) {
       const authors = document.createElement('div');
       authors.className = 'robin-publication-authors';
-      authors.textContent = match[1];
+      authors.textContent = match[1].replace(/,\s*$/, '');
       const title = document.createElement('div');
       title.className = 'robin-publication-title';
       title.textContent = match[2].replace(/,\s*$/, '');

@@ -15,7 +15,7 @@ sections:
             <p>Our dedicated team of graduate and undergraduate researchers pushing the frontiers of Physical AI, teleoperation, and robot learning.</p>
           </div>
           <div class="robin-member-group">
-            <h3>Master’s Students <span class="robin-group-count">03</span></h3>
+            <h3>M.S. Students <span class="robin-group-count">03</span></h3>
             <div class="robin-member-grid">
               <article class="robin-member-card"><img src="/images/members/kyu-tae-lee.jpg" alt="Kyu-Tae Lee"><h4><a class="robin-member-name-link" href="/team/members/kyu-tae-lee/">Kyu-Tae Lee</a></h4><p>MS student · 2026S–</p><a class="robin-member-email" href="mailto:leekyutae@dgist.ac.kr">leekyutae@dgist.ac.kr</a></article>
               <article class="robin-member-card"><img src="/images/members/yu-seong-cheon.jpg" alt="Yu-Seong Cheon"><h4><a class="robin-member-name-link" href="/team/members/yu-seong-cheon/">Yu-Seong Cheon</a></h4><p>MS student · 2026F–</p><a class="robin-member-email" href="mailto:cjsdntjd1234@gmail.com">cjsdntjd1234@gmail.com</a></article>

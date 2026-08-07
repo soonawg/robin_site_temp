@@ -18,6 +18,26 @@ document.addEventListener('DOMContentLoaded', () => {
 });
 
 document.addEventListener('DOMContentLoaded', () => {
+  document.querySelectorAll('[data-join-language]').forEach((join) => {
+    const selectLanguage = (language) => {
+      join.dataset.joinLanguage = language;
+      join.querySelectorAll('[data-join-language-option]').forEach((button) => {
+        const selected = button.dataset.joinLanguageOption === language;
+        button.classList.toggle('is-active', selected);
+        button.setAttribute('aria-pressed', String(selected));
+      });
+      join.querySelectorAll('[data-join-language-panel]').forEach((panel) => {
+        panel.hidden = panel.dataset.joinLanguagePanel !== language;
+      });
+    };
+
+    join.querySelectorAll('[data-join-language-option]').forEach((button) => {
+      button.addEventListener('click', () => selectLanguage(button.dataset.joinLanguageOption));
+    });
+  });
+});
+
+document.addEventListener('DOMContentLoaded', () => {
   const publications = document.querySelector('.robin-publications');
   if (!publications) return;
 

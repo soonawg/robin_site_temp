@@ -1509,6 +1509,45 @@ body:has(.robin-publications) .robin-publications h2 {
   margin-bottom: 1.75rem !important;
 }
 
+.robin-join-language-toggle {
+  display: inline-flex;
+  gap: 0.2rem;
+  margin: 0 0 1.5rem auto;
+  padding: 0.25rem;
+  border: 1px solid #c6dce1;
+  border-radius: 999px;
+  background: #f5fafb;
+}
+
+.robin-join-language-toggle button {
+  min-height: 2.1rem;
+  border: 0;
+  border-radius: 999px;
+  padding: 0.35rem 0.8rem;
+  color: #40535b;
+  background: transparent;
+  font-family: 'Lexend Deca', 'Noto Sans KR', 'Pretendard', sans-serif;
+  font-size: 0.78rem;
+  font-weight: 700;
+  line-height: 1;
+  cursor: pointer;
+}
+
+.robin-join-language-toggle button.is-active {
+  color: #ffffff;
+  background: #005b7c;
+  box-shadow: 0 2px 7px rgba(0, 91, 124, 0.2);
+}
+
+.robin-join-language-toggle button:focus-visible {
+  outline: 3px solid rgba(0, 91, 124, 0.32);
+  outline-offset: 2px;
+}
+
+.robin-join-language-panel[hidden] {
+  display: none !important;
+}
+
 .robin-join-home .robin-page-lede h1,
 #join-at-home .robin-page-lede h1,
 .robin-join-standalone .robin-page-lede h1 {

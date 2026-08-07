@@ -2181,53 +2181,149 @@ body .site-header .nav-dropdown-link:hover {
   }
 }
 
-/* Compact-viewport pass: preserve the existing content while keeping it inside phone and tablet screens. */
+/*
+   Responsive layout contract
+   ──────────────────────────
+   One mobile/tablet/desktop model takes precedence over legacy component rules.
+   Breakpoints: phone ≤700px, tablet 701–1099px, desktop ≥1100px.
+*/
+:root {
+  --robin-page-gutter: clamp(1rem, 3vw, 2rem);
+}
+
 html,
 body {
   max-width: 100%;
   overflow-x: clip;
 }
 
-@media (max-width: 900px) {
-  body #site-header .navbar,
-  body .site-header .navbar,
-  body #site-header .container-fluid {
-    padding-right: max(1rem, env(safe-area-inset-right)) !important;
-    padding-left: max(1rem, env(safe-area-inset-left)) !important;
-  }
+:where(.page-body, .page-body *, .page-header, .page-header *) {
+  min-width: 0;
+}
 
-  body #site-header .dropdown-menu,
-  body .site-header .dropdown-menu {
-    width: 100% !important;
-    min-width: 0 !important;
-    max-width: 100% !important;
-  }
+:where(img, video, iframe, canvas, svg) {
+  max-width: 100%;
+}
 
-  .robin-page-lede h1,
-  .robin-team-heading h1,
-  .robin-projects-list h2,
-  .robin-publication-title,
-  .robin-research-player::after {
-    overflow-wrap: anywhere;
-  }
+.robin-page-lede h1,
+.robin-team-heading h1,
+.robin-projects-list h2,
+.robin-publication-title,
+.robin-publication-authors,
+.robin-publication-meta,
+.robin-research-player::after {
+  overflow-wrap: anywhere;
+}
 
-  .robin-research-player::after {
-    word-break: normal;
+/* Desktop retains the existing overlay hero; all other components use their wide grids. */
+@media (min-width: 1100px) {
+  body:has(.robin-real-hero) .robin-real-hero {
+    width: 100vw;
+    min-height: 620px;
+    height: min(100dvh, 900px);
+    margin-left: calc(50% - 50vw) !important;
   }
 }
 
-@media (max-width: 700px) {
-  body:has(.robin-real-hero) .robin-real-hero {
+/* Tablet: keep the mobile navigation and use one vertical, content-driven page model. */
+@media (max-width: 1099px) {
+  body #site-header .navbar,
+  body .site-header .navbar,
+  body #site-header .container-fluid {
+    padding-right: max(var(--robin-page-gutter), env(safe-area-inset-right)) !important;
+    padding-left: max(var(--robin-page-gutter), env(safe-area-inset-left)) !important;
+  }
+
+  body #site-header .navbar-nav,
+  body .site-header .navbar-nav {
     width: 100%;
+  }
+
+  body #site-header .nav-dropdown-list,
+  body .site-header .nav-dropdown-list {
+    display: block !important;
+    position: static !important;
+    visibility: visible !important;
+    opacity: 1 !important;
+    width: 100% !important;
+    min-width: 0 !important;
+    max-width: 100% !important;
+    margin: 0.3rem 0 0 !important;
+    box-shadow: none !important;
+  }
+
+  .robin-research-videos,
+  .robin-publications {
+    width: 100% !important;
+    max-width: 100% !important;
+    margin-right: auto !important;
+    margin-left: auto !important;
+    transform: none !important;
+  }
+
+  .robin-team-heading,
+  .robin-team-history,
+  .robin-join-detail-grid,
+  .robin-join-apply {
+    grid-template-columns: minmax(0, 1fr) !important;
+  }
+
+  .robin-team-contact,
+  .robin-team-portrait {
+    grid-column: auto !important;
+    grid-row: auto !important;
+  }
+
+  .robin-team-portrait,
+  body .robin-team-portrait {
+    width: min(100%, 340px) !important;
+    height: auto !important;
+  }
+
+  body:has(.robin-real-hero) .robin-real-hero {
+    display: grid;
+    width: 100vw;
     height: auto !important;
     min-height: 0;
+    margin-left: calc(50% - 50vw) !important;
+    grid-template-columns: minmax(0, 1fr);
     overflow: visible;
   }
 
   body .robin-real-hero .robin-real-copy {
-    padding: 6rem max(1.25rem, env(safe-area-inset-right)) 3rem max(1.25rem, env(safe-area-inset-left));
+    padding: 6rem max(var(--robin-page-gutter), env(safe-area-inset-right)) 3rem max(var(--robin-page-gutter), env(safe-area-inset-left));
   }
 
+  body .robin-real-hero .robin-real-stage,
+  body .robin-real-hero .robin-gripper-stage {
+    width: 100%;
+    min-height: 0;
+    aspect-ratio: 16 / 9;
+  }
+
+  body .robin-real-hero > .robin-real-fullname {
+    position: static;
+    z-index: auto;
+    width: min(calc(100% - (var(--robin-page-gutter) * 2)), 48rem);
+    max-width: none;
+    margin: 0 auto;
+    padding: 1.35rem 0 1.9rem;
+    color: #102a3a !important;
+    font-size: clamp(0.88rem, 2.5vw, 1.05rem) !important;
+    letter-spacing: 0.05em;
+    line-height: 1.45;
+    text-align: center;
+    text-shadow: none;
+    transform: none;
+  }
+
+  body .robin-real-hero .robin-real-fullname .robin-home-lab-emph {
+    color: #006b8f;
+  }
+}
+
+/* Phone: one column, fluid media, and touch-friendly actions. */
+@media (max-width: 700px) {
   body .robin-real-hero .robin-real-copy h1 {
     font-size: clamp(3.6rem, 18vw, 6rem);
     letter-spacing: -0.025em;
@@ -2237,27 +2333,6 @@ body {
   body .robin-real-hero .robin-real-statement {
     font-size: clamp(1.12rem, 5vw, 1.45rem);
     line-height: 1.25;
-  }
-
-  body .robin-real-hero > .robin-real-fullname {
-    position: static;
-    z-index: auto;
-    right: auto;
-    bottom: auto;
-    left: auto;
-    width: calc(100% - 2.5rem);
-    max-width: none;
-    margin: 0 auto;
-    padding: 1.25rem 0 1.75rem;
-    color: #102a3a !important;
-    font-size: clamp(0.82rem, 3.8vw, 1.05rem) !important;
-    letter-spacing: 0.045em;
-    text-shadow: none;
-    transform: none;
-  }
-
-  body .robin-real-hero .robin-real-fullname .robin-home-lab-emph {
-    color: #006b8f;
   }
 
   .robin-real-actions {
@@ -2293,18 +2368,6 @@ body {
     padding-bottom: 0.7rem !important;
   }
 
-  body #site-header .dropdown-menu,
-  body .site-header .dropdown-menu {
-    position: static !important;
-    margin-top: 0.25rem !important;
-    border: 0 !important;
-    box-shadow: none !important;
-  }
-
-  .robin-publications {
-    width: calc(100vw - 1.5rem);
-  }
-
   .robin-publications li {
     padding-left: 2rem;
   }
@@ -2316,38 +2379,5 @@ body {
   .robin-team-contact .robin-social-badges .robin-social-badge {
     width: 100%;
     justify-content: center;
-  }
-}
-
-/* Use one content-driven hero layout for phones and portrait tablets. */
-@media (max-width: 900px) {
-  body:has(.robin-real-hero) .robin-real-hero {
-    width: 100%;
-    height: auto !important;
-    min-height: 0;
-    overflow: visible;
-  }
-
-  body .robin-real-hero > .robin-real-fullname {
-    position: static;
-    z-index: auto;
-    right: auto;
-    bottom: auto;
-    left: auto;
-    width: calc(100% - 3rem);
-    max-width: none;
-    margin: 0 auto;
-    padding: 1.35rem 0 1.9rem;
-    color: #102a3a !important;
-    font-size: clamp(0.88rem, 2.5vw, 1.05rem) !important;
-    letter-spacing: 0.05em;
-    line-height: 1.45;
-    text-align: center;
-    text-shadow: none;
-    transform: none;
-  }
-
-  body .robin-real-hero .robin-real-fullname .robin-home-lab-emph {
-    color: #006b8f;
   }
 }

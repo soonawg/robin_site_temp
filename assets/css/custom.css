@@ -2318,3 +2318,36 @@ body {
     justify-content: center;
   }
 }
+
+/* Use one content-driven hero layout for phones and portrait tablets. */
+@media (max-width: 900px) {
+  body:has(.robin-real-hero) .robin-real-hero {
+    width: 100%;
+    height: auto !important;
+    min-height: 0;
+    overflow: visible;
+  }
+
+  body .robin-real-hero > .robin-real-fullname {
+    position: static;
+    z-index: auto;
+    right: auto;
+    bottom: auto;
+    left: auto;
+    width: calc(100% - 3rem);
+    max-width: none;
+    margin: 0 auto;
+    padding: 1.35rem 0 1.9rem;
+    color: #102a3a !important;
+    font-size: clamp(0.88rem, 2.5vw, 1.05rem) !important;
+    letter-spacing: 0.05em;
+    line-height: 1.45;
+    text-align: center;
+    text-shadow: none;
+    transform: none;
+  }
+
+  body .robin-real-hero .robin-real-fullname .robin-home-lab-emph {
+    color: #006b8f;
+  }
+}

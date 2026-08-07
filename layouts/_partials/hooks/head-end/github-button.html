@@ -64,12 +64,15 @@ document.addEventListener('DOMContentLoaded', () => {
   });
 
   publications.querySelectorAll('li').forEach((entry) => {
-    if (entry.querySelector('.pub-badges')) return;
     const video = entry.querySelector('video source');
-    if (!video) return;
+    if (!video || entry.querySelector('.pub-badge-video')) return;
 
-    const badges = document.createElement('div');
-    badges.className = 'pub-badges';
+    let badges = entry.querySelector('.pub-badges');
+    if (!badges) {
+      badges = document.createElement('div');
+      badges.className = 'pub-badges';
+      entry.appendChild(badges);
+    }
     const badge = document.createElement('a');
     badge.className = 'pub-badge pub-badge-video';
     badge.textContent = 'Video';

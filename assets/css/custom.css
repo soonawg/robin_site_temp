@@ -1821,6 +1821,23 @@ body .site-header .nav-dropdown-link:hover {
   line-height: 1.38;
 }
 
+/* Keep authors, venue details, and publication actions legible beside larger media. */
+.robin-publication-authors {
+  font-size: .92rem;
+  line-height: 1.55;
+}
+
+.robin-publication-meta {
+  font-size: .98rem;
+  line-height: 1.55;
+}
+
+.pub-badge {
+  min-height: 1.85rem;
+  padding: .28rem .72rem;
+  font-size: .8rem;
+}
+
 @media (min-width: 701px) {
   .robin-publications li {
     min-height: 240px;

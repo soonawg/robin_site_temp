@@ -1889,7 +1889,8 @@ body .site-header .nav-dropdown-link:hover {
 }
 
 #join-at-home .robin-join-home .robin-page-lede > p:last-child {
-  max-width: 58ch !important;
+  width: 100% !important;
+  max-width: none !important;
   color: #4b5f69 !important;
   line-height: 1.82 !important;
 }

@@ -24,7 +24,7 @@ sections:
           </div>
           <div class="robin-team-history">
             <div><h2>Education</h2><p>Ph.D. in Mechanical Engineering, Seoul National University, 2021</p><p>B.S. in Mechanical and Aerospace Engineering, Seoul National University, 2013 <span>(Cum Laude, Top 12%)</span></p></div>
-            <div><h2>Positions</h2><p>Assistant Professor, Department of Robotics and Mechatronics Engineering, DGIST, 2026–Present</p><p>BK Assistant Professor, Seoul National University, 2024–2026</p><p>Staff Engineer, Global AI Center, Samsung Research, 2021–2024</p></div>
+            <div><h2>Positions</h2><p>Assistant Professor, Department of Robotics and Mechatronics Engineering, DGIST, 2026–Present</p><p>BK Assistant Professor, Department of Mechanical Engineering, Seoul National University, 2024–2026</p><p>Staff Engineer, Global AI Center, Samsung Research, 2021–2024</p></div>
           </div>
           <div class="robin-team-hobbies">
             <h2>Outside the Lab</h2>
